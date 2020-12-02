@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "joshcam/mysqli-database-class",
+            "version": "v2.9.3",
+            "version_normalized": "2.9.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class.git",
+                "reference": "03dbce1c7f1c9def315ad8ef52e1f5c0a806d6ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThingEngineer/PHP-MySQLi-Database-Class/zipball/03dbce1c7f1c9def315ad8ef52e1f5c0a806d6ed",
+                "reference": "03dbce1c7f1c9def315ad8ef52e1f5c0a806d6ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2019-08-24T09:28:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php",
+                    "dbObject.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/thingengineer",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
+            "support": {
+                "issues": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class/issues",
+                "source": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class/tree/v2.9.3"
+            },
+            "install-path": "../joshcam/mysqli-database-class"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
