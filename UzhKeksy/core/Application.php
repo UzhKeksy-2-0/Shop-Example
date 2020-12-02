@@ -2,8 +2,6 @@
     
     namespace UK\core;
 
-    use Exception;
-
 class Application{
         public Request $request;
         public Router $router;

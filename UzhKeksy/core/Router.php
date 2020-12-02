@@ -12,7 +12,7 @@
         public function __construct(Request $request){
             $this->controllers = new UK_FileWorker(CONTROLLERS);
             $this->request = $request;
-        }        
+        }
         /**
          * Method setStaticRoute
          *
@@ -57,7 +57,7 @@
          *
          * @return void
          */
-        public function getClassFullNameFromFile($filePathName)
+        private function getClassFullNameFromFile($filePathName)
         {
             return $this->getClassNamespaceFromFile($filePathName) . '\\' . $this->getClassNameFromFile($filePathName);
         }
@@ -71,7 +71,7 @@
          *
          * @return void
          */
-        public function getClassObjectFromFile($filePathName)
+        private function getClassObjectFromFile($filePathName)
         {
             $classString = $this->getClassFullNameFromFile($filePathName);
             $object = new $classString;

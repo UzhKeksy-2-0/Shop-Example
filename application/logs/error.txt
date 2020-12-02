@@ -1,3 +1,13 @@
+[20.12.02 17:32:20] Cannot use object of type app\models\Product as array
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#3 {main}
+[20.12.02 17:32:19] Cannot use object of type app\models\Product as array
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#3 {main}
 [20.12.02 01:50:30] 
  Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(15): UK\core\Router->resolve()
 #1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(12): UK\core\Application->run()

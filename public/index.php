@@ -6,9 +6,7 @@
     $d  = new MysqliDb();
     try {
         $app = new Application();
-        $app->router->setStaticRoute('','admin/home');
-        // $app->router->setStaticRoute('test','user',' ');
-        //$app->router->setStaticRoute('david','admin',' ');
+        $app->router->setStaticRoute('','test');
         $app->run();
     } catch (Throwable $e) {
         if($e->getCode() == 404){

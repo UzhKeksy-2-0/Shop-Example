@@ -10,12 +10,6 @@
             }
             return substr($path,0,$position);
         }
-        public function getType(){
-            if($this->getArg(1) == 'admin'){
-                return 'admin';
-            }
-            return 'user';
-        }
         public function getArg(int $index){
             $res = explode('/', parse_url(strtolower($_SERVER['REQUEST_URI']), PHP_URL_PATH));
             return $res[$index];
