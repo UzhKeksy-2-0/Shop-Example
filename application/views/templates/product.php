@@ -743,7 +743,7 @@
                                             <div id="button-4002" style="padding: 10px 35px; font-size: 16px;">ADD TO CART</div>
                                         </a></div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                         <div class="ddr-page-column ddr-page-column-1 ddr-page-column__wrap--320 ddr-page-column__wrap--480 " style="width: 25%;">
                             <div id="ddr-109819bf69" class="ddr-page-widget ddr-page-widget__image ddr-page-widget-0 ">
