@@ -10,6 +10,7 @@ class Home extends UK_Controller
         parent::__construct();
     }
     public function pageLoad(){
+        
         $this->load($this->views_file->templates->product,
         [
             'name' => 'adf',
