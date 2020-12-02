@@ -1,6 +1,6 @@
 # UzhKeksy
 ## Exam Project based on UzhKeksy framework
-Team:
+* Team:
     * Duvi Gazda
     * Igor Bikbov
     * Andriy Bobych
