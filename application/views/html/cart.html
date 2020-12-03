@@ -1,0 +1,528 @@
+<style type="text/css">
+    
+    @import url("https://fonts.googleapis.com/css?family=Times+New+Roman");
+
+  
+</style>
+<style type="text/css">
+    <!--
+    .ddr-page-wrapper * {
+        box-sizing: border-box;
+    }
+
+    .ddr-page-wrapper {
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
+    .ddr-page-wrapper .ddr-page {
+        position: relative;
+    }
+
+    .ddr-page-wrapper .ddr-page .ddr-page-section-pre-content::after,
+    .ddr-page-wrapper .ddr-page .ddr-page-section-pre-content::before,
+    .ddr-page-wrapper .ddr-page>div::after,
+    .ddr-page-wrapper .ddr-page>div::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .ddr-page-wrapper div,
+    .ddr-page-wrapper h1,
+    .ddr-page-wrapper h2,
+    .ddr-page-wrapper h3,
+    .ddr-page-wrapper h4,
+    .ddr-page-wrapper h5,
+    .ddr-page-wrapper h6,
+    .ddr-page-wrapper p,
+    .ddr-page-wrapper span {
+        line-height: normal;
+    }
+
+    .big-loader-wrapper {
+        position: relative;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(212, 211, 211, 0.5);
+        z-index: 1;
+    }
+
+    .big-loader-wrapper .big-loader {
+        padding-top: 20px;
+        display: block;
+        height: 64px;
+        width: 64px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgb(1, 154, 149) rgb(226, 118, 37);
+        animation: 1s ease 0s infinite normal none running spin;
+    }
+
+    .ddr-page-row,
+    .ddr-page-section-wrapper .ddr-page-section {
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .ddr-page-row {
+        display: flex;
+        width: 100%;
+    }
+
+    .ddr-page-row__wrap {
+        flex-wrap: wrap;
+    }
+
+    .ddr-page-row__wrap .ddr-page-column__wrap {
+        width: 100% !important;
+    }
+
+    .ddr-page-row__wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    .ddr-page-row__wrap-reverse .ddr-page-column__wrap-reverse {
+        width: 100% !important;
+    }
+
+    .ddr-page-column {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        position: relative;
+        align-content: flex-start;
+    }
+
+    .ddr-page-widget {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .dashed-border {
+        border: 1px dashed rgb(135, 135, 135);
+    }
+
+    .headline-edit-wrapper {
+        cursor: text;
+    }
+
+    .section-slider .ddr-page-section-widget-drop-suggestion-wrapper {
+        padding-bottom: 7px;
+    }
+
+    .ddr-page-widget__sections-slider .toolbox-controls {
+        justify-content: flex-start !important;
+    }
+
+    .slide-options-wrapper {
+        border-bottom: 1px solid rgb(226, 118, 37);
+    }
+
+    .slide-options-wrapper .rc-collapse-content-active {
+        background-color: rgb(23, 23, 23);
+    }
+
+    .slide-options-wrapper .rc-collapse-content-active .section-slider-delete-icon.slide-delete-icon {
+        background: rgb(239, 83, 80);
+        color: rgb(255, 255, 255);
+        align-items: center;
+        border-radius: 3px;
+    }
+
+    .slide-options-wrapper .rc-collapse-content-active .section-slider-delete-icon.slide-delete-icon i {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .slide-options-wrapper .rc-collapse-content-active .switch-wrapper .switch {
+        margin-left: -10px;
+    }
+
+    .slide-options-wrapper:last-child {
+        margin-bottom: 24px;
+    }
+
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__sub-tool--duplicate,
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__tool--duplicate,
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__tool--move,
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__tool--settings {
+        background-color: rgb(226, 118, 37);
+    }
+
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__tool--delete {
+        background-color: rgb(72, 72, 72);
+    }
+
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__tool.ddr-widget-toolbox__tool--delete:hover {
+        background-color: rgb(58, 65, 74);
+    }
+
+    .ddr-widget-toolbox--section-slider .toolbox-controls .ddr-widget-toolbox__tool:hover {
+        background-color: rgb(239, 56, 27);
+    }
+
+    .ddr-page-widget-overlay-wrapper:hover .ddr-widget-toolbox--section-slider {
+        border: 2px solid rgb(226, 118, 37) !important;
+    }
+
+    .ddr-widget-toolbox--active.ddr-widget-toolbox--section-slider {
+        border: 2px solid rgb(226, 118, 37);
+    }
+
+    .ddr-widget {
+        background-color: transparent;
+        background-image: none;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        height: auto;
+        width: auto;
+        max-height: none;
+        max-width: none;
+        min-height: 0px;
+        min-width: 0px;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    .ddr-widget__rich-text {
+        position: relative;
+        cursor: auto;
+        overflow-wrap: break-word;
+        overflow: hidden;
+    }
+
+    .ddr-widget__image {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+    }
+
+    .ddr-widget__image a,
+    .ddr-widget__image img {
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .ddr-widget__image a,
+    .ddr-widget__image a:active,
+    .ddr-widget__image a:focus,
+    .ddr-widget__image a:hover,
+    .ddr-widget__image a:link,
+    .ddr-widget__image a:visited {
+        display: inline-block;
+        vertical-align: middle;
+        color: inherit;
+        text-decoration: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .ddr-widget__button {
+        position: relative;
+        display: flex;
+    }
+
+    .ddr-widget__button a {
+        overflow: hidden;
+    }
+
+    .ddr-widget__button>a>div {
+        display: block;
+        overflow: hidden;
+        background-color: rgb(0, 143, 162);
+        box-sizing: content-box;
+        word-break: break-all;
+        transition: all 0.5s ease 0s;
+    }
+
+    .ddr-widget__button a,
+    .ddr-widget__button a:active,
+    .ddr-widget__button a:focus,
+    .ddr-widget__button a:hover,
+    .ddr-widget__button a:link,
+    .ddr-widget__button a:visited {
+        display: inline-block;
+        vertical-align: middle;
+        color: inherit;
+        text-decoration: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .ddr-widget__icon {
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .ddr-widget__icon>div {
+        display: inline-block;
+    }
+
+    .ddr-widget__icon a,
+    .ddr-widget__icon i {
+        font: initial;
+        overflow: hidden;
+    }
+
+    .ddr-widget__icon i {
+        display: block;
+    }
+
+    .ddr-widget__icon a,
+    .ddr-widget__icon a:active,
+    .ddr-widget__icon a:focus,
+    .ddr-widget__icon a:hover,
+    .ddr-widget__icon a:link,
+    .ddr-widget__icon a:visited {
+        display: inline-block;
+        vertical-align: middle;
+        color: inherit;
+        text-decoration: none;
+        box-sizing: border-box;
+        border: none;
+        box-shadow: none;
+    }
+
+    @media (min-width: 1281px) {
+        .ddr-page-row__wrap--max {
+            flex-wrap: wrap;
+        }
+
+        .ddr-page-row__wrap--max .ddr-page-column__wrap--max {
+            width: 100% !important;
+        }
+
+        .ddr-page-row__wrap-reverse--max {
+            flex-wrap: wrap-reverse;
+        }
+
+        .ddr-page-row__wrap-reverse--max .ddr-page-column__wrap-reverse--max {
+            width: 100% !important;
+        }
+
+        .ddr-page-column__hide--max,
+        .ddr-page-widget__hide--max {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1280px) and (min-width: 1025px) {
+        .ddr-page-row__wrap--1280 {
+            flex-wrap: wrap;
+        }
+
+        .ddr-page-row__wrap--1280 .ddr-page-column__wrap--1280 {
+            width: 100% !important;
+        }
+
+        .ddr-page-row__wrap-reverse--1280 {
+            flex-wrap: wrap-reverse;
+        }
+
+        .ddr-page-row__wrap-reverse--1280 .ddr-page-column__wrap-reverse--1280 {
+            width: 100% !important;
+        }
+
+        .ddr-page-column__hide--1280,
+        .ddr-page-widget__hide--1280 {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1024px) and (min-width: 769px) {
+        .ddr-page-row__wrap--1024 {
+            flex-wrap: wrap;
+        }
+
+        .ddr-page-row__wrap--1024 .ddr-page-column__wrap--1024 {
+            width: 100% !important;
+        }
+
+        .ddr-page-row__wrap-reverse--1024 {
+            flex-wrap: wrap-reverse;
+        }
+
+        .ddr-page-row__wrap-reverse--1024 .ddr-page-column__wrap-reverse--1024 {
+            width: 100% !important;
+        }
+
+        .ddr-page-column__hide--1024,
+        .ddr-page-widget__hide--1024 {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) and (min-width: 481px) {
+        .ddr-page-row__wrap--768 {
+            flex-wrap: wrap;
+        }
+
+        .ddr-page-row__wrap--768 .ddr-page-column__wrap--768 {
+            width: 100% !important;
+        }
+
+        .ddr-page-row__wrap-reverse--768 {
+            flex-wrap: wrap-reverse;
+        }
+
+        .ddr-page-row__wrap-reverse--768 .ddr-page-column__wrap-reverse--768 {
+            width: 100% !important;
+        }
+
+        .ddr-page-column__hide--768,
+        .ddr-page-widget__hide--768 {
+            display: none;
+        }
+    }
+
+    @media (max-width: 480px) and (min-width: 321px) {
+        .ddr-page-row__wrap--480 {
+            flex-wrap: wrap;
+        }
+
+        .ddr-page-row__wrap--480 .ddr-page-column__wrap--480 {
+            width: 100% !important;
+        }
+
+        .ddr-page-row__wrap-reverse--480 {
+            flex-wrap: wrap-reverse;
+        }
+
+        .ddr-page-row__wrap-reverse--480 .ddr-page-column__wrap-reverse--480 {
+            width: 100% !important;
+        }
+
+        .ddr-page-column__hide--480,
+        .ddr-page-widget__hide--480 {
+            display: none;
+        }
+    }
+
+    @media (max-width: 320px) and (min-width: 0px) {
+        .ddr-page-row__wrap--320 {
+            flex-wrap: wrap;
+        }
+
+        .ddr-page-row__wrap--320 .ddr-page-column__wrap--320 {
+            width: 100% !important;
+        }
+
+        .ddr-page-row__wrap-reverse--320 {
+            flex-wrap: wrap-reverse;
+        }
+
+        .ddr-page-row__wrap-reverse--320 .ddr-page-column__wrap-reverse--320 {
+            width: 100% !important;
+        }
+
+        .ddr-page-column__hide--320,
+        .ddr-page-widget__hide--320 {
+            display: none;
+        }
+    }
+
+    #ddr-rich-text-001 * {
+        line-height: 1;
+    }
+
+    [data-ddr-page-widget-additional-css-id="aa00d6a0b3"] {
+        font-family: 'Times New Roman', serif;
+    }
+
+    //
+    -->
+</style>
+
+
+<div class="ddr-page-wrapper" data-ddr-page-id="62a736e4-35b8-11eb-84d1-0242ac140009">
+    <div class="ddr-page">
+        <div id="ddr-aa7e6beed0" class="ddr-page-section-wrapper ddr-page-section-wrapper-0">
+            <div class="ddr-page-section-pre-content ddr-page-section-pre-content-0">
+                <div class="ddr-page-section ddr-page-section-0">
+                    <div class="ddr-page-row ddr-page-row-0 ddr-page-row__wrap--320 ddr-page-row__wrap--480 ddr-page-row__wrap--768">
+                        <div class="ddr-page-column ddr-page-column-0 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 100%;">
+                            <div id="ddr-44108d88dd" class="ddr-page-widget ddr-page-widget__image ddr-page-widget-0 ">
+                                <div class="ddr-widget ">
+                                    <div class="ddr-widget__image " style="justify-content: center; padding-bottom: 15px;"><a target="_self" style="width: 232px; height: auto;"><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-family-hero?wid=940&amp;amp;hei=1112&amp;amp;fmt=jpeg&amp;amp;qlt=80&amp;amp;op_usm=0.5,0.5&amp;amp;.v=1604021663000" style="height: auto; width: 232px;"></a></div>
+                                </div>
+                            </div>
+                            <div id="ddr-3c9b6c95e3" class="ddr-page-widget ddr-page-widget__rich-text ddr-page-widget-1 " data-ddr-page-widget-additional-css-id="aa00d6a0b3">
+                                <div class="ddr-widget " style="background-size: contain;">
+                                    <div id="ddr-rich-text-001" class="ddr-widget__rich-text " style="margin: 22px 27px 27px; padding: 1px 3px 24px 659px;">
+                                        <p>iPhone 12 Pro Max</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ddr-page-row ddr-page-row-1 ddr-page-row__wrap--320 ddr-page-row__wrap--480 ddr-page-row__wrap--768">
+            <div class="ddr-page-column ddr-page-column-0 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 20%;">
+                <div id="ddr-76b1c17fe0" class="ddr-page-widget ddr-page-widget__icon ddr-page-widget-0 ">
+                    <div class="ddr-widget ">
+                        <div class="ddr-widget__icon " style="justify-content: center; padding-bottom: 15px;"><a target="_self" style="margin: 30px;"><i class="fa fa-star" style="font-size: 40px; color: rgb(248, 231, 28); font-family: FontAwesome;"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ddr-page-column ddr-page-column-1 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 20%;">
+                <div id="ddr-51f2bd4230" class="ddr-page-widget ddr-page-widget__icon ddr-page-widget-0 ">
+                    <div class="ddr-widget ">
+                        <div class="ddr-widget__icon " style="justify-content: center; padding-bottom: 15px;"><a target="_self" style="margin: 30px;"><i class="fa fa-star" style="font-size: 40px; color: rgb(248, 231, 28); font-family: FontAwesome;"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ddr-page-column ddr-page-column-2 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 20%;">
+                <div id="ddr-14bb018015" class="ddr-page-widget ddr-page-widget__icon ddr-page-widget-0 ">
+                    <div class="ddr-widget ">
+                        <div class="ddr-widget__icon " style="justify-content: center; padding-bottom: 15px;"><a target="_self" style="margin: 30px;"><i class="fa fa-star" style="font-size: 40px; color: rgb(248, 231, 28); background-color: rgb(255, 255, 255); font-family: FontAwesome;"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ddr-page-column ddr-page-column-3 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 20%;">
+                <div id="ddr-e7a68d4f62" class="ddr-page-widget ddr-page-widget__icon ddr-page-widget-0 ">
+                    <div class="ddr-widget ">
+                        <div class="ddr-widget__icon " style="justify-content: center; padding-bottom: 15px;"><a target="_self" style="margin: 30px;"><i class="fa fa-star" style="font-size: 40px; color: rgb(248, 231, 28); font-family: FontAwesome;"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ddr-page-column ddr-page-column-4 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 20%;">
+                <div id="ddr-3198c1257c" class="ddr-page-widget ddr-page-widget__icon ddr-page-widget-0 ">
+                    <div class="ddr-widget ">
+                        <div class="ddr-widget__icon " style="justify-content: center; padding-bottom: 15px;"><a target="_self" style="margin: 30px;"><i class="fa fa-star" style="font-size: 40px; color: rgb(248, 231, 28); font-family: FontAwesome;"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ddr-page-row ddr-page-row-2 ddr-page-row__wrap--320 ddr-page-row__wrap--480 ddr-page-row__wrap--768">
+            <div class="ddr-page-column ddr-page-column-0 ddr-page-column__wrap--320 ddr-page-column__wrap--480 ddr-page-column__wrap--768 " style="width: 100%;">
+                <div id="ddr-e6b0d5b2f0" class="ddr-page-widget ddr-page-widget__button ddr-page-widget-0 ">
+                    <div class="ddr-widget ">
+                        <div class="ddr-widget__button " style="justify-content: center;"><a target="_self" style="margin: 30px; border-radius: 3px;">
+                                <div id="button-200" style="padding: 15px; font-size: 18px;">Buy!</div>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
