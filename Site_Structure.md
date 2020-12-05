@@ -7,13 +7,21 @@
    * About us
    * Contact
    * Cart
-  * login/register - if registered will be profile
+  * register - if registered will be profile and only one button
+  * login - if registered will be profile and only one button
  ### Main
   * categorys
    * category template parent
+    * category name 
    * category template child
+    * category name
   * products
    * product in archive template
+    * prduct image
+    * product name
+    * product rating
+    * product price
+    * add to cart button
  ### Footer
   * sitemap
   * logo
@@ -39,5 +47,15 @@
   ### Main
    * product list
    * total price 
-   * submit button
-   
+   * button `make order`
+  ### Footer (like home)
+## Register
+ ### Header - none
+ ### Main
+  * register form
+   * user name (login)*
+   * user pass* 
+   * confim pass*
+   * user email*
+   * user tel num
+   * 
