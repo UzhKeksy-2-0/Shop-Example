@@ -3,8 +3,9 @@
 
     use Exception;
     use UK\UK_FileWorker;
+use UK\UK_Log;
 
-    class Router{
+class Router{
         
         public Request $request;
         public UK_FileWorker $controllers;
@@ -31,9 +32,9 @@
          * @return void
          */
         public function resolve(){
-            // $GetPostData = $this->request->getDataFromGet();
-            // array_push($GetPostData,$this->request->getDataFromGet());
-            // array_push($GetPostData,$this->request->getDataFromPost()());
+            $GetPostData = [];
+            array_push($GetPostData,$this->request->getDataFromGet());
+            array_push($GetPostData,$this->request->getDataFromPost());
             $pather = (object) $this->controllers->files;
             if($this->staticRoutes[$this->request->getRequest()]){
                 $path = $this->staticRoutes[$this->request->getRequest()];

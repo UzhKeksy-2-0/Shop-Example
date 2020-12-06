@@ -49,14 +49,17 @@
          *
          * @return void
          */
-        public function log($text, $filePath = null){
+        public function log($text, $filePath = null, $dump = null){
             if($filePath == null){
                 $filePath = $this->logPath;
             }
-            $text = '[' . date("y.m.d H:i:s") .'] '. $text ."\n";
-            // $file = fopen($filePath,'a');
-            // fwrite($file,$text);
-            // fclose($file);
+            if(($dump == null) || ($dump == false)){
+                $text = '[' . date("y.m.d H:i:s") .'] '. $text ."\n";
+            }else{
+                ob_start(); 
+                var_dump($text);
+                $text = '[' . date("y.m.d H:i:s") .'] '. ob_get_clean() ."\n";
+            }
             $data = $text . file_get_contents($filePath);
             file_put_contents($filePath,$data);
         }     

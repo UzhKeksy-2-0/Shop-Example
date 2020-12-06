@@ -1,3 +1,23 @@
+[20.12.06 16:59:05] Function name must be a string
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#2 {main}
+[20.12.06 16:58:07] Function name must be a string
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#2 {main}
+[20.12.06 16:55:38] Function name must be a string
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#2 {main}
+[20.12.06 16:54:42] Function name must be a string
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#2 {main}
+[20.12.06 16:50:17] Function name must be a string
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#2 {main}
 [20.12.06 16:43:55] Function name must be a string
  Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
 #1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
