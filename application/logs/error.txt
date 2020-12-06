@@ -1,3 +1,121 @@
+[20.12.06 15:25:12] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php on line 15 and at least 2 expected
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(15): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(50): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#6 {main}
+[20.12.06 15:24:59] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php on line 15 and at least 2 expected
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(15): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(50): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#6 {main}
+[20.12.06 15:24:42] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php on line 15 and at least 2 expected
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(15): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(50): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#6 {main}
+[20.12.06 15:23:43] syntax error, unexpected '}'
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#2 {main}
+[20.12.06 14:32:46] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(14): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:32:46] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(14): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:32:45] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(14): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:32:40] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(14): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:32:39] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(14): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:32:34] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(14): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:30:08] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(52): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:29:42] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(52): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:29:36] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(52): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:29:18] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(52): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:29:10] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(52): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:28:04] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:27:46] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:27:30] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
+[20.12.06 14:27:16] file  does not exitst
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Test.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#4 {main}
 [20.12.02 17:32:20] Cannot use object of type app\models\Product as array
  Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(51): Home->pageLoad()
 #1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()

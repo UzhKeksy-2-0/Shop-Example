@@ -31,6 +31,9 @@
          * @return void
          */
         public function resolve(){
+            $GetPostData = $this->request->getDataFromGet();
+            array_push($GetPostData,$this->request->getDataFromGet());
+            array_push($GetPostData,$this->request->getDataFromPost()());
             $pather = (object) $this->controllers->files;
             if($this->staticRoutes[$this->request->getRequest()]){
                 $path = $this->staticRoutes[$this->request->getRequest()];
@@ -48,7 +51,7 @@
                 throw new Exception ('',404);
             }
             $class = (object) $this->getClassObjectFromFile($classFile);
-            $class->pageLoad();
+            $class->pageLoad($GetPostData);
         }        
         /**
          * Method getClassFullNameFromFile

@@ -1,7 +1,9 @@
 <?php
 // Controller class template made by UzhKeksy
     namespace UK;
-    use UK\UK_View;
+
+use Exception;
+use UK\UK_View;
     
     /**
      * UK_Controller
@@ -10,6 +12,7 @@
     {
         protected $views_file;
         protected $models_file;
+        public $log;
         // protected $language_file;
         protected $deaultLanguage;
         /**
@@ -18,6 +21,7 @@
         public function __construct()
         {
             require_once '../application/configs/path.config.php';
+            $log = new UK_Log;
             $files = new UK_FileWorker(CORE);
             $this->views_file = (new UK_FileWorker(VIEWS))->files;
             $this->models_file = (new UK_FileWorker(MODELS))->files;
@@ -41,9 +45,13 @@
                 } 
             }
             if($once){
-                require_once $toLoad;
+                if(!include_once $toLoad){
+                    throw new Exception("file \'".$toLoad."\' does not exitst");
+                }
             }else{
-                require $toLoad;
+                if(!include $toLoad){
+                    throw new Exception('file '.$toLoad.' does not exitst');
+                }
             }
         }
 
