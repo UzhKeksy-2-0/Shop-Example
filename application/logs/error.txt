@@ -1,3 +1,136 @@
+[20.12.06 20:25:48] file  does not exitst
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:25:40] file  does not exitst
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:25:23] file  does not exitst
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(16): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:24:50] file  does not exitst
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(12): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:23:40] file  does not exitst
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(12): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:20:59] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php on line 13 and at least 2 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(13): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:20:19] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php on line 13 and at least 2 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(13): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:19:43] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php on line 13 and at least 2 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(13): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(18): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 20:17:51] Too few arguments to function UK\UK_Controller::load(), 1 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php on line 13 and at least 2 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productsArchive.php(13): UK\UK_Controller->load()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(15): UK\UK_Controller->load()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(52): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): UK\UK_Controller->load()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#8 {main}
+[20.12.06 17:14:36] Undefined offset: -2
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(130): {closure}()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(66): UK\core\Router->getClassNameFromFile()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(80): UK\core\Router->getClassFullNameFromFile()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#6 {main}
+[20.12.06 17:10:03] Undefined offset: -2
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(130): {closure}()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(66): UK\core\Router->getClassNameFromFile()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(80): UK\core\Router->getClassFullNameFromFile()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#6 {main}
+[20.12.06 17:09:10] Undefined offset: -2
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(130): {closure}()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(66): UK\core\Router->getClassNameFromFile()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(80): UK\core\Router->getClassFullNameFromFile()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#6 {main}
+[20.12.06 17:07:35] Undefined offset: -2
+ Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(130): {closure}()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(66): UK\core\Router->getClassNameFromFile()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(80): UK\core\Router->getClassFullNameFromFile()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(19): UK\core\Application->run()
+#6 {main}
 [20.12.06 16:59:05] Function name must be a string
  Stack trace : #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
 #1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()

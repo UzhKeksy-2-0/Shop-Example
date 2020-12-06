@@ -8,5 +8,5 @@
     <img class="img-fluid d-block mx-auto mb-3" src="<?=$productInArchive_Image?>" width="150">
     <h4> <b><?= $productInArchive_Name?></b></h4>
     <h4> <b><?= $productInArchive_MainPrice?></b></h4>
-    <p><?= $productInArchive_ShortDescription?></p><a class="btn btn-primary btn-block" href="#">Button</a>
+    <p><?= $productInArchive_ShortDiscription?></p><a class="btn btn-primary btn-block" href="#">Button</a>
 </div>

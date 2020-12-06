@@ -1,5 +1,8 @@
 <?php
+
+use app\models\Product;
 use UK\UK_Controller;
+use UK\UK_Log;
 
 class HomDatae extends UK_Controller
 {
@@ -8,8 +11,10 @@ class HomDatae extends UK_Controller
         parent::__construct();
     }
     public function pageLoad(){
+        Product::connect('localhost','root','','flower_shop');
+        $products = Product::get(4);
         $this->load($this->views_file->templates->header,[]);
-        $this->load($this->views_file->templates->home,[]);
+        $this->load($this->views_file->templates->home,['allProducts' => $products]);
         $this->load($this->views_file->templates->footer,[]);
     }
 }

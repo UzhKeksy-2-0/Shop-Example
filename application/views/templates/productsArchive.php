@@ -6,11 +6,11 @@
       <div class="row">
           <?php
             foreach($allProducts as $product){
-                $productInArchive_ShortDescription = $product->description;
-                $productInArchive_MainPrice = $product->price;
-                $productInArchive_Name = $product->name;
-                $productInArchive_Image = $product->image[0];
-                $this->load($this->views_files->templates->productinarchive);
+                $this->load($this->views_file->templates->productinarchive,[
+                      'productInArchive_Name' => $product->name,
+                      'productInArchive_MainPrice' => $product->price,
+                      'productInArchive_ShortDescription' => $product->discription
+                ]);
             }
           ?>
       </div>

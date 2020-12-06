@@ -1,3 +1,2906 @@
+[20.12.06 20:26:19] /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productInArchive.php
+[20.12.06 20:26:19] /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productInArchive.php
+[20.12.06 20:26:19] /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productInArchive.php
+[20.12.06 20:26:19] /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productInArchive.php
+[20.12.06 20:25:48] /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productInArchive.php
+[20.12.06 20:25:40] /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/productInArchive.php
+[20.12.06 20:25:23] 
+[20.12.06 20:19:43] array(4) {
+  [0]=>
+  object(app\models\Product)#7 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(270)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(1)
+      ["name"]=>
+      string(9) "Red roses"
+      ["discription"]=>
+      string(526) "You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original."
+      ["price"]=>
+      float(100)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  object(app\models\Product)#22 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(270)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(2)
+      ["name"]=>
+      string(17) "Grandiflora Roses"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(52.1)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [2]=>
+  object(app\models\Product)#9 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(270)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(3)
+      ["name"]=>
+      string(11) "White Lotus"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(213.42)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [3]=>
+  object(app\models\Product)#19 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(270)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(4)
+      ["name"]=>
+      string(4) "Rose"
+      ["discription"]=>
+      string(2) "de"
+      ["price"]=>
+      float(34)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+}
+
+[20.12.06 20:16:40] array(4) {
+  [0]=>
+  object(app\models\Product)#7 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(268)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(1)
+      ["name"]=>
+      string(9) "Red roses"
+      ["discription"]=>
+      string(526) "You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original."
+      ["price"]=>
+      float(100)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  object(app\models\Product)#22 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(268)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(2)
+      ["name"]=>
+      string(17) "Grandiflora Roses"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(52.1)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [2]=>
+  object(app\models\Product)#9 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(268)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(3)
+      ["name"]=>
+      string(11) "White Lotus"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(213.42)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [3]=>
+  object(app\models\Product)#19 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(268)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(4)
+      ["name"]=>
+      string(4) "Rose"
+      ["discription"]=>
+      string(2) "de"
+      ["price"]=>
+      float(34)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+}
+
+[20.12.06 20:15:07] array(4) {
+  [0]=>
+  object(app\models\Product)#7 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(245)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(1)
+      ["name"]=>
+      string(9) "Red roses"
+      ["discription"]=>
+      string(526) "You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original."
+      ["price"]=>
+      float(100)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  object(app\models\Product)#22 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(245)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(2)
+      ["name"]=>
+      string(17) "Grandiflora Roses"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(52.1)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [2]=>
+  object(app\models\Product)#9 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(245)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(3)
+      ["name"]=>
+      string(11) "White Lotus"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(213.42)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [3]=>
+  object(app\models\Product)#19 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(245)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(4)
+      ["name"]=>
+      string(4) "Rose"
+      ["discription"]=>
+      string(2) "de"
+      ["price"]=>
+      float(34)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+}
+
+[20.12.06 20:13:01] array(4) {
+  [0]=>
+  object(app\models\Product)#7 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(244)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(1)
+      ["name"]=>
+      string(9) "Red roses"
+      ["discription"]=>
+      string(526) "You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original."
+      ["price"]=>
+      float(100)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  object(app\models\Product)#22 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(244)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(2)
+      ["name"]=>
+      string(17) "Grandiflora Roses"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(52.1)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [2]=>
+  object(app\models\Product)#9 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(244)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(3)
+      ["name"]=>
+      string(11) "White Lotus"
+      ["discription"]=>
+      string(994) "It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20 to 25 millimeters long and 2 to 3 millimeters wide leaves are almost or completely stalk-shaped and taper towards the tip.
+
+The axillary have few to numerous, whitish, woolly hair, which are usually shorter than the sheets. The compressed inflorescences are surrounded by eight to ten leaves. The large flowers reach a diameter of up to 4 centimetres. The five bright magenta-coloured petals are obovate and 15 to 26 millimeters long. Around the ovary with four to nine whitish scars are about 50 stamens. Capsules and seeds are not visible.[6]"
+      ["price"]=>
+      float(213.42)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+  [3]=>
+  object(app\models\Product)#19 (9) {
+    ["dbTable":protected]=>
+    string(7) "product"
+    ["db":"dbObject":private]=>
+    object(MysqliDb)#8 (37) {
+      ["_mysqli":protected]=>
+      array(1) {
+        ["default"]=>
+        object(mysqli)#15 (18) {
+          ["affected_rows"]=>
+          int(-1)
+          ["client_info"]=>
+          string(14) "mysqlnd 7.4.13"
+          ["client_version"]=>
+          int(70413)
+          ["connect_errno"]=>
+          int(0)
+          ["connect_error"]=>
+          NULL
+          ["errno"]=>
+          int(0)
+          ["error"]=>
+          string(0) ""
+          ["error_list"]=>
+          array(0) {
+          }
+          ["field_count"]=>
+          int(4)
+          ["host_info"]=>
+          string(25) "Localhost via UNIX socket"
+          ["info"]=>
+          NULL
+          ["insert_id"]=>
+          int(0)
+          ["server_info"]=>
+          string(38) "5.5.5-10.1.47-MariaDB-0ubuntu0.18.04.1"
+          ["server_version"]=>
+          int(100147)
+          ["sqlstate"]=>
+          string(5) "00000"
+          ["protocol_version"]=>
+          int(10)
+          ["thread_id"]=>
+          int(244)
+          ["warning_count"]=>
+          int(0)
+        }
+      }
+      ["_query":protected]=>
+      NULL
+      ["_lastQuery":protected]=>
+      string(30) "SELECT  * FROM product LIMIT 4"
+      ["_queryOptions":protected]=>
+      array(0) {
+      }
+      ["_join":protected]=>
+      array(0) {
+      }
+      ["_where":protected]=>
+      array(0) {
+      }
+      ["_joinAnd":protected]=>
+      array(0) {
+      }
+      ["_having":protected]=>
+      array(0) {
+      }
+      ["_orderBy":protected]=>
+      array(0) {
+      }
+      ["_groupBy":protected]=>
+      array(0) {
+      }
+      ["_tableLocks":protected]=>
+      array(0) {
+      }
+      ["_tableLockMethod":protected]=>
+      string(4) "READ"
+      ["_bindParams":protected]=>
+      array(1) {
+        [0]=>
+        string(0) ""
+      }
+      ["count"]=>
+      int(4)
+      ["totalCount"]=>
+      int(0)
+      ["_stmtError":protected]=>
+      string(0) ""
+      ["_stmtErrno":protected]=>
+      int(0)
+      ["isSubQuery":protected]=>
+      bool(false)
+      ["_lastInsertId":protected]=>
+      NULL
+      ["_updateColumns":protected]=>
+      NULL
+      ["returnType"]=>
+      string(5) "array"
+      ["_nestJoin":protected]=>
+      bool(false)
+      ["_tableName":"MysqliDb":private]=>
+      string(0) ""
+      ["_forUpdate":protected]=>
+      bool(false)
+      ["_lockInShareMode":protected]=>
+      bool(false)
+      ["_mapKey":protected]=>
+      NULL
+      ["traceStartQ":protected]=>
+      NULL
+      ["traceEnabled":protected]=>
+      NULL
+      ["traceStripPrefix":protected]=>
+      NULL
+      ["trace"]=>
+      array(0) {
+      }
+      ["pageLimit"]=>
+      int(20)
+      ["totalPages"]=>
+      int(0)
+      ["connectionsSettings":protected]=>
+      array(1) {
+        ["default"]=>
+        array(7) {
+          ["host"]=>
+          string(9) "localhost"
+          ["username"]=>
+          string(4) "root"
+          ["password"]=>
+          string(0) ""
+          ["db"]=>
+          string(11) "flower_shop"
+          ["port"]=>
+          NULL
+          ["socket"]=>
+          NULL
+          ["charset"]=>
+          NULL
+        }
+      }
+      ["defConnectionName"]=>
+      string(7) "default"
+      ["autoReconnect"]=>
+      bool(true)
+      ["autoReconnectCount":protected]=>
+      int(0)
+      ["_transaction_in_progress":protected]=>
+      bool(false)
+    }
+    ["data"]=>
+    array(4) {
+      ["id"]=>
+      int(4)
+      ["name"]=>
+      string(4) "Rose"
+      ["discription"]=>
+      string(2) "de"
+      ["price"]=>
+      float(34)
+    }
+    ["isNew"]=>
+    bool(false)
+    ["returnType"]=>
+    string(6) "Object"
+    ["_with":"dbObject":private]=>
+    array(0) {
+    }
+    ["errors"]=>
+    NULL
+    ["primaryKey":protected]=>
+    string(2) "id"
+    ["toSkip":protected]=>
+    array(0) {
+    }
+  }
+}
+
 [20.12.06 16:59:52] array(0) {
 }
 

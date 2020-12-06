@@ -3,7 +3,7 @@ require_once './bootsrap.php';
 use app\core\Application;
 use app\models\Product;
 
-Product::connect('h56.hvosting.ua','UzhKeksy','84FFKeW5','flower_shop',3260);
+Product::connect('localhost','root','','flower_shop');
 $prod = new Product();
 $prod->name = 'kakado';
 $prod->discription = 'wooow';
@@ -14,7 +14,7 @@ $products = Product::get(4);
 foreach($products as $product){
    echo $product->name . '<br>';
 }
-//var_dump($product);
+var_dump($product);
 
 
 
@@ -57,10 +57,9 @@ foreach($products as $product){
    // $ins = mysqli_query($data,$query) or die('error');
    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-   // $sql = new MysqliDb('h56.hvosting.ua','UzhKeksy','84FFKeW5','flower_shop',3260);
+   // $sql = new MysqliDb('localhost','root','','flower_shop');
    // $data = Array(
    //    'id' => NULL,
-   //    'category_id' => 1,
    //    'name' => 'sd',
    //    'discription' => 'dss',
    //    'price' => 23
