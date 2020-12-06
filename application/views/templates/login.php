@@ -15,8 +15,8 @@
               <div class="col-10">
                 <input type="password" class="form-control w-75" id="inputpasswordh" placeholder="Password"> </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <a href="/register" class="p-2">Sign in</a>
+            <button type="submit" class="btn btn-primary">Log in </button>
+            <!-- <a href="#" class="p-2" style="">Log in </a> -->
           </form>
         </div>
        
