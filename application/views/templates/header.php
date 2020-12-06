@@ -21,7 +21,7 @@
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item"> <a class="nav-link" href="/login">Log in</a> </li>
-          <li class="nav-item"> <a class="nav-link text-primary" href="#">Register</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="/register">Register</a> </li>
         </ul>
       </div>
     </div>
