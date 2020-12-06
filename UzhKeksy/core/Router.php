@@ -31,9 +31,9 @@
          * @return void
          */
         public function resolve(){
-            $GetPostData = $this->request->getDataFromGet();
-            array_push($GetPostData,$this->request->getDataFromGet());
-            array_push($GetPostData,$this->request->getDataFromPost()());
+            // $GetPostData = $this->request->getDataFromGet();
+            // array_push($GetPostData,$this->request->getDataFromGet());
+            // array_push($GetPostData,$this->request->getDataFromPost()());
             $pather = (object) $this->controllers->files;
             if($this->staticRoutes[$this->request->getRequest()]){
                 $path = $this->staticRoutes[$this->request->getRequest()];
