@@ -58,7 +58,7 @@
               <div class="invalid-feedback"> Please enter your shipping address. </div>
             </div>
             <hr class="mb-4">
-          </form><a class="btn btn-primary btn-lg" href="#">Sign in</a>
+          </form><a class="btn btn-primary btn-lg" href="/login">Sign in</a>
         </div>
       </div>
     </div>
