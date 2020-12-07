@@ -2,7 +2,22 @@
 require_once './bootsrap.php';
 use app\core\Application;
 use app\models\Product;
+use UK\UK_Log;
 
+/**
+* Used for logging all php notices,warings and etc in a file when error reporting
+* is set and display_errors is off
+* @uses used in prod env for logging all type of error of php code in a file for further debugging
+* and code performance
+*/
+
+
+//calling custom error handler
+set_error_handler("handleError");
+asd;
+print_r($arra); //undefined variable
+/*
+IMPORTANT LOCAL DATABASE CONECT
 Product::connect('localhost','root','','flower_shop');
 $prod = new Product();
 $prod->name = 'kakado';
@@ -15,8 +30,7 @@ foreach($products as $product){
    echo $product->name . '<br>';
 }
 var_dump($product);
-
-
+*/
 
 
 //  $app = new Application();

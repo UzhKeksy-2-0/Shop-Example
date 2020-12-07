@@ -4,14 +4,6 @@
     use UK\core\Application;
     use UK\UK_Log;
     $d  = new MysqliDb();
-    // set_error_handler(function($errno, $errstr, $errfile, $errline, $errcontext) {
-    //     // error was suppressed with the @-operator
-    //     if (0 === error_reporting()) {
-    //         return false;
-    //     }
-    
-    //     throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
-    // });
     try {
         
         $app = new Application();
@@ -27,8 +19,7 @@
     }catch (Exception $e) {
         $error = new UK_Log();
         $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
+    }catch(ErrorException $e){
+        $error = new UK_Log();
+        $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
     }
-    // }catch(ErrorException $e){
-    //     $error = new UK_Log();
-    //     $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
-    // }

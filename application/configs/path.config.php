@@ -20,9 +20,9 @@
     const BOOTSTRAP = ROOT . '';
     const AUTOLOAD = VENDOR . 'autoload.php';
     // logs
-    const ERROR = LOGS . 'error.txt';
-    const LOG = LOGS . 'log.txt';
-    const WARNING = LOGS . 'warning.txt';
+    const ERROR = LOGS . 'error.log';
+    const LOG = LOGS . 'log.log';
+    const WARNING = LOGS . 'warning.log';
 
     // configs
     const DB_CONFG = CONFIGS .  'database.config.php';

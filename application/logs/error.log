@@ -1,0 +1,28 @@
+[20.12.07 12:01:47] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}
+[20.12.07 12:00:58] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}
+[20.12.07 12:00:58] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}
+[20.12.07 12:00:57] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}
+[20.12.07 12:00:57] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}
+[20.12.07 12:00:56] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}
+[20.12.07 11:57:48] Call to undefined function UK\core\adfas()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#1 {main}

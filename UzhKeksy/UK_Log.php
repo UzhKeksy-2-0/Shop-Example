@@ -62,18 +62,52 @@
             }
             $data = $text . file_get_contents($filePath);
             file_put_contents($filePath,$data);
-        }     
-        public function warning($text,$filePath = null){
+        }             
+        /**
+         * Method warning
+         * writes warning to file. If file name is not setted it will 
+         * be writen to warning file by default 
+         * 
+         * @param $text $text [explicite description]
+         * @param $filePath $filePath [explicite description]
+         * @param $dump $dump [explicite description]
+         *
+         * @return void
+         */
+        public function warning($text,$filePath = null, $dump = null){
             if($filePath == null){
                 $filePath = $this->warningPath;
             }
-            $this->log($text, $this->warningPath);
-        }
-        public function error($text,$filePath = null){
+            $this->log($text, $this->warningPath, $dump);
+        }        
+        /**
+         * Method error
+         * writes error log to error file. If file name is not setted it will
+         * be writen to error file by default
+         * 
+         * @param $text $text [explicite description]
+         * @param $filePath $filePath [explicite description]
+         * @param $dump $dump [explicite description]
+         *
+         * @return void
+         */
+        public function error($text,$filePath = null, $dump = null){
             if($filePath == null){
                 $filePath = $this->errorPath;
             }
-            $this->log($text, $filePath);
+            $this->log($text, $filePath, $dump);
         }
-
+        public function setWarnings($filePath = null){
+            if($filePath == null){
+                $filePath = $this->warningPath;
+            }
+            (new UK_Log)->log('notice');
+            function myErrorHandler($errno, $errstr, $errfile, $errline,UK_Log $logs)
+            {   
+                if ($errno == E_NOTICE){
+                    $logs->warning($errstr);
+                }
+            }
+            set_error_handler("NOTICE");
+        }
     }
