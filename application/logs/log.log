@@ -1,3 +1,331 @@
+[20.12.07 18:15:53] array(6) {
+  ["hostName"]=>
+  string(15) "h56.hvosting.ua"
+  ["login"]=>
+  string(8) "UzhKeksy"
+  ["pass"]=>
+  string(8) "84FFKeW5"
+  ["dbName"]=>
+  string(11) "flower_shop"
+  ["dbdriver"]=>
+  string(6) "mysqli"
+  ["port"]=>
+  string(4) "3260"
+}
+
+[20.12.07 18:13:20] array(6) {
+  ["hostName"]=>
+  string(15) "h56.hvosting.ua"
+  ["login"]=>
+  string(8) "UzhKeksy"
+  ["pass"]=>
+  string(8) "84FFKeW5"
+  ["dbName"]=>
+  string(11) "flower_shop"
+  ["dbdriver"]=>
+  string(6) "mysqli"
+  ["port"]=>
+  string(4) "3260"
+}
+
+[20.12.07 18:13:08] array(6) {
+  ["hostName"]=>
+  string(15) "h56.hvosting.ua"
+  ["login"]=>
+  string(8) "UzhKeksy"
+  ["pass"]=>
+  string(8) "84FFKeW5"
+  ["dbName"]=>
+  string(11) "flower_shop"
+  ["dbdriver"]=>
+  string(6) "mysqli"
+  ["port"]=>
+  string(4) "3260"
+}
+
+[20.12.07 18:12:55] array(6) {
+  ["hostName"]=>
+  string(15) "h56.hvosting.ua"
+  ["login"]=>
+  string(8) "UzhKeksy"
+  ["pass"]=>
+  string(8) "84FFKeW5"
+  ["dbName"]=>
+  string(11) "flower_shop"
+  ["dbdriver"]=>
+  string(6) "mysqli"
+  ["port"]=>
+  string(4) "3260"
+}
+
+[20.12.07 18:07:26] array(6) {
+  ["hostName"]=>
+  string(15) "h56.hvosting.ua"
+  ["login"]=>
+  string(8) "UzhKeksy"
+  ["pass"]=>
+  string(8) "84FFKeW5"
+  ["dbName"]=>
+  string(11) "flower_shop"
+  ["dbdriver"]=>
+  string(6) "mysqli"
+  ["port"]=>
+  string(4) "3260"
+}
+
+[20.12.07 18:07:15] array(6) {
+  ["hostName"]=>
+  string(15) "h56.hvosting.ua"
+  ["login"]=>
+  string(8) "UzhKeksy"
+  ["pass"]=>
+  string(8) "84FFKeW5"
+  ["dbName"]=>
+  string(11) "flower_shop"
+  ["dbdriver"]=>
+  string(6) "mysqli"
+  ["port"]=>
+  string(4) "3260"
+}
+
+[20.12.07 18:06:11] NULL
+
+[20.12.07 18:06:03] NULL
+
+[20.12.07 18:05:44] NULL
+
+[20.12.07 18:05:14] string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+
+[20.12.07 18:05:12] string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+
+[20.12.07 18:04:58] string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+
+[20.12.07 18:04:45] NULL
+
+[20.12.07 18:04:43] NULL
+
+[20.12.07 18:04:41] NULL
+
+[20.12.07 18:04:35] NULL
+
+[20.12.07 17:52:38] string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+
+[20.12.07 17:52:11] NULL
+
+[20.12.07 17:52:00] object(stdClass)#21 (3) {
+  ["path.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/path.config.php"
+  ["site.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/site.config.php"
+  ["database.config"]=>
+  string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+}
+
+[20.12.07 17:51:45] NULL
+
+[20.12.07 17:51:45] NULL
+
+[20.12.07 17:51:36] NULL
+
+[20.12.07 17:51:36] object(stdClass)#21 (3) {
+  ["path.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/path.config.php"
+  ["site.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/site.config.php"
+  ["database.config"]=>
+  string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+}
+
+[20.12.07 17:51:35] NULL
+
+[20.12.07 17:51:35] object(stdClass)#21 (3) {
+  ["path.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/path.config.php"
+  ["site.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/site.config.php"
+  ["database.config"]=>
+  string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+}
+
+[20.12.07 17:51:29] NULL
+
+[20.12.07 17:51:29] object(stdClass)#21 (3) {
+  ["path.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/path.config.php"
+  ["site.config"]=>
+  string(77) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/site.config.php"
+  ["database.config"]=>
+  string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+}
+
+[20.12.07 17:49:13] NULL
+
+[20.12.07 17:48:00] ho
+[20.12.07 17:47:59] ho
+[20.12.07 17:46:56] ho
+[20.12.07 17:46:21] ho
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:21] handle Error
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:16] ho
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:16] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] handle Error
+[20.12.07 17:46:00] ho
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] handle Error
+[20.12.07 17:45:49] ho
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:39] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:45:38] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:44] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:43] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:42] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:44:03] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:52] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:42:04] handle Error
+[20.12.07 17:41:49] handle Error
+[20.12.07 17:41:49] handle Error
+[20.12.07 17:41:49] handle Error
+[20.12.07 17:41:49] handle Error
+[20.12.07 17:41:49] handle Error
+[20.12.07 17:41:48] handle Error
+[20.12.07 17:41:48] handle Error
+[20.12.07 17:41:48] handle Error
+[20.12.07 17:41:48] handle Error
+[20.12.07 17:41:48] handle Error
+[20.12.07 17:41:39] handle Error
+[20.12.07 17:41:39] handle Error
+[20.12.07 17:41:39] handle Error
+[20.12.07 17:41:39] handle Error
+[20.12.07 17:41:39] handle Error
+[20.12.07 17:41:35] handle Error
+[20.12.07 17:41:35] handle Error
+[20.12.07 17:41:35] handle Error
+[20.12.07 17:41:35] handle Error
+[20.12.07 17:41:35] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:34] handle Error
+[20.12.07 17:41:33] handle Error
+[20.12.07 17:41:33] handle Error
+[20.12.07 17:41:31] handle Error
+[20.12.07 17:41:31] handle Error
+[20.12.07 17:41:31] handle Error
+[20.12.07 17:41:31] handle Error
+[20.12.07 17:41:31] handle Error
+[20.12.07 17:40:04] handle Error
+[20.12.07 17:40:04] handle Error
+[20.12.07 17:40:04] handle Error
+[20.12.07 17:40:04] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:20] handle Error
+[20.12.07 17:39:01] handle Error
+[20.12.07 17:39:01] handle Error
+[20.12.07 17:39:01] handle Error
+[20.12.07 17:39:01] handle Error
+[20.12.07 17:38:32] handle Error
+[20.12.07 17:38:32] handle Error
+[20.12.07 17:38:32] handle Error
+[20.12.07 17:38:32] handle Error
+[20.12.07 17:36:35] handle Error
+[20.12.07 17:36:35] handle Error
+[20.12.07 17:36:35] handle Error
+[20.12.07 17:36:35] handle Error
 [20.12.07 12:03:13] handle Error
 [20.12.07 12:03:13] handle Error
 [20.12.07 12:03:13] handle Error

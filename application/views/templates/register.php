@@ -1,12 +1,4 @@
   <!-- PAGE settings -->
-  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
-  <title>Checkout</title>
-  <meta name="description" content="Wireframe design of a checkout form by Pingendo">
-  <meta name="keywords" content="Pingendo bootstrap example template wireframe checkout form">
-  <meta name="author" content="Pingendo">
-  <!-- CSS dependencies -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="wireframe.css">
 <div class="py-5">
     <div class="container">
       <div class="row">

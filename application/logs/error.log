@@ -1,3 +1,342 @@
+[20.12.07 18:00:00] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:59:31] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:59:27] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:52:38] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:52:11] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:52:00] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:51:45] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:51:45] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:51:36] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:51:35] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:51:29] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:49:31] Object of class stdClass could not be converted to string
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): UK\UK_DataBase::connectByController()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#4 {main}
+[20.12.07 17:49:30] Object of class stdClass could not be converted to string
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): UK\UK_DataBase::connectByController()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#4 {main}
+[20.12.07 17:49:29] Object of class stdClass could not be converted to string
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): UK\UK_DataBase::connectByController()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#4 {main}
+[20.12.07 17:49:13] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:48:18] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:48:18] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:48:16] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:48:00] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(18): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:47:59] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(18): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:46:56] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(18): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:46:21] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(18): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:46:16] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(18): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:46:00] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(57): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:45:49] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:45:39] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:45:38] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:44:44] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:44:43] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:44:42] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 17:44:03] MySQL host or socket is not set
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#10 {main}
+[20.12.07 17:42:52] MySQL host or socket is not set
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#10 {main}
+[20.12.07 17:42:04] MySQL host or socket is not set
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#10 {main}
+[20.12.07 17:41:49] Cannot access protected property HomDatae::$database_file
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(15): UK\UK_DataBase::connectByController()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#4 {main}
+[20.12.07 17:41:48] Cannot access protected property HomDatae::$database_file
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(15): UK\UK_DataBase::connectByController()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#4 {main}
+[20.12.07 17:40:04] RecursiveDirectoryIterator::__construct( /home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php ): failed to open dir: Not a directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(39): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\UK_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(26): UK\UK_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(81): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#9 {main}
+[20.12.07 17:39:01] MySQL host or socket is not set
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(15): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#10 {main}
+[20.12.07 17:38:32] RecursiveDirectoryIterator::__construct(/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php): failed to open dir: Not a directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(39): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\UK_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(26): UK\UK_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(81): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#9 {main}
+[20.12.07 17:36:35] RecursiveDirectoryIterator::__construct(/home/david/Sync/it-step/Php_and_Sql/Exam/application/database/): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(39): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\UK_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(26): UK\UK_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(81): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(54): UK\core\Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
+#9 {main}
 [20.12.07 12:01:47] Call to undefined function UK\core\adfas()
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()

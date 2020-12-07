@@ -14,7 +14,6 @@ use UK\UK_Log;
 
 //calling custom error handler
 set_error_handler("handleError");
-asd;
 print_r($arra); //undefined variable
 /*
 IMPORTANT LOCAL DATABASE CONECT

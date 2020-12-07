@@ -11,7 +11,7 @@
     const CONFIGS = APPLICATION . 'configs/';
     const CONTROLLERS = APPLICATION .  'controllers/';
     const CORE = APPLICATION . 'core/';
-    const DATA_BASE = APPLICATION . 'database/';
+    // const DATA_BASE = APPLICATION . 'database/';
     const MODELS = APPLICATION . 'models/';
     const LOGS = APPLICATION . 'logs/';
     const HELPERS = APPLICATION . 'helpers/';

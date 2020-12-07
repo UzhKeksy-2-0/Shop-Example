@@ -3,9 +3,7 @@
 
     use UK\core\Application;
     use UK\UK_Log;
-    $d  = new MysqliDb();
     try {
-        
         $app = new Application();
         $app->router->setStaticRoute('','home');
         $app->run();
