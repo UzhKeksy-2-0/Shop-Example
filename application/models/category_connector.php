@@ -6,26 +6,16 @@ use UK\UK_DataBase;
 class category_connector extends UK_DataBase
 {
     protected $dbTable = "category_connector";
-    private int $id;
-    private int $category_id;
-    private int $product_id;
+    private  $id;
+    private  $category_id;
+    private  $product_id;
 
-    /**
-    *  __Construct method
-    * @param int $id
-    */
-    public function __construct(int $id, int $category_id, int $product_id)
-    {
-        $this->id = $id;
-        $this->category_id = $category_id;
-        $this->product_id = $product_id;
-    }
 
     /**
     * Get $id
     * @return int
     */
-    public function getId(): int
+    public function getId()
     {
         return $this->id;
 
@@ -36,7 +26,7 @@ class category_connector extends UK_DataBase
     * Get $id
     * @return int
     */
-    public function getproduct_id(): int
+    public function getproduct_id()
     {
         return $this->product_id;
         
@@ -46,7 +36,7 @@ class category_connector extends UK_DataBase
     * Get $id
     * @return int
     */
-    public function getcategory_id(): int
+    public function getcategory_id()
     {
         return $this->category_id;
         
@@ -56,7 +46,7 @@ class category_connector extends UK_DataBase
     * Set $id
     * @param int $id
     */
-    public function setId(int $id)
+    public function setId( $id)
     {
         $this->id = $id;
     }
@@ -67,7 +57,7 @@ class category_connector extends UK_DataBase
     * Set $id
     * @param int $id
     */
-    public function setcategory_id(int $category_id)
+    public function setcategory_id( $category_id)
     {
         $this->category_id = $category_id;
     }
@@ -76,7 +66,7 @@ class category_connector extends UK_DataBase
     * Set $id
     * @param int $id
     */
-    public function setproduct_id(int $product_id)
+    public function setproduct_id( $product_id)
     {
         $this->product_id = $product_id;
     }
