@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class product_feedback extends UK_DataBase
 {
-    //protected $dbTable = "product_feedback";
+    protected $dbTable = "product_feedback";
     public $id;
     public $productid;
     public $clientid;
