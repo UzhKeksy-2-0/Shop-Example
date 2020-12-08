@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class product_category extends UK_DataBase
 {
-    //protected $dbTable = "product_category";
+    protected $dbTable = "product_category";
     public $id;
     public $name;
     public $parentid;
