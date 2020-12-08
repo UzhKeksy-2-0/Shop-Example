@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class product extends UK_DataBase
 {
-    //protected $dbTable = "product";
+    protected $dbTable = "product";
     public $id;
     public $name;
     public $discription;
