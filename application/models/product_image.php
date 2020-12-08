@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class product_image extends UK_DataBase
 {
-    //protected $dbTable = "product_image";
+    protected $dbTable = "product_image";
     public $id;
     public $product_id;
     public $image;
