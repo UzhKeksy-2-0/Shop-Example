@@ -7,7 +7,7 @@ use Exception;
 /**
  * UK_Controller
  */
-abstract class UK_Controller implements UK_Controller_Interface
+abstract class BC_Controller implements BC_Controller_Interface
 {
     protected $views_file;
     protected $models_file;
@@ -19,11 +19,11 @@ abstract class UK_Controller implements UK_Controller_Interface
     public function __construct()
     {
         require_once '../application/configs/path.config.php';
-        $this->log = new UK_Log;
-        $files = new UK_FileWorker(CORE);
-        $this->views_file = (new UK_FileWorker(VIEWS))->files;
-        $this->models_file = (new UK_FileWorker(MODELS))->files;
-        $this->database_file = (new UK_FileWorker(CONFIGS))->files->{'database.config'};
+        $this->log = new BC_Log;
+        $files = new BC_FileWorker(CORE);
+        $this->views_file = (new BC_FileWorker(VIEWS))->files;
+        $this->models_file = (new BC_FileWorker(MODELS))->files;
+        $this->database_file = (new BC_FileWorker(CONFIGS))->files->{'database.config'};
     }
 
 

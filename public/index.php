@@ -2,7 +2,7 @@
     require_once './bootsrap.php';
 
     use UK\core\Application;
-    use UK\basic\UK_Log;
+    use UK\modificators\UK_Log;
     try {
         (new UK_Log)->log('test');
         $app = new Application();

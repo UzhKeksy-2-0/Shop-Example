@@ -3,7 +3,7 @@
 namespace UK\basic;
 
 require_once '../application/configs/path.config.php';
-class UK_Log
+class BC_Log
 {
     private $logPath;
     private $warningPath;

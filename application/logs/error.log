@@ -1,3 +1,166 @@
+[20.12.08 15:57:56] Class 'UK\basic\UK_Log' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_Controller.php(50): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(20): UK\basic\BC_Controller->load()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(60): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.08 15:57:00] Class 'UK\basic\UK_Log' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_Controller.php(50): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(20): UK\basic\BC_Controller->load()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(60): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.08 15:56:48] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\models\Product' at line 1 query: SELECT  * FROM app\models\Product
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(17): dbObject::__callStatic()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(60): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#8 {main}
+[20.12.08 15:56:24] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\models\Product' at line 1 query: SELECT  * FROM app\models\Product
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Register.php(15): dbObject::__callStatic()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(60): HomDatae->pageLoad()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#8 {main}
+[20.12.08 15:55:52] Class 'UK\basic\UK_DataBase' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Register.php(14): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(60): HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#7 {main}
+[20.12.08 15:55:37] Interface 'UK\basic\BC_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Register.php(7): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:55:06] Interface 'UK\basic\UK_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Register.php(7): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:54:20] Interface 'UK\basic\UK_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(8): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:53:37] Interface 'UK\basic\UK_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(7): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:53:36] Interface 'UK\basic\UK_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(7): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:53:04] Interface 'UK\basic\UK_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(7): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:51:57] Interface 'UK\basic\UK_Controller_Interface' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(6): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(7): spl_autoload_call()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#11 {main}
+[20.12.08 15:51:00] Class 'UK\basic\UK_Controller' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#3 {main}
+[20.12.08 15:50:14] Class 'UK\basic\UK_Controller' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#3 {main}
+[20.12.08 15:49:05] Class 'UK\basic\UK_FileWorker' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(10): UK\core\Router->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\core\Application->__construct()
+#2 {main}
 [20.12.07 22:25:09] Typed property app\models\Product::$name must not be accessed before initialization
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include()

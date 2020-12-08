@@ -3,7 +3,7 @@ namespace UK\basic;
 
 use dbObject;
 
-class UK_DataBase extends dbObject
+class BC_DataBase extends dbObject
 {
         
     /**
@@ -31,7 +31,7 @@ class UK_DataBase extends dbObject
      *
      * @return void
      */
-    static public function connectByController(UK_Controller $controller){
+    static public function connectByController(BC_Controller $controller){
         include $controller->database_file;
         if(isset($defaultDB)){
             $host = $defaultDB['hostName'];
