@@ -1,3 +1,107 @@
+[20.12.08 19:43:27] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Register.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:43:22] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Login.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:37:34] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Login.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:37:31] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Register.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:37:28] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Register.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:37:09] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Login.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:36:50] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Register.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
+[20.12.08 19:36:45] Connect Error 1049: Unknown database 'flower_shop'
+ Stack trace : 
+#0 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1978): MysqliDb->mysqli()
+#2 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(418): MysqliDb->get('product', NULL, '*')
+#5 C:\Users\qawsed\Documents\GitHub\Flower-Shop\vendor\joshcam\mysqli-database-class\dbObject.php(566): dbObject->get()
+#6 C:\Users\qawsed\Documents\GitHub\Flower-Shop\application\controllers\Login.php(15): dbObject::__callStatic('get', Array)
+#7 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Router.php(55): HomDatae->pageLoad(Array)
+#8 C:\Users\qawsed\Documents\GitHub\Flower-Shop\UzhKeksy\core\Application.php(13): UK\core\Router->resolve()
+#9 C:\Users\qawsed\Documents\GitHub\Flower-Shop\public\index.php(9): UK\core\Application->run()
+#10 {main}
 [20.12.07 18:00:00] Call to a member function ArrayBuilder() on null
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
