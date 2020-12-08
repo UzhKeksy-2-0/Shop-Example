@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class contact_information extends UK_DataBase
 {
-    //protected $dbTable = "contact_information";
+    protected $dbTable = "contact_information";
     public $id;
     public $user_id;
     public $contact_type_id;
