@@ -1,6 +1,6 @@
 <?php
 // Controller class template made by UzhKeksy
-namespace UK;
+namespace UK\basic;
 
 use Exception;
 

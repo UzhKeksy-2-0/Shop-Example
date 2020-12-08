@@ -1,6 +1,6 @@
 <?php
 
-namespace UK;
+namespace UK\basic;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

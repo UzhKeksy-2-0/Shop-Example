@@ -1,8 +1,8 @@
 <?php
 
 use app\models\Product;
-use UK\UK_Controller;
-use UK\UK_Log;
+use UK\basic\UK_Controller;
+use UK\basic\UK_Log;
 
 class HomDatae extends UK_Controller
 {
@@ -12,7 +12,6 @@ class HomDatae extends UK_Controller
     }
     public function pageLoad(){
         // Product::connect('localhost','root','','flower_shop');
-        
         Product::connectByController($this);
         $products = Product::get();
         // (new UK_Log)->log('test');

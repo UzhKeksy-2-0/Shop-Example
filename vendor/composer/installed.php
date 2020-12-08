@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '8c3b282cc36b113410e74dac3590ff80864932bd',
+    'reference' => '730f9c8a284c174be1a428496566cd7177c26533',
     'name' => 'david/php-mvc-framework',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '8c3b282cc36b113410e74dac3590ff80864932bd',
+      'reference' => '730f9c8a284c174be1a428496566cd7177c26533',
     ),
     'joshcam/mysqli-database-class' => 
     array (

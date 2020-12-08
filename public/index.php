@@ -2,8 +2,9 @@
     require_once './bootsrap.php';
 
     use UK\core\Application;
-    use UK\UK_Log;
+    use UK\basic\UK_Log;
     try {
+        (new UK_Log)->log('test');
         $app = new Application();
         $app->router->setStaticRoute('','home');
         $app->run();

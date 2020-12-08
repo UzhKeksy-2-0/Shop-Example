@@ -1,8 +1,8 @@
 <?php
 
 use app\models\Product;
-use UK\UK_Controller;
-use UK\UK_Log;
+use UK\basic\UK_Controller;
+use UK\basic\UK_Log;
 
 class HomDatae extends UK_Controller
 {

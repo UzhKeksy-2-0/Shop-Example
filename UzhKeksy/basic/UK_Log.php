@@ -1,6 +1,6 @@
 <?php
 
-namespace UK;
+namespace UK\basic;
 
 require_once '../application/configs/path.config.php';
 class UK_Log
@@ -100,19 +100,5 @@ class UK_Log
             $filePath = $this->errorPath;
         }
         $this->log($text, $filePath, $dump);
-    }
-    public function setWarnings($filePath = null)
-    {
-        if ($filePath == null) {
-            $filePath = $this->warningPath;
-        }
-        (new UK_Log)->log('notice');
-        function myErrorHandler($errno, $errstr, $errfile, $errline, UK_Log $logs)
-        {
-            if ($errno == E_NOTICE) {
-                $logs->warning($errstr);
-            }
-        }
-        set_error_handler("NOTICE");
     }
 }

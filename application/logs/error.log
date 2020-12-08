@@ -1,3 +1,97 @@
+[20.12.07 22:25:09] Typed property app\models\Product::$name must not be accessed before initialization
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\basic\UK_Controller->load()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include('/home/david/Syn...')
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(19): UK\basic\UK_Controller->load()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#7 {main}
+[20.12.07 22:24:58] Typed property app\models\Product::$name must not be accessed before initialization
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\basic\UK_Controller->load()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include('/home/david/Syn...')
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(19): UK\basic\UK_Controller->load()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#7 {main}
+[20.12.07 22:23:34] Typed property app\models\Product::$name must not be accessed before initialization
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/views/templates/home.php(12): UK\basic\UK_Controller->load()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/UK_Controller.php(50): include('/home/david/Syn...')
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(19): UK\basic\UK_Controller->load()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#7 {main}
+[20.12.07 22:22:51] Too few arguments to function app\models\Product::__construct(), 0 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php on line 565 and exactly 4 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(565): app\models\Product->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 22:22:18] Too few arguments to function app\models\Product::__construct(), 0 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php on line 565 and exactly 4 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(565): app\models\Product->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 22:22:17] Too few arguments to function app\models\Product::__construct(), 0 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php on line 565 and exactly 4 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(565): app\models\Product->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 22:22:15] Too few arguments to function app\models\Product::__construct(), 0 passed in /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php on line 565 and exactly 4 expected
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(565): app\models\Product->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#5 {main}
+[20.12.07 21:36:33] Call to undefined function asdfasf()
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#3 {main}
+[20.12.07 21:31:26] Class 'UK\UK_Controller' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(50): require()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#3 {main}
+[20.12.07 21:28:35] Class 'UK\UK_DataBase' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): spl_autoload_call()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#7 {main}
+[20.12.07 21:28:13] Class 'UK\UK_FileWorker' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(10): UK\core\Router->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\core\Application->__construct()
+#2 {main}
+[20.12.07 21:26:56] Class 'UK\UK_FileWorker' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(10): UK\core\Router->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\core\Application->__construct()
+#2 {main}
 [20.12.07 18:00:00] Call to a member function ArrayBuilder() on null
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
@@ -310,14 +404,7 @@
 #5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
 #6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(15): dbObject::__callStatic()
 #7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): HomDatae->pageLoad()
-#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(13): UK\core\Router->resolve()
-#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(11): UK\core\Application->run()
-#10 {main}
-[20.12.07 17:38:32] RecursiveDirectoryIterator::__construct(/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php): failed to open dir: Not a directory
- Stack trace : 
-#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(39): RecursiveDirectoryIterator->__construct()
-#1 [internal function]: UK\UK_FileWorker->__construct1()
-#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(26): call_user_func_array()
+#8 /home/david/07Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_FileWorker.php(26): call_user_func_array()
 #3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/UK_Controller.php(26): UK\UK_FileWorker->__construct()
 #4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\UK_Controller->__construct()
 #5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(81): HomDatae->__construct()

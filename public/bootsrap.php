@@ -1,6 +1,6 @@
 <?php
 
-use UK\UK_Log;
+use UK\basic\UK_Log;
 
 require_once '../application/configs/path.config.php';
 error_reporting(E_ALL);
