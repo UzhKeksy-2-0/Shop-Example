@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class user_rool extends UK_DataBase
 {
-    //protected $dbTable = "user_rool";
+    protected $dbTable = "user_rool";
     public $id;
     public $name;
 
