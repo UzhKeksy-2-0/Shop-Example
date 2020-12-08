@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class payment_type extends UK_DataBase
 {
-    //protected $dbTable = "payment_type";
+    protected $dbTable = "payment_type";
     public $id;
     public $name;
 
