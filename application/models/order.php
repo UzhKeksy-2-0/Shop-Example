@@ -5,7 +5,7 @@ use UK\UK_DataBase;
 
 class order extends UK_DataBase
 {
-    //protected $dbTable = "order";
+    protected $dbTable = "order";
     public $id;
     public $status_id;
     public $client_id;
