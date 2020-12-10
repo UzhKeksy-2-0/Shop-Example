@@ -1,9 +1,9 @@
 <?php
 
-namespace UK\core;
+namespace UK\basic\core;
 
 
-class Request
+class BC_Request
 {
     public $l;
     public function getPath()

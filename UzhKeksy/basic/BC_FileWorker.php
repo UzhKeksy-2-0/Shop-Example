@@ -30,6 +30,7 @@ class BC_FileWorker
     }
     /**
      *  __construct1 method
+     * if [path is given]
      *  @param $path
      */
     public function __construct1($path)

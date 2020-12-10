@@ -1,18 +1,18 @@
 <?php
 
-namespace UK\core;
+namespace UK\basic\core;
 
 use Exception;
 use UK\modificators\UK_FileWorker;
 use UK\modificators\UK_Log;
 
-class Router
+class BC_Router
 {
 
-    public Request $request;
+    public BC_Request $request;
     public UK_FileWorker $controllers;
     protected array $staticRoutes = [];
-    public function __construct(Request $request)
+    public function __construct(BC_Request $request)
     {
         $this->controllers = new UK_FileWorker(CONTROLLERS);
         $this->request = $request;

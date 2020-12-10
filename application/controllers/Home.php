@@ -11,10 +11,8 @@ class HomDatae extends UK_Controller
         parent::__construct();
     }
     public function pageLoad(){
-        // Product::connect('localhost','root','','flower_shop');
         Product::connectByController($this);
         $products = Product::get();
-        // (new UK_Log)->log('test');
         $this->load($this->views_file->templates->header,[]);
         $this->load($this->views_file->templates->home,['allProducts' => $products]);
         $this->load($this->views_file->templates->footer,[]);

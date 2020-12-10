@@ -1,3 +1,300 @@
+[20.12.10 23:04:41] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:04:28] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:04:27] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:03:54] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:02:54] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:02:34] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:02:33] Connect Error 1045: Access denied for user 'user'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.10 23:01:52] Connect Error 1045: Access denied for user 'david'@'localhost' (using password: YES)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(16): dbObject::__callStatic()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): UK\basic\core\BC_Application->run()
+#10 {main}
+[20.12.08 16:55:53] RecursiveDirectoryIterator::__construct(PLUGINS): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(16): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:50:50] RecursiveDirectoryIterator::__construct(PLUGINS): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(15): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:50:38] RecursiveDirectoryIterator::__construct(PLUGINS): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(15): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:50:18] RecursiveDirectoryIterator::__construct(PLUGINS): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(14): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:49:56] RecursiveDirectoryIterator::__construct(PLUGINS): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(14): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:49:35] Undefined constant 'PLUGINS'
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#5 {main}
+[20.12.08 16:43:59] RecursiveDirectoryIterator::__construct(../Plugins/): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(13): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:42:50] RecursiveDirectoryIterator::__construct(../Plugins/): failed to open dir: No such file or directory
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(40): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: UK\basic\BC_FileWorker->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_FileWorker.php(26): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/modificators/UK_Controller.php(13): UK\basic\BC_FileWorker->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(11): UK\modificators\UK_Controller->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(86): HomDatae->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Router.php(59): UK\basic\core\BC_Router->getClassObjectFromFile()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/core/BC_Application.php(16): UK\basic\core\BC_Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(9): UK\basic\core\BC_Application->run()
+#9 {main}
+[20.12.08 16:36:21] Class 'UK\modificators\core\Application' not found
+ Stack trace : 
+#0 {main}
+[20.12.08 16:26:41] Class 'UK\modificators\Application' not found
+ Stack trace : 
+#0 {main}
+[20.12.08 16:23:01] Typed property UK\basic\core\BC_Application::$router must not be accessed before initialization
+ Stack trace : 
+#0 {main}
+[20.12.08 16:22:59] Typed property UK\basic\core\BC_Application::$router must not be accessed before initialization
+ Stack trace : 
+#0 {main}
+[20.12.08 16:22:21] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:22:04] Class 'UK\core\UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:21:39] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:21:06] Call to a member function setStaticRoute() on null
+ Stack trace : 
+#0 {main}
+[20.12.08 16:20:55] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:20:27] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:20:08] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:17:03] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:17:02] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(7): spl_autoload_call()
+#4 {main}
+[20.12.08 16:15:45] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): spl_autoload_call()
+#4 {main}
+[20.12.08 16:15:21] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): spl_autoload_call()
+#4 {main}
+[20.12.08 16:15:10] Class 'UK\basic\core\BC_Application' not found
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(8): spl_autoload_call()
+#4 {main}
+[20.12.08 16:08:18] syntax error, unexpected '}', expecting variable (T_VARIABLE)
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/Home.php(7): spl_autoload_call()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Router.php(55): require('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/core/Application.php(16): UK\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/public/index.php(10): UK\core\Application->run()
+#6 {main}
 [20.12.08 15:57:56] Class 'UK\basic\UK_Log' not found
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/basic/BC_Controller.php(50): include()
