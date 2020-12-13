@@ -11,7 +11,7 @@
     const CONFIGS = APPLICATION . 'configs/';
     const CONTROLLERS = APPLICATION .  'controllers/';
     const CORE = APPLICATION . 'core/';
-    // const DATA_BASE = APPLICATION . 'database/';
+    const TEMPLATES_FOR_COACH = CORE .'templatesCoach/';
     const MODELS = APPLICATION . 'models/';
     const LOGS = APPLICATION . 'logs/';
     const HELPERS = APPLICATION . 'helpers/';
@@ -26,4 +26,5 @@
 
     // configs
     const DB_CONFG = CONFIGS .  'database.config.php';
+
 
