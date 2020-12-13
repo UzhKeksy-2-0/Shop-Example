@@ -1,0 +1,78 @@
+[20.12.13 13:15:30] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(135): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(71): CH\basic\core\BC_Router->getClassNameFromFile()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(85): CH\basic\core\BC_Router->getClassFullNameFromFile()
+#3 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(59): CH\basic\core\BC_Router->getClassObjectFromFile()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#5 /home/david/Project/FlowerShop/public/index.php(12): CH\basic\core\BC_Application->run()
+#6 {main}
+[20.12.13 13:14:45] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(135): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(71): CH\basic\core\BC_Router->getClassNameFromFile()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(85): CH\basic\core\BC_Router->getClassFullNameFromFile()
+#3 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(59): CH\basic\core\BC_Router->getClassObjectFromFile()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#5 /home/david/Project/FlowerShop/public/index.php(12): CH\basic\core\BC_Application->run()
+#6 {main}
+[20.12.13 13:14:33] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/public/index.php(10): handleError()
+#1 {main}
+[20.12.13 13:14:09] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): include_once()
+#2 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\BC_Config::getConfigFromFile()
+#3 {main}
+[20.12.13 13:13:14] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): include_once()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\BC_Config::getConfigFromFile()
+#3 {main}
+[20.12.13 13:13:14] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): include_once()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\BC_Config::getConfigFromFile()
+#3 {main}
+[20.12.13 13:13:13] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): include_once()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\BC_Config::getConfigFromFile()
+#3 {main}
+[20.12.13 13:13:12] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): include_once()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\BC_Config::getConfigFromFile()
+#3 {main}
+[20.12.13 13:13:08] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/BC_Config.php(21): include_once()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\BC_Config::getConfigFromFile()
+#3 {main}
+[20.12.13 02:24:49] Class mysqli does not exist
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/MysqliDb.php(322): ReflectionClass->__construct()
+#1 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/MysqliDb.php(415): MysqliDb->connect()
+#2 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/MysqliDb.php(1978): MysqliDb->mysqli()
+#3 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#4 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/MysqliDb.php(734): MysqliDb->_buildQuery()
+#5 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(418): MysqliDb->get()
+#6 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#7 /home/david/Project/FlowerShop/application/controllers/Home.php(15): dbObject::__callStatic()
+#8 /home/david/Project/FlowerShop/UzhKeksy/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#9 /home/david/Project/FlowerShop/UzhKeksy/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#10 /home/david/Project/FlowerShop/public/index.php(13): CH\basic\core\BC_Application->run()
+#11 {main}
+[20.12.11 15:24:33] Undefined class constant 'TEST'
+ Stack trace : 
+#0 {main}
+[20.12.11 15:00:23] Undefined class constant 'TE'
+ Stack trace : 
+#0 {main}

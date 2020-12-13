@@ -1,0 +1,144 @@
+[20.12.13 02:25:18] string(4) "TEST"
+
+[20.12.13 02:24:49] string(4) "TEST"
+
+[20.12.13 02:21:56] string(4) "TEST"
+
+[20.12.11 15:24:39] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:24:39] string(3) "add"
+
+[20.12.11 15:24:11] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:24:11] string(4) "TEST"
+
+[20.12.11 15:24:01] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:24:01] string(3) "add"
+
+[20.12.11 15:23:48] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:23:48] string(3) "add"
+
+[20.12.11 15:23:29] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:23:29] object(CH\basic\BC_Config)#6 (0) {
+}
+
+[20.12.11 15:22:56] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:22:56] array(1) {
+  ["Data"]=>
+  string(0) ""
+}
+
+[20.12.11 15:22:02] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:22:02] array(1) {
+  ["Data"]=>
+  string(0) ""
+}
+
+[20.12.11 15:21:26] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:21:25] array(0) {
+}
+
+[20.12.11 15:21:05] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:21:05] Array
+[20.12.11 15:20:39] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:06:44] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:06:44] add
+[20.12.11 15:06:44] TEST
+[20.12.11 15:06:11] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:05:19] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:05:19] array(1) {
+  ["TEST"]=>
+  string(3) "add"
+}
+
+[20.12.11 15:04:49] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:04:49] array(21) {
+  ["ROOT"]=>
+  string(42) "/home/david/Sync/it-step/Php_and_Sql/Exam/"
+  ["APPLICATION"]=>
+  string(54) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/"
+  ["MEDIA"]=>
+  string(48) "/home/david/Sync/it-step/Php_and_Sql/Exam/media/"
+  ["PUBLIC_"]=>
+  string(49) "/home/david/Sync/it-step/Php_and_Sql/Exam/public/"
+  ["VENDOR"]=>
+  string(49) "/home/david/Sync/it-step/Php_and_Sql/Exam/vendor/"
+  ["STYLES"]=>
+  string(49) "/home/david/Sync/it-step/Php_and_Sql/Exam/styles/"
+  ["VIEWS"]=>
+  string(60) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/views/"
+  ["CONFIGS"]=>
+  string(62) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/"
+  ["CONTROLLERS"]=>
+  string(66) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/"
+  ["CORE"]=>
+  string(59) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/core/"
+  ["MODELS"]=>
+  string(61) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/models/"
+  ["LOGS"]=>
+  string(59) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/"
+  ["HELPERS"]=>
+  string(62) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/helpers/"
+  ["LANGUAGES"]=>
+  string(64) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/languages/"
+  ["BOOTSTRAP"]=>
+  string(42) "/home/david/Sync/it-step/Php_and_Sql/Exam/"
+  ["AUTOLOAD"]=>
+  string(61) "/home/david/Sync/it-step/Php_and_Sql/Exam/vendor/autoload.php"
+  ["ERROR"]=>
+  string(68) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/error.log"
+  ["LOG"]=>
+  string(66) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/log.log"
+  ["WARNING"]=>
+  string(70) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/warning.log"
+  ["DB_CONFG"]=>
+  string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
+  ["TEST"]=>
+  string(3) "add"
+}
+
+[20.12.11 15:04:41] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:04:41] Array
+[20.12.11 15:04:30] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:04:30] data
+[20.12.11 15:04:20] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:04:03] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:03:53] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:03:42] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:00:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 15:00:47] object(CH\basic\BC_Config)#6 (0) {
+}
+
+[20.12.11 14:59:26] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:55:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:55:47] array(1) {
+  ["TEST"]=>
+  string(3) "add"
+}
+
+[20.12.11 14:54:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:54:30] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:52:20] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:52:20] array(0) {
+}
+
+[20.12.11 14:50:49] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:50:49] array(0) {
+}
+
+[20.12.11 14:50:37] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:50:37] array(0) {
+}
+
+[20.12.11 14:50:33] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:50:33] array(0) {
+}
+
+[20.12.11 14:49:54] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:49:54] array(0) {
+}
+
+[20.12.11 14:49:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:49:47] string(4) "daat"
+
+[20.12.11 14:49:28] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:49:09] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.11 14:48:02] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
