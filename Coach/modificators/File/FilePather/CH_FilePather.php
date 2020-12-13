@@ -1,5 +1,5 @@
 <?php
-namespace CH\modificators\FilePather;
+namespace CH\modificators\File\FilePather;
 
 use CH\basic\BC_FilePather;
 
