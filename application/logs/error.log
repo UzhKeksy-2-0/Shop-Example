@@ -1,3 +1,52 @@
+[20.12.13 14:21:35] Class 'CH\modificators\CH_Controller' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(55): require()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#3 {main}
+[20.12.13 14:21:32] Class 'CH\modificators\CH_Controller' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(55): require()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#3 {main}
+[20.12.13 14:18:35] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(135): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(71): CH\basic\core\BC_Router->getClassNameFromFile()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(85): CH\basic\core\BC_Router->getClassFullNameFromFile()
+#3 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(59): CH\basic\core\BC_Router->getClassObjectFromFile()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#5 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#6 {main}
+[20.12.13 14:18:25] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(135): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(71): CH\basic\core\BC_Router->getClassNameFromFile()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(85): CH\basic\core\BC_Router->getClassFullNameFromFile()
+#3 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(59): CH\basic\core\BC_Router->getClassObjectFromFile()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#5 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#6 {main}
+[20.12.13 13:47:43] Class 'CH\modificators\CH_Log' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(135): handleError()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(71): CH\basic\core\BC_Router->getClassNameFromFile()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(85): CH\basic\core\BC_Router->getClassFullNameFromFile()
+#3 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(59): CH\basic\core\BC_Router->getClassObjectFromFile()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#5 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#6 {main}
+[20.12.13 13:45:48] Class 'CH\modificators\CH_FileWorker' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(8): CH\basic\core\BC_Application->__construct()
+#2 {main}
+[20.12.13 13:44:21] Class 'CH\modificators\CH_FileWorker' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(8): CH\basic\core\BC_Application->__construct()
+#2 {main}
 [20.12.13 13:15:30] Class 'CH\modificators\CH_Log' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(135): handleError()

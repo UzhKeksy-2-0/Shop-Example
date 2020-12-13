@@ -1,5 +1,5 @@
 <?php
-namespace CH\modificators;
+namespace CH\modificators\Controller;
 
 use CH\basic\BC_Controller;
 

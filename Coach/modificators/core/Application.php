@@ -3,7 +3,7 @@
 namespace CH\modificators\core;
 
 use CH\basic\core\BC_Application;
-use CH\modificators\CH_Log;
+use CH\modificators\Log\CH_Log;
 
 class Application extends BC_Application
 {

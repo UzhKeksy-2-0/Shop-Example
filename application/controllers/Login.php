@@ -2,7 +2,7 @@
 
 use app\models\Product;
 use CH\modificators\CH_Controller;
-use CH\modificators\CH_Log;
+use CH\modificators\Log\CH_Log;
 
 class HomDatae extends CH_Controller
 {

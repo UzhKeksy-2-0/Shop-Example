@@ -1,5 +1,5 @@
 <?php
-namespace CH\modificators;
+namespace CH\modificators\Log;
 
 use CH\basic\BC_Log;
 

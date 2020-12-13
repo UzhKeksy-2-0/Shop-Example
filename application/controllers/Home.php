@@ -1,7 +1,7 @@
 <?php
 
 use app\models\Product;
-use CH\modificators\CH_Controller;
+use CH\modificators\Controller\CH_Controller;
 
 class HomDatae extends CH_Controller
 {

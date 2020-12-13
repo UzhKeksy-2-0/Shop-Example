@@ -1,5 +1,5 @@
 <?php
-namespace CH\modificators;
+namespace CH\modificators\FileWorker;
 
 use CH\basic\BC_FileWorker;
 
