@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use CH\modificators\CH_DataBase;
+use CH\modificators\DataBase\CH_DataBase;
 
 class example extends CH_DataBase
 {
