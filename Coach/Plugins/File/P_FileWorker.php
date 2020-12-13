@@ -6,4 +6,3 @@ class P_FileWorker extends FileWorker
 {
     
 }
-
