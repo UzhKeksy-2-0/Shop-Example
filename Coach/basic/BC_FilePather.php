@@ -6,7 +6,7 @@ use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use stdClass;
 
-class BC_FileWorker
+class BC_FilePather
 {
     public $path;
     public $files;

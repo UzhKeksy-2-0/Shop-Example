@@ -1,7 +1,6 @@
 <?php
     require_once './bootsrap.php';
 
-use CH\basic\BC_Config;
 use CH\modificators\Log\CH_Log;
 use CH\modificators\core\Application;
     try {

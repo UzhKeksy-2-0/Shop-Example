@@ -1,20 +1,15 @@
 <?php
 require_once './bootsrap.php';
-use app\core\Application;
-use app\models\Product;
-use CH\CH_Log;
+use CH\Plugins\File\P_FileWorker;
+$files = new P_FileWorker();
 
-/**
-* Used for logging all php notices,warings and etc in a file when error reporting
-* is set and display_errors is off
-* @uses used in prod env for logging all type of error of php code in a file for further debugging
-* and code performance
-*/
-
+// $files->mkdir('./data',0700);
+// $files->dumpFile('data.txt','Hello');
+$files->appendToFile('data.txt','  Super add');
 
 //calling custom error handler
-set_error_handler("handleError");
-print_r($arra); //undefined variable
+// set_error_handler("handleError");
+// print_r($arra); //undefined variable
 /*
 IMPORTANT LOCAL DATABASE CONECT
 Product::connect('localhost','root','','flower_shop');

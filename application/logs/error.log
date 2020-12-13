@@ -1,3 +1,18 @@
+[20.12.13 16:36:02] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
+[20.12.13 16:35:56] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
+[20.12.13 16:35:24] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
 [20.12.13 14:21:35] Class 'CH\modificators\CH_Controller' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(55): require()
@@ -37,12 +52,12 @@
 #4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
 #5 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
 #6 {main}
-[20.12.13 13:45:48] Class 'CH\modificators\CH_FileWorker' not found
+[20.12.13 13:45:48] Class 'CH\modificators\CH_FilePather' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
 #1 /home/david/Project/FlowerShop/public/index.php(8): CH\basic\core\BC_Application->__construct()
 #2 {main}
-[20.12.13 13:44:21] Class 'CH\modificators\CH_FileWorker' not found
+[20.12.13 13:44:21] Class 'CH\modificators\CH_FilePather' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
 #1 /home/david/Project/FlowerShop/public/index.php(8): CH\basic\core\BC_Application->__construct()
