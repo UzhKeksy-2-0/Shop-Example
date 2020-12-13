@@ -180,6 +180,53 @@
         ]
     },
     {
+        "name": "symfony/filesystem",
+        "version": "v5.2.0",
+        "version_normalized": "5.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/filesystem.git",
+            "reference": "bb92ba7f38b037e531908590a858a04d85c0e238"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/bb92ba7f38b037e531908590a858a04d85c0e238",
+            "reference": "bb92ba7f38b037e531908590a858a04d85c0e238",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/polyfill-ctype": "~1.8"
+        },
+        "time": "2020-11-12T09:58:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Filesystem\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Filesystem Component",
+        "homepage": "https://symfony.com"
+    },
+    {
         "name": "symfony/polyfill-ctype",
         "version": "v1.20.0",
         "version_normalized": "1.20.0.0",
