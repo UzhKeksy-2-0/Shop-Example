@@ -11,7 +11,13 @@ class BC_Router
 
     public BC_Request $request;
     public CH_FilePather $controllers;
-    protected array $staticRoutes = [];
+    protected array $staticRoutes = [];    
+    /**
+     * __construct
+     *
+     * @param  mixed $request
+     * @return void
+     */
     public function __construct(BC_Request $request)
     {
         $this->controllers = new CH_FilePather(CONTROLLERS);

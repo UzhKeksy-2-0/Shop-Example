@@ -4,5 +4,6 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class FileWorker extends Filesystem
 {
+    
 }
 
