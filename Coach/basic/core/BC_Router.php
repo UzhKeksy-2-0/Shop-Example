@@ -3,7 +3,7 @@
 namespace CH\basic\core;
 
 use Exception;
-use CH\modificators\FilePather\CH_FilePather;
+use CH\modificators\File\FilePather\CH_FilePather;
 use CH\modificators\Logs\CH_Log;
 
 class BC_Router
