@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
-</head>
-
-<body >
   <div class="pt-5">
     <div class="container">
       <div class="row">
@@ -32,18 +21,5 @@
           <div class="row">
             <div class="col-9 col-md-12"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
               <p>CHraine. Uzhgorod. st Petefi 23/10</p>
-               
-              
-
-
-
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</body>
-
-</html>
+          </div></div></div></div></div>

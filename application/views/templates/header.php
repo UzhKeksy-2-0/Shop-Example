@@ -16,8 +16,8 @@
         </a>
         <ul class="navbar-nav mx-auto">
           <li class="nav-item"> <a class="nav-link" href="/">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="/aboutUs">About us</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="/ContactsUs">Contacts</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/About">About us</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="/Contacts">Contacts</a></li>
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item"> <a class="nav-link" href="/login">Log in</a> </li>

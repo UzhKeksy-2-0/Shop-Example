@@ -11,7 +11,7 @@ class ControllerName extends CH_Controller
     }
     public function pageLoad(){
         $this->load($this->views_file->templates->header,[]);
-        $this->load($this->views_file->templates->register,[]);
+        $this->load($this->views_file->templates->aboutus,[]);
         $this->load($this->views_file->templates->footer,[]);
     }
 }

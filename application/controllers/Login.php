@@ -11,14 +11,8 @@ class HomDatae extends CH_Controller
         parent::__construct();
     }
     public function pageLoad(){
-        product::connect('localhost','root','','flower_shop');
-        $products = product::get();
         $this->load($this->views_file->templates->header,[]);
         $this->load($this->views_file->templates->login,[]);
         $this->load($this->views_file->templates->footer,[]);
-
-
-
-        
     }
 }

@@ -2,10 +2,10 @@
     $db = [];
     $db['default'] = [
         'hostName' => 'localhost',
-        'login' => 'user',
-        'pass' => 'question123456',
+        'login' => 'root',
+        'pass' => 'root',
         'dbName' => 'flower_shop',
         'dbdriver' => 'mysqli',
-        'port'=>'3260',
+        'port'=>'3306',
     ];
     $defaultDB = $db['default'];    
