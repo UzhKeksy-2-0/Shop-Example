@@ -1,3 +1,71 @@
+[20.12.14 15:33:28] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/error404.php(15): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 15:32:13] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/error404.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 15:31:58] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/error404.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(10): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 12:45:55] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Contacts.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 12:43:48] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Contacts.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 12:43:36] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Contacts.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 12:42:32] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Contacts.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 12:39:44] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Contacts.php(14): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.14 12:35:03] Class 'app\models\Product' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#3 {main}
+[20.12.14 02:48:06] Class 'app\models\Product' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(60): HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/public/index.php(9): CH\basic\core\BC_Application->run()
+#3 {main}
 [20.12.14 02:25:21] Class 'CH\modificators\FilePather\CH_FilePather' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()

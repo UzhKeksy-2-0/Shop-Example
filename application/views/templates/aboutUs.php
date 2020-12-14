@@ -20,7 +20,6 @@
       </div>
     </div>
   </div>
-  <li class="nav-item"> <a class="nav-link text-primary" href="/">About us</a> </li>
 </body>
 
 </html>
