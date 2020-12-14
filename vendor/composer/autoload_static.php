@@ -41,6 +41,10 @@ class ComposerStaticInit11237a48d19f3854de62003402d03a2c
         array (
             'Psr\\Container\\' => 14,
         ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
+        ),
         'C' => 
         array (
             'CH\\' => 3,
@@ -99,6 +103,10 @@ class ComposerStaticInit11237a48d19f3854de62003402d03a2c
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
         'CH\\' => 
         array (

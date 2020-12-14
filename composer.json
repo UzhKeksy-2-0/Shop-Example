@@ -17,6 +17,7 @@
         "symfony/console": "^5.2",
         "symfony/filesystem": "^5.2",
         "symfony/finder": "^5.2",
-        "symfony/string": "^5.2"
+        "symfony/string": "^5.2",
+        "fzaninotto/faker": "^1.9"
     }
 }
