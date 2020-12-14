@@ -1,13 +1,10 @@
 <?php
     require_once './bootsrap.php';
 
-use CH\basic\BC_Config;
-use CH\modificators\CH_Log;
+use CH\modificators\Log\CH_Log;
 use CH\modificators\core\Application;
     try {
         $app = new Application();
-      //  BC_Config::getConfigFromFile('/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/site.config.php');
-//        (new CH_Log)->log(TEST,null,true);
         $app->router->setStaticRoute('','home');
         $app->run();
     } catch (Throwable $e) {

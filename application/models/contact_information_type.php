@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use CH\modificators\CH_DataBase;
+use CH\modificators\DataBase\CH_DataBase;
 
 class contact_information_type extends CH_DataBase
 {

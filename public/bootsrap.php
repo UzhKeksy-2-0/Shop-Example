@@ -1,6 +1,6 @@
 <?php
 
-use CH\modificators\CH_Log;
+use CH\modificators\Log\CH_Log;
 
 require_once '../application/configs/path.config.php';
 error_reporting(E_ALL);

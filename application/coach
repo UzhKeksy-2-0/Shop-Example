@@ -1,0 +1,11 @@
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use CH\Plugins\Terminal\Comands\View;
+use CH\Plugins\Terminal\Comands\Controller;
+use Symfony\Component\Console\Application;
+ 
+$app = new Application();
+$app->add(new View(__DIR__));
+$app->add(new Controller(__DIR__));
+$app->run();

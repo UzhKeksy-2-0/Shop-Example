@@ -3,18 +3,18 @@
 namespace CH\basic\core;
 
 use Exception;
-use CH\modificators\CH_FileWorker;
-use CH\modificators\CH_Log;
+use CH\modificators\File\FilePather\CH_FilePather;
+use CH\modificators\Logs\CH_Log;
 
 class BC_Router
 {
 
     public BC_Request $request;
-    public CH_FileWorker $controllers;
+    public CH_FilePather $controllers;
     protected array $staticRoutes = [];
     public function __construct(BC_Request $request)
     {
-        $this->controllers = new CH_FileWorker(CONTROLLERS);
+        $this->controllers = new CH_FilePather(CONTROLLERS);
         $this->request = $request;
     }
     /**

@@ -20,10 +20,10 @@ abstract class BC_Controller implements BC_Controller_Interface
     {
         require_once '../application/configs/path.config.php';
         $this->log = new BC_Log;
-        $files = new BC_FileWorker(CORE);
-        $this->views_file = (new BC_FileWorker(VIEWS))->files;
-        $this->models_file = (new BC_FileWorker(MODELS))->files;
-        $this->database_file = (new BC_FileWorker(CONFIGS))->files->{'database.config'};
+        $files = new BC_FilePather(CORE);
+        $this->views_file = (new BC_FilePather(VIEWS))->files;
+        $this->models_file = (new BC_FilePather(MODELS))->files;
+        $this->database_file = (new BC_FilePather(CONFIGS))->files->{'database.config'};
     }
 
 
