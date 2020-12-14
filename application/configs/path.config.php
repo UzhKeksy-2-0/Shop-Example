@@ -27,4 +27,9 @@
     // configs
     const DB_CONFG = CONFIGS .  'database.config.php';
 
+    //
+    const COACH_VIEW_TEMPLATE = 'view';
+    const COACH_CONTROLLER_TEMPLATE = 'controller';
+    const COACH_MODEL_TEMPLATE = 'model';
+
 

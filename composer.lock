@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9cd8af15766b6f23c8e981298a1a870f",
+    "content-hash": "77a8e5b4866e763cc2778206dbfb9c65",
     "packages": [
         {
             "name": "joshcam/mysqli-database-class",

@@ -11,20 +11,18 @@ use Symfony\Component\Console\Input\InputArgument;
 class View extends Command
 {    
     protected static $defaultName = 'view';    
-    private $configs;
+    private $root;
     private $template;
     /**
      * __construct
      *
-     * @param  mixed $configs if it is null, it will be config file by default
+     * @param  mixed $root if it is null, it will be config file by default
      * @return void
      */
-    public function __construct($configs = null)
+    public function __construct($root)
     {
-        if($configs == null){
-            $configs = $_SERVER['DOCUMENT_ROOT'].'/application/configs/path.config.php';
-        }
-        $this->configs = $configs;
+        $this->root = $root;
+        $this->template = $this->root . '/core/templatesCoach/view';
         parent::__construct();
     }    
     /**
@@ -38,7 +36,7 @@ class View extends Command
             ->setHelp("CREATE - Creates file by views template. If file exist it will be rewriten.\nFIND - Finds file by file name in all project")
             ->setDescription("Work with views\n  Create, find, tCreate views")
             ->addArgument('key', InputArgument::REQUIRED, 'create -create new view, find find view')
-            ->addArgument('view name', InputArgument::REQUIRED, 'name of view that you want to work with');;
+            ->addArgument('viewName', InputArgument::REQUIRED, 'name of view that you want to work with');;
     }    
     /**
      * execute
@@ -50,10 +48,13 @@ class View extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $command = $input->getArgument('key');
+        $output->writeln('<error>'.$this->root.'</error>');
         switch ($command) {
             case 'create': {
-                include $this->configs;
+                $text = file_get_contents($this->template);
                 $filer = new P_FileWorker();
+                $output->writeln('<error>'.$this->root. '/views/templates/' . $input->getArgument('viewName').'</error>');
+                $filer->dumpFile($this->root. '/views/templates/' . $input->getArgument('viewName'),$text);
                 break;
             }
             case 'find': {

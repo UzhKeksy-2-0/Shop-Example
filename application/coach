@@ -5,5 +5,5 @@ use CH\Plugins\Terminal\Comands\View;
 use Symfony\Component\Console\Application;
  
 $app = new Application();
-$app->add(new View());
+$app->add(new View(__DIR__));
 $app->run();
