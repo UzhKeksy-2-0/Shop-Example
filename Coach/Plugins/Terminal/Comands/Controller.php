@@ -34,7 +34,7 @@ class Controller extends Command
     {
         $this
             ->setHelp("CREATE - Creates file by controller template. If file exist it will be rewriten.\nFIND - Finds file by file name in all project")
-            ->setDescription("Work with controller\n  Create, find controller")
+            ->setDescription("Work with controller. Create, find controller")
             ->addArgument('key', InputArgument::REQUIRED, 'create -create new view, find find view')
             ->addArgument('viewName', InputArgument::REQUIRED, 'name of view that you want to work with');;
     }    
