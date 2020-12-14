@@ -1,3 +1,23 @@
+[20.12.14 02:21:30] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
+[20.12.14 02:21:26] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
+[20.12.14 02:21:21] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
+[20.12.14 02:21:13] Class 'CH\modificators\FilePather\CH_FilePather' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()
+#1 /home/david/Project/FlowerShop/public/index.php(7): CH\basic\core\BC_Application->__construct()
+#2 {main}
 [20.12.13 16:36:02] Class 'CH\modificators\FilePather\CH_FilePather' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(12): CH\basic\core\BC_Router->__construct()

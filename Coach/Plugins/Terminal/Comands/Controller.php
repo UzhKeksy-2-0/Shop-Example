@@ -8,9 +8,9 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 
-class View extends Command
+class Controller extends Command
 {    
-    protected static $defaultName = 'view';    
+    protected static $defaultName = 'controller';    
     private $root;
     private $template;
     /**
@@ -22,7 +22,7 @@ class View extends Command
     public function __construct($root)
     {
         $this->root = $root;
-        $this->template = $this->root . '/core/templatesCoach/view';
+        $this->template = $this->root . '/core/templatesCoach/controller';
         parent::__construct();
     }    
     /**
@@ -33,8 +33,8 @@ class View extends Command
     protected function configure()
     {
         $this
-            ->setHelp("CREATE - Creates file by views template. If file exist it will be rewriten.\nFIND - Finds file by file name in all project")
-            ->setDescription("Work with views\n  Create, find views")
+            ->setHelp("CREATE - Creates file by controller template. If file exist it will be rewriten.\nFIND - Finds file by file name in all project")
+            ->setDescription("Work with controller\n  Create, find controller")
             ->addArgument('key', InputArgument::REQUIRED, 'create -create new view, find find view')
             ->addArgument('viewName', InputArgument::REQUIRED, 'name of view that you want to work with');;
     }    
@@ -52,8 +52,8 @@ class View extends Command
             case 'create': {
                 $text = file_get_contents($this->template);
                 $filer = new P_FileWorker();
-                $output->writeln('<info>View is succesfully added</info>');
-                $filer->dumpFile($this->root. '/views/templates/' . $input->getArgument('viewName'),$text);
+                $output->writeln('<info>Controller is succesfully added</info>');
+                $filer->dumpFile($this->root. '/controllers/' . $input->getArgument('viewName'),$text);
                 break;
             }
             case 'find': {

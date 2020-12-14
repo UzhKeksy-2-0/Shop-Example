@@ -1,4 +1,5 @@
 <?php
+namespace app\controllers;
 
 use app\models\product;
 use CH\modificators\Controller\CH_Controller;
