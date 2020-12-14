@@ -25,6 +25,7 @@ class BC_Config
                 $current = array_diff_assoc($after['user'],$before['user']);
             }else{
                 $current = $after['user'];
+                //
                 
             }
             foreach($current as $name => $data){
