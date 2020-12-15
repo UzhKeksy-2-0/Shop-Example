@@ -3,6 +3,7 @@
 namespace CH\Plugins\Terminal\Comands;
 
 use CH\Plugins\File\P_FileWorker;
+use SplFileInfo;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -48,22 +49,30 @@ class Configs extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        
-        $question = new Question('Please enter the name of the bundle', 'AcmeDemoBundle');
-
-        $bundleName = $helper->ask($input, $output, $question);
         $command = $input->getArgument('key');
         switch ($command) {
             case 'update':
             case 'create': {
+                $splFileInfo = new SplFileInfo($input->getArgument('config path'));
+                // check if file has right extension
+                if($splFileInfo->getExtension() == "json"){
+                    // get data from giver file (.json)
+                    $templateData = json_decode(file_get_contents($input->getArgument('config path')));
+                }else{
+                    // if file does not have any extension return Failure
+                    return Command::FAILURE;
+                }
+                // name of new file
+                $path_parts = pathinfo($input->getArgument('config path'));
+                // get file folder (to add there .php file)
+                $dirName = $splFileInfo->getPath();
+                // get demo text from config template
                 $text = file_get_contents($this->template);
-                $filer = new P_FileWorker();
+                // write to user
                 $output->writeln('<info>Controller is succesfully added</info>');
-                $filer->dumpFile($this->root. '/' . $input->getArgument('config path'),$text);
-                break;
-            }
-            case 'update': {
-
+                // create new file by P_Filworker
+                $filer = new P_FileWorker();
+                $filer->dumpFile($this->root. '/' . $path_parts['filename'].'.php',$text);
                 break;
             }
         }
