@@ -24,7 +24,13 @@ class Namespacer
             $fileData = json_decode(file_get_contents(__DIR__.'/namespaces.json'),true);
 
         }
-    }
+    }    
+    /**
+     * __construct1
+     * creates configs by cinfig file
+     * @param  mixed $configFile
+     * @return void
+     */
     public function __construct1($configFile)
     {
         $this->namespaces = json_decode(file_get_contents($configFile),true);
@@ -41,7 +47,7 @@ class Namespacer
         // get data from composer. We do it to take all parent namespaces that are static
         $configs = json_decode(file_get_contents($composerPath),true);
         // get only neccesary data
-        $configs = $configs['autoload']['psr-4'];
+        $configs = preg_replace('/[^A-Za-z0-9\-]/', '', $configs['autoload']['psr-4']);
         //  write complete data to file
         file_put_contents($result,json_encode($configs));
         return $configs;
@@ -52,9 +58,49 @@ class Namespacer
      * @param  mixed $namespace
      * @return void
      */
-    public function addNameSpace(string $namespace)
+    public function addNameSpaceByName(string $namespaceName)
     {
-        
+        $namespaces = explode("\\",$namespaceName);
+        array_push($this->namespaces,$namespaces);
+    }
+
+
+    /**
+     * Get the value of namespaces
+     */ 
+    public function getNamespaces()
+    {
+        return $this->namespaces;
+    }
+
+    /**
+     * Set the value of namespaces
+     *
+     * @return  self
+     */ 
+    public function setNamespaces($namespaces)
+    {
+        $this->namespaces = $namespaces;
+        return $this;
+    }
+
+    /**
+     * Get the value of parentNamespace
+     */ 
+    public function getParentNamespace()
+    {
+        return $this->parentNamespace;
+    }
+
+    /**
+     * Set the value of parentNamespace
+     *
+     * @return  self
+     */ 
+    public function setParentNamespace($parentNamespace)
+    {
+        $this->parentNamespace = $parentNamespace;
+        return $this;
     }
 }
 
