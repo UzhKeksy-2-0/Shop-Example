@@ -3,6 +3,8 @@
 namespace CH\Plugins\Terminal\Comands;
 
 use CH\Plugins\File\P_FileWorker;
+use Nette\PhpGenerator\PhpFile;
+use Nette\PhpGenerator\PhpNamespace;
 use SplFileInfo;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -66,13 +68,24 @@ class Configs extends Command
                 $path_parts = pathinfo($input->getArgument('config path'));
                 // get file folder (to add there .php file)
                 $dirName = $splFileInfo->getPath();
-                // get demo text from config template
-                $text = file_get_contents($this->template);
+                $helper = $this->getHelper('question');
+                // ask path to .php file
+                $filePath = $helper->ask($input, $output,new Question('Please enter path to class file',$dirName.'.php'));
+                // ask namespace name
+                $question = new Question('Please enter namespace','app');
+                $namespaceN = $helper->ask($input, $output,$question);
+                // generate class file
+                $file = new PhpFile;
+                $namespace  = $file->addNamespace($namespaceN);
+                $class = $namespace->addClass($path_parts['filename']);
+                foreach($templateData as $name => $value){
+                    $class->addConstant($name,$value);
+                }
                 // write to user
                 $output->writeln('<info>Controller is succesfully added</info>');
                 // create new file by P_Filworker
                 $filer = new P_FileWorker();
-                $filer->dumpFile($this->root. '/' . $path_parts['filename'].'.php',$text);
+                $filer->dumpFile($this->root. '/' . $filePath.'.php',$file);
                 break;
             }
         }

@@ -1,6 +1,11 @@
-<?php 
+<?php
+
 namespace app;
-class ClassName
+
+class sds
 {
-    // data     
+	const name = 'david/php-mvc-framework';
+	const authors = 'David GAzda';
+	const autoload = 'Super Puk';
+	const require = 'Kaka';
 }

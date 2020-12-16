@@ -1,24 +1,6 @@
 {
     "name": "david/php-mvc-framework",
-    "authors": [
-        {
-            "name": "Duvi-Gazda",
-            "email": "gazda.haimdavid@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "app\\": "application/",
-            "CH\\": "Coach/"
-        }
-    },
-    "require": {
-        "joshcam/mysqli-database-class": "^2.9",
-        "symfony/console": "^5.2",
-        "symfony/filesystem": "^5.2",
-        "symfony/finder": "^5.2",
-        "symfony/string": "^5.2",
-        "fzaninotto/faker": "^1.9",
-        "symfony/process": "^5.2"
-    }
+    "authors": "David GAzda",
+    "autoload": "Super Puk",
+    "require": "Kaka"
 }
