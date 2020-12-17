@@ -1,3 +1,45 @@
+[20.12.16 16:08:29] array(2) {
+  ["home"]=>
+  string(4) "data"
+  [0]=>
+  array(1) {
+    ["home"]=>
+    array(1) {
+      ["data"]=>
+      string(3) "wow"
+    }
+  }
+}
+
+[20.12.16 16:08:29] array(2) {
+  ["app"]=>
+  string(11) "application"
+  ["CH"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 16:08:14] Array
+[20.12.16 16:08:14] array(2) {
+  ["app"]=>
+  string(11) "application"
+  ["CH"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 15:58:31] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:56:09] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
 [20.12.16 15:42:25] array(2) {
   ["app"]=>
   string(11) "application"
