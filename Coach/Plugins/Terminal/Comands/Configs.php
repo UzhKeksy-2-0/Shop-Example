@@ -3,17 +3,16 @@
 namespace CH\Plugins\Terminal\Comands;
 
 use CH\basic\core\BC_Namespacer;
+use CH\modificators\Terminal\Terminal;
 use CH\Plugins\File\P_FileWorker;
 use Nette\PhpGenerator\PhpFile;
-use Nette\PhpGenerator\PhpNamespace;
-use SplFileInfo;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Question\Question;
 
-class Configs extends Command
+class Configs extends Terminal
 {    
     protected static $defaultName = 'config';    
     private $root;
