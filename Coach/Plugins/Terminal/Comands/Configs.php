@@ -10,6 +10,7 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Question\Question;
 
 class Configs extends Terminal
@@ -37,10 +38,29 @@ class Configs extends Terminal
     protected function configure()
     {
         $this
-            ->setHelp("CREATE - Creates file by controller template. If file exist it will be rewriten.\nUpdate updataes data from config to config.php")
-            ->setDescription("Work with controller. Create, upload config")
-            ->addArgument('key', InputArgument::REQUIRED, 'create create new config, upadate updates configs data')
-            ->addArgument('config path', InputArgument::REQUIRED, 'path to config file (*.json)');
+            ->addOption(
+                'create',
+                '-c',
+                InputOption::VALUE_OPTIONAL,
+                "create new command \n<info>Values</info>  newLocation (NL);   sameLocation (SL)",
+                'jsonFolder',
+            )
+            ->addOption(
+                'updateClass',
+                '-uc',
+                InputOption::VALUE_OPTIONAL,
+                "updates command \n<info>Values</info>   newLocation (NL);   sameLocation (SL);"
+            )
+            ->addOption(
+                'update'
+            )
+            ->addOption(
+                'remove',
+                '-r',
+                InputOption::VALUE_OPTIONAL,
+                "removes config by path",
+                null
+            );
     }    
     /**
      * execute

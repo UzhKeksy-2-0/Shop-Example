@@ -62,6 +62,8 @@ class ComandWorker extends Terminal
 
             switch($createType)
             {
+                case 'default':
+                case 'd':
                 case 'min':
                 {
                     $file = new PhpFile;
