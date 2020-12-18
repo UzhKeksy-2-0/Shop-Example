@@ -13,5 +13,5 @@ $app->add(new View(__DIR__));
 $app->add(new Configs(__DIR__));
 $app->add(new Tester());
 $app->add(new Controller(__DIR__));
-$app->add(new ComandWorker());
+$app->add(new ComandWorker(dirname(__DIR__) . '/Coach/Plugins/Terminal/Comands/'));
 $app->run();
