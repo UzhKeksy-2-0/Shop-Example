@@ -2,6 +2,7 @@
 
 namespace CH\Plugins\Terminal\Comands;
 
+use CH\basic\core\BC_Namespacer;
 use CH\Plugins\File\P_FileWorker;
 use Nette\PhpGenerator\PhpFile;
 use Nette\PhpGenerator\PhpNamespace;
@@ -72,11 +73,12 @@ class Configs extends Command
                 // ask path to .php file
                 $filePath = $helper->ask($input, $output,new Question('Please enter path to class file',$dirName.'.php'));
                 // ask namespace name
-                $question = new Question('Please enter namespace','app');
-                $namespaceN = $helper->ask($input, $output,$question);
+                // $question = new Question('Please enter namespace','app');
+                // $namespaceN = $helper->ask($input, $output,$question);
                 // generate class file
                 $file = new PhpFile;
-                $namespace  = $file->addNamespace($namespaceN);
+                BC_Namespacer::$composerPath = '../composer.json';
+                $namespace  = $file->addNamespace(BC_Namespacer::generateNameSpaceByPath($this->root));
                 $class = $namespace->addClass($path_parts['filename']);
                 foreach($templateData as $name => $value){
                     $class->addConstant($name,$value);

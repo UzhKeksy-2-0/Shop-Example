@@ -20,6 +20,7 @@
         "symfony/string": "^5.2",
         "fzaninotto/faker": "^1.9",
         "symfony/process": "^5.2",
-        "nette/php-generator": "^3.5"
+        "nette/php-generator": "^3.5",
+        "stecman/symfony-console-completion": "^0.11.0"
     }
 }

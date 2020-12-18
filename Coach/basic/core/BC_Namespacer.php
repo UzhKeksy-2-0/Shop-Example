@@ -2,6 +2,7 @@
 namespace CH\basic\core;
 
 use CH\modificators\Log\CH_Log;
+use Exception;
 
 /**
  * BC_Namespacer
@@ -49,7 +50,7 @@ class BC_Namespacer
      * @param  mixed $path
      * @return void
      */
-    public static function generateNameSpaceByPath(string $path){
+    public static function generateNameSpaceByPath(string $path):string{
         $parentNamespaces = self::getParentNameSpaces($path);
         $path = explode('/',$path);
         $result =  '';
@@ -63,10 +64,10 @@ class BC_Namespacer
             }
         }
         if($result == ''){
-            return;
+            throw new Exception('Wrond Path');
         } else {
-            for($i = $number; $i < count($path); ++$i){
-                $result .= $path[$i];
+            for($i = $number + 1; $i < count($path); ++$i){
+                $result .= "\\".$path[$i];
             }
         }
         return $result;
