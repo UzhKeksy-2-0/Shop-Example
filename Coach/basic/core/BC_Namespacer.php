@@ -56,10 +56,10 @@ class BC_Namespacer
         $result =  '';
         $number = null;
         foreach($path as $num => $subPath){
-            foreach($parentNamespaces as $parentNamespace){
+            foreach($parentNamespaces as $key =>$parentNamespace){
                 if($subPath == $parentNamespace){
                     $number = $num;
-                    $result = $subPath;
+                    $result = $key;
                 }
             }
         }
