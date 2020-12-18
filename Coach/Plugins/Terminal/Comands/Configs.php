@@ -42,23 +42,28 @@ class Configs extends Terminal
                 'create',
                 '-c',
                 InputOption::VALUE_OPTIONAL,
-                "create new command \n<info>Values</info>  newLocation (NL);   sameLocation (SL)",
+                "create new config class by config file \n<info>Values</info>  newLocation (NL);   sameLocation (SL)",
                 'jsonFolder',
             )
             ->addOption(
                 'updateClass',
                 '-uc',
-                InputOption::VALUE_OPTIONAL,
-                "updates command \n<info>Values</info>   newLocation (NL);   sameLocation (SL);"
+                InputOption::VALUE_IS_ARRAY,
+                "updates config class \n<info>Values</info>   newLocation (NL);   sameLocation (SL);",
+                ['sameLocation' => 'fileName']
             )
             ->addOption(
-                'update'
+                'updateConfig',
+                '-uC',
+                InputOption::VALUE_IS_ARRAY,
+                "updates config file \n<info>Values</info>   newLocation (NL);   sameLocation (SL);",
+                ['sameLocation' => 'fileName']
             )
             ->addOption(
                 'remove',
                 '-r',
-                InputOption::VALUE_OPTIONAL,
-                "removes config by path",
+                InputOption::VALUE_REQUIRED,
+                "removes config class by path",
                 null
             );
     }    
