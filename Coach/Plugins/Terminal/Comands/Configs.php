@@ -55,7 +55,7 @@ class Configs extends Terminal
         switch ($command) {
             case 'update':
             case 'create': {
-                $splFileInfo = new SplFileInfo($input->getArgument('config path'));
+                $splFileInfo = new \SplFileInfo($input->getArgument('config path'));
                 // check if file has right extension
                 if($splFileInfo->getExtension() == "json"){
                     // get data from giver file (.json)
