@@ -11,7 +11,6 @@ use CH\modificators\core\Application;
         $app->run();
     } catch (Throwable $e) {
         if($e->getCode() == 404){
-            //echo '404 Sorry but link is not right';
             header('Location: http://localhost:8080/error');
             return;
         }

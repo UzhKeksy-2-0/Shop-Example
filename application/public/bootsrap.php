@@ -2,7 +2,7 @@
 
 use CH\modificators\Log\CH_Log;
 
-require_once '../application/configs/path.config.php';
+require_once '../configs/path.config.php';
 error_reporting(E_ALL);
 ini_set("display_errors", "off");
 /**
