@@ -1,5 +1,5 @@
 <?php
-    $db = [];
+    global $db;
     $db['default'] = [
         'hostName' => 'localhost',
         'login' => 'root',

@@ -1,144 +1,453 @@
-[20.12.13 02:25:18] string(4) "TEST"
-
-[20.12.13 02:24:49] string(4) "TEST"
-
-[20.12.13 02:21:56] string(4) "TEST"
-
-[20.12.11 15:24:39] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:24:39] string(3) "add"
-
-[20.12.11 15:24:11] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:24:11] string(4) "TEST"
-
-[20.12.11 15:24:01] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:24:01] string(3) "add"
-
-[20.12.11 15:23:48] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:23:48] string(3) "add"
-
-[20.12.11 15:23:29] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:23:29] object(CH\basic\BC_Config)#6 (0) {
+[20.12.16 16:08:29] array(2) {
+  ["home"]=>
+  string(4) "data"
+  [0]=>
+  array(1) {
+    ["home"]=>
+    array(1) {
+      ["data"]=>
+      string(3) "wow"
+    }
+  }
 }
 
-[20.12.11 15:22:56] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:22:56] array(1) {
-  ["Data"]=>
-  string(0) ""
+[20.12.16 16:08:29] array(2) {
+  ["app"]=>
+  string(11) "application"
+  ["CH"]=>
+  string(5) "Coach"
 }
 
-[20.12.11 15:22:02] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:22:02] array(1) {
-  ["Data"]=>
-  string(0) ""
+[20.12.16 16:08:14] Array
+[20.12.16 16:08:14] array(2) {
+  ["app"]=>
+  string(11) "application"
+  ["CH"]=>
+  string(5) "Coach"
 }
 
-[20.12.11 15:21:26] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:21:25] array(0) {
+[20.12.16 15:58:31] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 15:21:05] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:21:05] Array
-[20.12.11 15:20:39] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:06:44] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:06:44] add
-[20.12.11 15:06:44] TEST
-[20.12.11 15:06:11] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:05:19] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:05:19] array(1) {
-  ["TEST"]=>
-  string(3) "add"
+[20.12.16 15:56:09] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 15:04:49] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:04:49] array(21) {
-  ["ROOT"]=>
-  string(42) "/home/david/Sync/it-step/Php_and_Sql/Exam/"
-  ["APPLICATION"]=>
-  string(54) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/"
-  ["MEDIA"]=>
-  string(48) "/home/david/Sync/it-step/Php_and_Sql/Exam/media/"
-  ["PUBLIC_"]=>
-  string(49) "/home/david/Sync/it-step/Php_and_Sql/Exam/public/"
-  ["VENDOR"]=>
-  string(49) "/home/david/Sync/it-step/Php_and_Sql/Exam/vendor/"
-  ["STYLES"]=>
-  string(49) "/home/david/Sync/it-step/Php_and_Sql/Exam/styles/"
-  ["VIEWS"]=>
-  string(60) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/views/"
-  ["CONFIGS"]=>
-  string(62) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/"
-  ["CONTROLLERS"]=>
-  string(66) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/controllers/"
-  ["CORE"]=>
-  string(59) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/core/"
-  ["MODELS"]=>
-  string(61) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/models/"
-  ["LOGS"]=>
-  string(59) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/"
-  ["HELPERS"]=>
-  string(62) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/helpers/"
-  ["LANGUAGES"]=>
-  string(64) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/languages/"
-  ["BOOTSTRAP"]=>
-  string(42) "/home/david/Sync/it-step/Php_and_Sql/Exam/"
-  ["AUTOLOAD"]=>
-  string(61) "/home/david/Sync/it-step/Php_and_Sql/Exam/vendor/autoload.php"
-  ["ERROR"]=>
-  string(68) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/error.log"
-  ["LOG"]=>
-  string(66) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/log.log"
-  ["WARNING"]=>
-  string(70) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/logs/warning.log"
-  ["DB_CONFG"]=>
-  string(81) "/home/david/Sync/it-step/Php_and_Sql/Exam/application/configs/database.config.php"
-  ["TEST"]=>
-  string(3) "add"
+[20.12.16 15:42:25] array(2) {
+  ["app"]=>
+  string(11) "application"
+  ["CH"]=>
+  string(5) "Coach"
 }
 
-[20.12.11 15:04:41] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:04:41] Array
-[20.12.11 15:04:30] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:04:30] data
-[20.12.11 15:04:20] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:04:03] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:03:53] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:03:42] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:00:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 15:00:47] object(CH\basic\BC_Config)#6 (0) {
+[20.12.16 15:39:20] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 14:59:26] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:55:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:55:47] array(1) {
-  ["TEST"]=>
-  string(3) "add"
+[20.12.16 15:37:36] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 14:54:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:54:30] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:52:20] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:52:20] array(0) {
+[20.12.16 15:37:10] array(2) {
+  ["app"]=>
+  string(5) "value"
+  ["CH"]=>
+  string(5) "value"
 }
 
-[20.12.11 14:50:49] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:50:49] array(0) {
+[20.12.16 15:36:40] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 14:50:37] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:50:37] array(0) {
+[20.12.16 15:36:01] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 14:50:33] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:50:33] array(0) {
+[20.12.16 15:35:49] NULL
+
+[20.12.16 15:35:12] NULL
+
+[20.12.16 15:34:32] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 14:49:54] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:49:54] array(0) {
+[20.12.16 15:33:37] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
 }
 
-[20.12.11 14:49:47] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:49:47] string(4) "daat"
+[20.12.16 15:33:15] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
 
-[20.12.11 14:49:28] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:49:09] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
-[20.12.11 14:48:02] /home/david/Sync/it-step/Php_and_Sql/Exam/UzhKeksy/Plugins/
+[20.12.16 15:33:03] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:32:30] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:32:06] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:31:26] array(2) {
+  ["app"]=>
+  string(3) "das"
+  ["CH"]=>
+  string(3) "das"
+}
+
+[20.12.16 15:30:54] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:28:54] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:28:28] array(2) {
+  ["app"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:28:04] array(2) {
+  ["App"]=>
+  string(12) "application/"
+  ["CH"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:24:46] array(2) {
+  ["app\"]=>
+  string(12) "application/"
+  ["CH\"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:21:29] array(2) {
+  ["app\"]=>
+  string(12) "application/"
+  ["CH\"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 15:21:02] array(4) {
+  ["name"]=>
+  string(23) "david/php-mvc-framework"
+  ["authors"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["name"]=>
+      string(10) "Duvi-Gazda"
+      ["email"]=>
+      string(25) "gazda.haimdavid@gmail.com"
+    }
+  }
+  ["autoload"]=>
+  array(1) {
+    ["psr-4"]=>
+    array(2) {
+      ["app\"]=>
+      string(12) "application/"
+      ["CH\"]=>
+      string(6) "Coach/"
+    }
+  }
+  ["require"]=>
+  array(8) {
+    ["joshcam/mysqli-database-class"]=>
+    string(4) "^2.9"
+    ["symfony/console"]=>
+    string(4) "^5.2"
+    ["symfony/filesystem"]=>
+    string(4) "^5.2"
+    ["symfony/finder"]=>
+    string(4) "^5.2"
+    ["symfony/string"]=>
+    string(4) "^5.2"
+    ["fzaninotto/faker"]=>
+    string(4) "^1.9"
+    ["symfony/process"]=>
+    string(4) "^5.2"
+    ["nette/php-generator"]=>
+    string(4) "^3.5"
+  }
+}
+
+[20.12.16 15:20:15] NULL
+
+[20.12.16 14:28:05] string(0) ""
+
+[20.12.16 14:28:05] {
+    "name": "david/php-mvc-framework",
+    "authors": [
+        {
+            "name": "Duvi-Gazda",
+            "email": "gazda.haimdavid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\": "application/",
+            "CH\": "Coach/"
+        }
+    },
+    "require": {
+        "joshcam/mysqli-database-class": "^2.9",
+        "symfony/console": "^5.2",
+        "symfony/filesystem": "^5.2",
+        "symfony/finder": "^5.2",
+        "symfony/string": "^5.2",
+        "fzaninotto/faker": "^1.9",
+        "symfony/process": "^5.2",
+        "nette/php-generator": "^3.5"
+    }
+}
+
+[20.12.16 14:26:18] string(0) ""
+
+[20.12.16 14:26:18] {
+    "name": "david/php-mvc-framework",
+    "authors": [
+        {
+            "name": "Duvi-Gazda",
+            "email": "gazda.haimdavid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "application/",
+            "CH\\": "Coach/"
+        }
+    },
+    "require": {
+        "joshcam/mysqli-database-class": "^2.9",
+        "symfony/console": "^5.2",
+        "symfony/filesystem": "^5.2",
+        "symfony/finder": "^5.2",
+        "symfony/string": "^5.2",
+        "fzaninotto/faker": "^1.9",
+        "symfony/process": "^5.2",
+        "nette/php-generator": "^3.5"
+    }
+}
+
+[20.12.16 14:25:34] string(0) ""
+
+[20.12.16 14:24:28] NULL
+
+[20.12.16 14:24:09] array(4) {
+  ["name"]=>
+  string(23) "david/php-mvc-framework"
+  ["authors"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["name"]=>
+      string(10) "Duvi-Gazda"
+      ["email"]=>
+      string(25) "gazda.haimdavid@gmail.com"
+    }
+  }
+  ["autoload"]=>
+  array(1) {
+    ["psr-4"]=>
+    array(2) {
+      ["app\"]=>
+      string(12) "application/"
+      ["CH\"]=>
+      string(6) "Coach/"
+    }
+  }
+  ["require"]=>
+  array(8) {
+    ["joshcam/mysqli-database-class"]=>
+    string(4) "^2.9"
+    ["symfony/console"]=>
+    string(4) "^5.2"
+    ["symfony/filesystem"]=>
+    string(4) "^5.2"
+    ["symfony/finder"]=>
+    string(4) "^5.2"
+    ["symfony/string"]=>
+    string(4) "^5.2"
+    ["fzaninotto/faker"]=>
+    string(4) "^1.9"
+    ["symfony/process"]=>
+    string(4) "^5.2"
+    ["nette/php-generator"]=>
+    string(4) "^3.5"
+  }
+}
+
+[20.12.16 14:23:38] NULL
+
+[20.12.16 14:22:56] NULL
+
+[20.12.16 14:21:30] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:21:24] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:21:12] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:19:51] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:19:33] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:17:49] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:17:32] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:17:10] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:16:32] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:14:38] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 14:14:05] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 13:26:11] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 13:22:17] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 13:16:44] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 13:16:30] Array
+[20.12.16 12:56:41] array(2) {
+  ["app\"]=>
+  string(11) "application"
+  ["CH\"]=>
+  string(5) "Coach"
+}
+
+[20.12.16 12:51:27] array(2) {
+  ["app\"]=>
+  string(12) "application/"
+  ["CH\"]=>
+  string(6) "Coach/"
+}
+
+[20.12.16 12:49:44] array(2) {
+  ["app\"]=>
+  string(12) "application/"
+  ["CH\"]=>
+  string(6) "Coach/"
+}
+

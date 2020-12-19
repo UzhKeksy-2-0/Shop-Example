@@ -2,15 +2,18 @@
 
 namespace CH\Plugins\Terminal\Comands;
 
+use CH\basic\core\BC_Namespacer;
+use CH\modificators\Terminal\Terminal;
 use CH\Plugins\File\P_FileWorker;
-use SplFileInfo;
+use Nette\PhpGenerator\PhpFile;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Question\Question;
 
-class Configs extends Command
+class Configs extends Terminal
 {    
     protected static $defaultName = 'config';    
     private $root;
@@ -35,10 +38,34 @@ class Configs extends Command
     protected function configure()
     {
         $this
-            ->setHelp("CREATE - Creates file by controller template. If file exist it will be rewriten.\nUpdate updataes data from config to config.php")
-            ->setDescription("Work with controller. Create, upload config")
-            ->addArgument('key', InputArgument::REQUIRED, 'create create new config, upadate updates configs data')
-            ->addArgument('config path', InputArgument::REQUIRED, 'path to config file (*.json)');
+            ->addOption(
+                'create',
+                '-c',
+                InputOption::VALUE_OPTIONAL,
+                "create new config class by config file \n<info>Values</info>  newLocation (NL);   sameLocation (SL)",
+                'jsonFolder',
+            )
+            ->addOption(
+                'updateClass',
+                '-uc',
+                InputOption::VALUE_REQUIRED,
+                "updates config class \n<info>Values</info>   newLocation (NL);   sameLocation (SL);",
+                ['sameLocation' => 'fileName']
+            )
+            ->addOption(
+                'updateConfig',
+                '-uC',
+                InputOption::VALUE_REQUIRED,
+                "updates config file \n<info>Values</info>   newLocation (NL);   sameLocation (SL);",
+                ['sameLocation' => 'fileName']
+            )
+            ->addOption(
+                'remove',
+                '-r',
+                InputOption::VALUE_REQUIRED,
+                "removes config class by path",
+                null
+            );
     }    
     /**
      * execute
@@ -48,34 +75,5 @@ class Configs extends Command
      * @return void
      */
     protected function execute(InputInterface $input, OutputInterface $output)
-    {
-        $command = $input->getArgument('key');
-        switch ($command) {
-            case 'update':
-            case 'create': {
-                $splFileInfo = new SplFileInfo($input->getArgument('config path'));
-                // check if file has right extension
-                if($splFileInfo->getExtension() == "json"){
-                    // get data from giver file (.json)
-                    $templateData = json_decode(file_get_contents($input->getArgument('config path')));
-                }else{
-                    // if file does not have any extension return Failure
-                    return Command::FAILURE;
-                }
-                // name of new file
-                $path_parts = pathinfo($input->getArgument('config path'));
-                // get file folder (to add there .php file)
-                $dirName = $splFileInfo->getPath();
-                // get demo text from config template
-                $text = file_get_contents($this->template);
-                // write to user
-                $output->writeln('<info>Controller is succesfully added</info>');
-                // create new file by P_Filworker
-                $filer = new P_FileWorker();
-                $filer->dumpFile($this->root. '/' . $path_parts['filename'].'.php',$text);
-                break;
-            }
-        }
-        return Command::SUCCESS;
-    }
+    {}
 }
