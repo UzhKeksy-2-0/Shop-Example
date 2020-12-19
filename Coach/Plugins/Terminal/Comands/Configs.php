@@ -48,14 +48,14 @@ class Configs extends Terminal
             ->addOption(
                 'updateClass',
                 '-uc',
-                InputOption::VALUE_IS_ARRAY,
+                InputOption::VALUE_REQUIRED,
                 "updates config class \n<info>Values</info>   newLocation (NL);   sameLocation (SL);",
                 ['sameLocation' => 'fileName']
             )
             ->addOption(
                 'updateConfig',
                 '-uC',
-                InputOption::VALUE_IS_ARRAY,
+                InputOption::VALUE_REQUIRED,
                 "updates config file \n<info>Values</info>   newLocation (NL);   sameLocation (SL);",
                 ['sameLocation' => 'fileName']
             )
@@ -75,46 +75,5 @@ class Configs extends Terminal
      * @return void
      */
     protected function execute(InputInterface $input, OutputInterface $output)
-    {
-        $command = $input->getArgument('key');
-        switch ($command) {
-            case 'update':
-            case 'create': {
-                $splFileInfo = new \SplFileInfo($input->getArgument('config path'));
-                // check if file has right extension
-                if($splFileInfo->getExtension() == "json"){
-                    // get data from giver file (.json)
-                    $templateData = json_decode(file_get_contents($input->getArgument('config path')));
-                }else{
-                    // if file does not have any extension return Failure
-                    return Command::FAILURE;
-                }
-                // name of new file
-                $path_parts = pathinfo($input->getArgument('config path'));
-                // get file folder (to add there .php file)
-                $dirName = $splFileInfo->getPath();
-                $helper = $this->getHelper('question');
-                // ask path to .php file
-                $filePath = $helper->ask($input, $output,new Question('Please enter path to class file',$dirName.'.php'));
-                // ask namespace name
-                // $question = new Question('Please enter namespace','app');
-                // $namespaceN = $helper->ask($input, $output,$question);
-                // generate class file
-                $file = new PhpFile;
-                BC_Namespacer::$composerPath = '../composer.json';
-                $namespace  = $file->addNamespace(BC_Namespacer::generateNameSpaceByPath($this->root));
-                $class = $namespace->addClass($path_parts['filename']);
-                foreach($templateData as $name => $value){
-                    $class->addConstant($name,$value);
-                }
-                // write to user
-                $output->writeln('<info>Controller is succesfully added</info>');
-                // create new file by P_Filworker
-                $filer = new P_FileWorker();
-                $filer->dumpFile($this->root. '/' . $filePath.'.php',$file);
-                break;
-            }
-        }
-        return Command::SUCCESS;
-    }
+    {}
 }
