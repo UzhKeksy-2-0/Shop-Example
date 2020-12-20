@@ -4,8 +4,8 @@ namespace CH\basic\core;
 
 class BC_Application
 {
-    public BC_Request $request;
-    public BC_Router $router;
+    public  $request;
+    public  $router;
     public function __construct()
     {
         $this->request = new BC_Request();

@@ -47,10 +47,14 @@ class BC_Router
         array_push($GetPostData, $this->request->getDataFromGet());
         array_push($GetPostData, $this->request->getDataFromPost());
         $pather = (object) $this->controllers->files;
-        if ($this->staticRoutes[$this->request->getRequest()]) {
-            $path = $this->staticRoutes[$this->request->getRequest()];
+        if (($this->staticRoutes[$this->request->getPathWithoutFirstSlash()])) {
+            $path = $this->staticRoutes[$this->request->getPathWithoutFirstSlash()];
             $path = explode('/', $path);
-        } else {
+        }else if($this->staticRoutes[$this->request->getPath()]){
+            $path = $this->staticRoutes[$this->request->getPath()];
+            $path = explode('/', $path);
+        } 
+        else {
             $path = $this->request->getArgs();
         }
         foreach ($path as $path_) {

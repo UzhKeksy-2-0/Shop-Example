@@ -7,6 +7,14 @@ use CH\modificators\core\Application;
     try {
         $app = new Application();
         $app->router->setStaticRoute('','home');
+        //var_dump(get_class_methods($app->router));
+        $app->router->addVirtualController([
+            'name'=>'product',
+            'func'=>function($GET){
+                echo 'hi';
+            }
+        ]);
+        // $app->router->addVirtualController(['ds']);
         $app->router->setStaticRoute('error','error404');
         $app->run();
     } catch (Throwable $e) {

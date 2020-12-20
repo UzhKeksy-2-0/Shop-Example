@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use CH\Plugins\Terminal\Comands\ComandWorker;
 use CH\Plugins\Terminal\Comands\Configs;

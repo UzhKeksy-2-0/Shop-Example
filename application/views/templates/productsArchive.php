@@ -7,9 +7,9 @@
           <?php
             foreach($allProducts as $product){
                 $this->load($this->views_file->templates->productinarchive,[
-                      'productInArchive_Name' => $product->name,
-                      'productInArchive_MainPrice' => $product->price,
-                      'productInArchive_ShortDescription' => $product->discription
+                      'productInArchive_Name' => $product['name'],
+                      'productInArchive_MainPrice' => $product['price'],
+                      'productInArchive_ShortDescription' => $product['discription']
                 ]);
             }
           ?>

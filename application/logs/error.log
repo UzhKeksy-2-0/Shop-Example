@@ -1,0 +1,74 @@
+[20.12.20 15:34:45] Function name must be a string
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#1 /home/david/Project/FlowerShop/public/index.php(19): CH\modificators\core\Application->run()
+#2 {main}
+[20.12.20 15:33:46] Function name must be a string
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\modificators\core\Router->resolve()
+#1 /home/david/Project/FlowerShop/public/index.php(19): CH\basic\core\BC_Application->run()
+#2 {main}
+[20.12.20 15:32:35] Too few arguments to function CH\modificators\core\Router::addVirtualController(), 0 passed in /home/david/Project/FlowerShop/public/index.php on line 11 and exactly 1 expected
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Router->addVirtualController()
+#1 {main}
+[20.12.20 15:26:50] Function name must be a string
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\modificators\core\Router->resolve()
+#1 /home/david/Project/FlowerShop/public/index.php(12): CH\basic\core\BC_Application->run()
+#2 {main}
+[20.12.20 15:25:30] Too few arguments to function CH\modificators\core\Router::addVirtualController(), 0 passed in /home/david/Project/FlowerShop/public/index.php on line 10 and exactly 1 expected
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/public/index.php(10): CH\modificators\core\Router->addVirtualController()
+#1 {main}
+[20.12.20 14:24:47] Cannot use object of type app\models\product as array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include()
+#1 /home/david/Project/FlowerShop/application/views/templates/home.php(12): CH\basic\BC_Controller->load()
+#2 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include('/home/david/Pro...')
+#3 /home/david/Project/FlowerShop/application/controllers/Home.php(19): CH\basic\BC_Controller->load()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#7 {main}
+[20.12.20 14:22:21] Call to a member function get() on array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#3 {main}
+[20.12.20 14:20:49] Argument 1 passed to CH\modificators\DataBase\CH_DataBase::connectByController() must be an instance of CH\modificators\DataBase\BC_Controller, instance of app\controllers\HomDatae given, called in /home/david/Project/FlowerShop/application/controllers/Home.php on line 14
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Home.php(14): CH\modificators\DataBase\CH_DataBase::connectByController()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.20 14:20:11] Argument 1 passed to CH\modificators\DataBase\CH_DataBase::connectByController() must be an instance of CH\modificators\DataBase\BC_Controller, instance of app\controllers\HomDatae given, called in /home/david/Project/FlowerShop/application/controllers/Home.php on line 14
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Home.php(14): CH\modificators\DataBase\CH_DataBase::connectByController()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.20 14:19:39] Argument 1 passed to CH\modificators\DataBase\CH_DataBase::connectByController() must be an instance of CH\modificators\DataBase\BC_Controller, instance of app\controllers\HomDatae given, called in /home/david/Project/FlowerShop/application/controllers/Home.php on line 15
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Home.php(15): CH\modificators\DataBase\CH_DataBase::connectByController()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.20 14:18:29] Argument 1 passed to CH\modificators\DataBase\CH_DataBase::connectByController() must be an instance of CH\modificators\DataBase\BC_Controller, instance of app\controllers\HomDatae given, called in /home/david/Project/FlowerShop/application/controllers/Home.php on line 14
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Home.php(14): CH\modificators\DataBase\CH_DataBase::connectByController()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#4 {main}
+[20.12.20 14:17:00] Argument 1 passed to CH\modificators\DataBase\CH_DataBase::connectByController() must be an instance of CH\modificators\DataBase\BC_Controller, instance of app\controllers\HomDatae given, called in /home/david/Project/FlowerShop/application/controllers/Home.php on line 14
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Home.php(14): CH\modificators\DataBase\CH_DataBase::connectByController()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(66): app\controllers\HomDatae->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Application.php(16): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\basic\core\BC_Application->run()
+#4 {main}
