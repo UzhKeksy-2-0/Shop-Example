@@ -15,9 +15,9 @@ class ControllerName extends CH_Controller
         if($data['get'] == null){
             throw new Exception('',404);
         }
-        $this->load($this->views_file->templates->header,[]);
         product::connectByController($this);
         $product = product::byId($data['get']['prod']);
+        $this->load($this->views_file->templates->header,['title' => $product->name]);
         $this->load($this->views_file->templates->productpage,[
             'category'=>$product->category,
             'prodName' => $product->name,
