@@ -1,3 +1,43 @@
+[20.12.20 22:20:40] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Product.php(32): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#4 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#5 {main}
+[20.12.20 22:20:31] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Product.php(32): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#4 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#5 {main}
+[20.12.20 22:19:49] file  does not exitst
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Product.php(31): CH\basic\BC_Controller->load()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#4 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#5 {main}
+[20.12.20 20:03:58] Call to a member function where() on null
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->byId()
+#1 /home/david/Project/FlowerShop/application/controllers/Product.php(15): dbObject::__callStatic()
+#2 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->pageLoad()
+#3 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#4 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#5 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#6 {main}
+[20.12.20 15:53:52] Class 'app\controllers\product' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#4 {main}
 [20.12.20 15:34:45] Function name must be a string
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()

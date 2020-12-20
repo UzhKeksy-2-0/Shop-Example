@@ -44,8 +44,8 @@ class BC_Router
     public function resolve()
     {
         $GetPostData = [];
-        array_push($GetPostData, $this->request->getDataFromGet());
-        array_push($GetPostData, $this->request->getDataFromPost());
+        $GetPostData['get'] = $this->request->getDataFromGet();
+        $GetPostData['post'] = $this->request->getDataFromPost();
         $pather = (object) $this->controllers->files;
         if (($this->staticRoutes[$this->request->getPathWithoutFirstSlash()])) {
             $path = $this->staticRoutes[$this->request->getPathWithoutFirstSlash()];

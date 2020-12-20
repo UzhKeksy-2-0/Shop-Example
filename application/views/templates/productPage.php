@@ -6,22 +6,8 @@
      $prodDisk => product discription  
      
      $prodPrice => product price
-       
-
-      
-
-
-
-
-
+     $photos => array of photo links
  -->
-
-
-
-
-
-
-
     <div class="py-5">
       <div class="container">
         <div class="row">
@@ -38,29 +24,20 @@
             <h3 class=""><?=$prodName?></h3>
           </div>
           <div class="col-md-6">
-            <h1 class=""> Про товар </h1>
+            <h1 class=""> About </h1>
           </div>
           <div class="col-md-6">
-            <div class="carousel slide" data-ride="carousel" id="carousel" style="">
+            <div class="carousel slide" data-ride="carousel" id="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active"> <img class="d-block img-fluid w-100 mx-auto" src="https://estore.ua/media/post/image/i/p/iphone_12_in_the_box.jpg">
-                  <div class="carousel-caption">
-                    <h5 class="m-0"></h5>
-                    <p></p>
-                  </div>
-                </div>
-                <div class="carousel-item"> <img class="d-block img-fluid w-100" src="https://ilounge.ua/files/articles/review-iphone-12-pro-max--samyj-interesnyj-smartfon-i-vybrat-ego-stoit-tolko-radi-kamery-1.jpg">
-                  <div class="carousel-caption">
-                    <h5 class="m-0"></h5>
-                    <p></p>
-                  </div>
-                </div>
-                <div class="carousel-item"> <img class="d-block img-fluid w-100" src="https://s.4pda.to/OigyUUQvlanxVQ1UXcBz1WPrhCbwE2PljH1Px.jpg">
-                  <div class="carousel-caption">
-                    <h5 class="m-0"></h5>
-                    <p></p>
-                  </div>
-                </div>
+                <?php 
+                  $first = true;
+                  foreach($photos as $photoLink){
+                    $class = $first ? 'active' : '';
+                    $link = $photoLink;
+                    include $this->views_file->templates->photoproduct;
+                    $first = false;
+                  }
+                ?>
               </div> <a class="carousel-control-prev bg-dark" href="#carousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next bg-info" href="#carousel" role="button" data-slide="next"> <span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span> </a>
             </div>
           </div>
