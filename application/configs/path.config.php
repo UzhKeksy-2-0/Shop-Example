@@ -5,17 +5,15 @@
     const APPLICATION = ROOT . 'application/';
     const MEDIA = ROOT . 'media/';
     const PUBLIC_ = ROOT . 'public/';
-    const VENDOR = ROOT .'vendor/';
+    const VENDOR =  ROOT . '/../vendor/';
     const STYLES = ROOT . 'styles/';
     const VIEWS = APPLICATION . 'views/';
-    const CONFIGS = APPLICATION . 'configs/';
+    const CONFIGS = ROOT . 'configs/';
     const CONTROLLERS = APPLICATION .  'controllers/';
     const CORE = APPLICATION . 'core/';
     const TEMPLATES_FOR_COACH = CORE .'templatesCoach/';
     const MODELS = APPLICATION . 'models/';
     const LOGS = APPLICATION . 'logs/';
-    const HELPERS = APPLICATION . 'helpers/';
-    const LANGUAGES = APPLICATION . 'languages/';
 
     const BOOTSTRAP = ROOT . '';
     const AUTOLOAD = VENDOR . 'autoload.php';
