@@ -30,6 +30,7 @@ class BC_DataBase extends dbObject
      * @param CH_Controller $controller [controller object]
      *
      * @return void
+     * 
      */
     static public function connectByController(BC_Controller $controller){
         include $controller->database_file;
