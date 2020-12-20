@@ -2,7 +2,7 @@
 
 namespace CH\basic;
 
-require_once '/home/david/Flower-Shop/application/configs/path.config.php';
+require_once '../application/configs/path.config.php';
 class BC_Log
 {
     private $logPath;

@@ -1,3 +1,8 @@
+[20.12.20 12:43:04] Notice (8): Trying to access array offset on value of type null in [/home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php on line 141]
+[20.12.20 12:43:04] Notice (8): Undefined offset: -1 in [/home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php on line 141]
+[20.12.20 12:43:04] Notice (8): Trying to access array offset on value of type null in [/home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php on line 141]
+[20.12.20 12:43:04] Notice (8): Undefined offset: -2 in [/home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php on line 141]
+[20.12.20 12:43:04] Notice (8): Undefined index: register in [/home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php on line 50]
 [20.12.20 11:45:43] Notice (8): Trying to access array offset on value of type null in [/home/david/Flower-Shop/Coach/basic/core/BC_Router.php on line 141]
 [20.12.20 11:45:43] Notice (8): Undefined offset: -1 in [/home/david/Flower-Shop/Coach/basic/core/BC_Router.php on line 141]
 [20.12.20 11:45:43] Notice (8): Trying to access array offset on value of type null in [/home/david/Flower-Shop/Coach/basic/core/BC_Router.php on line 141]
