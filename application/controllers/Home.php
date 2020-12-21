@@ -15,7 +15,7 @@ class HomDatae extends CH_Controller
         product::connectByController($this);
         $products = product::get();
         product::$pageLimit = 5;
-        $products = product::arraybuilder()->paginate(1)->get();
+        $products = product::arraybuilder()->paginate(1);
         // $products = product::get();
         $this->load($this->views_file->templates->header,['title' => 'Home']);
         $this->load($this->views_file->templates->home,['allProducts' => $products]);
