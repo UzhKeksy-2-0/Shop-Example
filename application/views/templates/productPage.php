@@ -33,7 +33,7 @@
                   $first = true;
                   foreach($photos as $photoLink){
                     $class = $first ? 'active' : '';
-                    $link = $photoLink;
+                    $link = $photoLink->image;
                     include $this->views_file->templates->photoproduct;
                     $first = false;
                   }

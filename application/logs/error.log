@@ -1,3 +1,76 @@
+[20.12.21 23:53:19] Call to a member function get() on array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#4 {main}
+[20.12.21 23:48:07] Cannot use object of type app\models\product as array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include()
+#1 /home/david/Project/FlowerShop/application/views/templates/home.php(12): CH\basic\BC_Controller->load()
+#2 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include('/home/david/Pro...')
+#3 /home/david/Project/FlowerShop/application/controllers/Home.php(21): CH\basic\BC_Controller->load()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#7 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#8 {main}
+[20.12.21 23:47:59] Cannot use object of type app\models\product as array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include()
+#1 /home/david/Project/FlowerShop/application/views/templates/home.php(12): CH\basic\BC_Controller->load()
+#2 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include('/home/david/Pro...')
+#3 /home/david/Project/FlowerShop/application/controllers/Home.php(21): CH\basic\BC_Controller->load()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#7 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#8 {main}
+[20.12.21 23:47:01] Cannot use object of type app\models\product as array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include()
+#1 /home/david/Project/FlowerShop/application/views/templates/home.php(12): CH\basic\BC_Controller->load()
+#2 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include('/home/david/Pro...')
+#3 /home/david/Project/FlowerShop/application/controllers/Home.php(21): CH\basic\BC_Controller->load()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#7 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#8 {main}
+[20.12.21 23:46:03] Cannot use object of type app\models\product as array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include()
+#1 /home/david/Project/FlowerShop/application/views/templates/home.php(12): CH\basic\BC_Controller->load()
+#2 /home/david/Project/FlowerShop/Coach/basic/BC_Controller.php(50): include('/home/david/Pro...')
+#3 /home/david/Project/FlowerShop/application/controllers/Home.php(21): CH\basic\BC_Controller->load()
+#4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#7 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#8 {main}
+[20.12.21 23:44:33] Call to a member function with() on array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#4 {main}
+[20.12.21 23:43:16] Call to a member function paginate() on array
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#4 {main}
+[20.12.21 22:55:59] Class 'product_image' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/application/controllers/Product.php(26): dbObject->__get()
+#1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#3 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#4 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#5 {main}
 [20.12.20 22:20:40] file  does not exitst
  Stack trace : 
 #0 /home/david/Project/FlowerShop/application/controllers/Product.php(32): CH\basic\BC_Controller->load()
