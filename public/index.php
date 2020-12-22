@@ -1,5 +1,5 @@
 <?php
-    require_once './bootsrap.php';
+require_once './bootsrap.php';
 
 use app\sds;
 use CH\modificators\Log\CH_Log;
@@ -19,7 +19,9 @@ use CH\modificators\core\Application;
     }catch (Exception $e) {
         $error = new CH_Log();
         $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
+
     }catch(ErrorException $e){
         $error = new CH_Log();
         $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
+
     }
