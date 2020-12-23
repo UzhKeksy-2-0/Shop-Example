@@ -1,7 +1,7 @@
 <!-- 
     $allProducts => proucts templates one by one
  -->
-<div class="py-3 text-center">
+<div class="py-5 text-center">
     <div class="container">
       <div class="row">
           <?php

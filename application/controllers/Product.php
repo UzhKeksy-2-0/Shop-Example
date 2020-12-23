@@ -2,6 +2,7 @@
 namespace app\controllers;
 
 use app\models\product;
+use CH\modificators\Cart\Cart;
 use CH\modificators\Controller\CH_Controller;
 use Exception;
 
@@ -17,15 +18,28 @@ class ControllerName extends CH_Controller
         }
         product::connectByController($this);
         $product = product::byId($data['get']['prod']);
+        $stars = 0;
+        $feedback = $product->feedback;
+        foreach($feedback as $star){
+            $stars += $star->stars;
+        }
+        $stars = $stars / count($feedback);
         $this->load($this->views_file->templates->header,['title' => $product->name]);
         $this->load($this->views_file->templates->productpage,[
             'category'=>$product->category,
             'prodName' => $product->name,
-            'prodDisk' =>  substr($product->discription,0,150) . ' ...',
+            'stars' => $stars,
+            'prodDisk' =>  substr($product->discription,0,450) . ' ...',
             'prodPrice' => $product->price,
             'photos' => $product->image
         ]);
-        $this->load($this->views_file->templates->viewresponce,[]);
+        foreach($feedback as $one){
+            foreach($one as $star){
+                $stars += $star->stars;
+            }
+            $stars = $stars / count($feedback);
+            $this->load($this->views_file->templates->viewresponce,['respText'=> $one->description == ''? 'no description': $one->description, 'stars' =>$stars, 'userName' => $one->user->login]);
+        }
         $this->load($this->views_file->templates->responce,[]);
         $this->load($this->views_file->templates->footer,[]);
     }

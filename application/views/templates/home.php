@@ -5,9 +5,7 @@
 <div class="w-100">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-9">
+        <div class="col-md-12">
             <?php
                $this->load($this->views_file->templates->productsarchive,['allProducts' => $allProducts]);
             ?>

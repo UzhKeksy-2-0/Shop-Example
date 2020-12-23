@@ -8,6 +8,7 @@ class product extends CH_DataBase
 {
     protected $dbTable = "product";
     protected $relations = Array(
-        'image' => Array('hasMany', 'app\models\product_image', 'id')
+        'image' => Array('hasMany', 'app\models\product_image', 'product_id'),
+        'feedback' => Array('hasMany','app\models\product_feedback','product_id')
     );
 }
