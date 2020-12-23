@@ -41,21 +41,25 @@ class BC_Router
      *
      * @return void
      */
-    public function resolve()
+    public function resolve($goTo = null)
     {
         $GetPostData = [];
         $GetPostData['get'] = $this->request->getDataFromGet();
         $GetPostData['post'] = $this->request->getDataFromPost();
         $pather = (object) $this->controllers->files;
-        if (($this->staticRoutes[$this->request->getPathWithoutFirstSlash()])) {
-            $path = $this->staticRoutes[$this->request->getPathWithoutFirstSlash()];
-            $path = explode('/', $path);
-        }else if($this->staticRoutes[$this->request->getPath()]){
-            $path = $this->staticRoutes[$this->request->getPath()];
-            $path = explode('/', $path);
-        } 
-        else {
-            $path = $this->request->getArgs();
+        if($goTo == null){
+            if (($this->staticRoutes[$this->request->getPathWithoutFirstSlash()])) {
+                $path = $this->staticRoutes[$this->request->getPathWithoutFirstSlash()];
+                $path = explode('/', $path);
+            }else if($this->staticRoutes[$this->request->getPath()]){
+                $path = $this->staticRoutes[$this->request->getPath()];
+                $path = explode('/', $path);
+            } 
+            else {
+                $path = $this->request->getArgs();
+            }
+        }else{
+            $pather->$goTo;
         }
         foreach ($path as $path_) {
             $pather =  $pather->{$path_};

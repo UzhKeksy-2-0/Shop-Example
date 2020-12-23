@@ -2,6 +2,7 @@
 namespace app\controllers;
 
 use app\models\product;
+use CH\modificators\Auth\Authorization;
 use CH\modificators\Cart\Cart;
 use CH\modificators\Controller\CH_Controller;
 use Exception;
@@ -13,7 +14,7 @@ class ControllerName extends CH_Controller
         parent::__construct();
     }
     public function run($data = null){
-       $this->pageLoad();
+       $this->pageLoad($data);
     }
     public function pageLoad($data = null){
         if($data['get'] == null){
@@ -43,7 +44,9 @@ class ControllerName extends CH_Controller
             $stars = $stars / count($feedback);
             $this->load($this->views_file->templates->viewresponce,['respText'=> $one->description == ''? 'no description': $one->description, 'stars' =>$stars, 'userName' => $one->user->login]);
         }
-        $this->load($this->views_file->templates->responce,[]);
+        if(Authorization::isAuthorized()){
+            $this->load($this->views_file->templates->responce,[]);
+        }
         $this->load($this->views_file->templates->footer,[]);
     }
 }

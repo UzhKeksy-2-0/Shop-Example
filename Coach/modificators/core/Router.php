@@ -15,7 +15,7 @@ class Router extends BC_Router
         parent::__construct($request);
         $this->virtualControllers = [];
     }
-    public function addVirtualController(Array $virtualControllers){
+    public function setVirtualController(Array $virtualControllers){
         array_push($this->virtualControllers, $virtualControllers);
     }
     private function getVirtualControllerByName($virtualControllerName){
@@ -25,6 +25,9 @@ class Router extends BC_Router
                 return $controller;
             }
         }
+    }
+    public static function goToController($controllerName){
+        parent::resolve($controllerName);
     }
     public function resolve()
     {

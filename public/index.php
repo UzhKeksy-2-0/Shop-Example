@@ -2,6 +2,7 @@
 require_once './bootsrap.php';
 
 use app\sds;
+use CH\modificators\Auth\Authorization;
 use CH\modificators\Log\CH_Log;
 use CH\modificators\core\Application;
     try {
