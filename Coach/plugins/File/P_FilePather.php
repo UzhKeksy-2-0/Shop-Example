@@ -1,5 +1,5 @@
 <?php
-namespace CH\Plugins\File;
+namespace CH\plugins\File;
 use CH\modificators\File\FilePather\CH_FilePather;
 use Symfony\Component\Filesystem\Filesystem;
 

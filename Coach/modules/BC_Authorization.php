@@ -1,5 +1,5 @@
 <?php
-namespace CH\basic;
+namespace CH\modules;
 
 use app\models\user;
 

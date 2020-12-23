@@ -1,8 +1,8 @@
 <?php
 
-namespace CH\Plugins\Terminal\Comands;
+namespace CH\plugins\Terminal\Comands;
 
-use CH\Plugins\File\P_FileWorker;
+use CH\plugins\File\P_FileWorker;
 use Nette\PhpGenerator\PhpFile;
 use Nette\PhpGenerator\PhpNamespace;
 use SplFileInfo;

@@ -1,14 +1,14 @@
 <?php
 
-namespace CH\Plugins\Terminal\Comands;
+namespace CH\plugins\Terminal\Comands;
 
-use CH\Plugins\File\P_FileWorker;
+use CH\plugins\File\P_FileWorker;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 
-class Controller extends Command
+class Model extends Command
 {    
     protected static $defaultName = 'controller';    
     private $root;
@@ -52,8 +52,8 @@ class Controller extends Command
             case 'create': {
                 $text = file_get_contents($this->template);
                 $filer = new P_FileWorker();
-                $output->writeln('<info>Controller is succesfully added</info>');
-                $filer->dumpFile($this->root. '/controllers/' . $input->getArgument('viewName') . '.php',$text);
+                $output->writeln('<info>Model is succesfully added</info>');
+                $filer->dumpFile($this->root. '/models/' . $input->getArgument('viewName'). '.php',$text);
                 break;
             }
             case 'find': {

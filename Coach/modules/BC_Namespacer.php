@@ -1,5 +1,5 @@
 <?php
-namespace CH\basic\core;
+namespace CH\modules;
 
 use CH\modificators\Log\CH_Log;
 use Exception;

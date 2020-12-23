@@ -1,6 +1,6 @@
 <?php
 
-namespace CH\Plugins\Terminal\Comands;
+namespace CH\plugins\Terminal\Comands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

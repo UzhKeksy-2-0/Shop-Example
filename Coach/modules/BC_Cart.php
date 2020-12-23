@@ -1,5 +1,5 @@
 <?php
-namespace CH\basic;
+namespace CH\modules;
 class BC_Cart
 {    
     /**

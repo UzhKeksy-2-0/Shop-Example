@@ -1,3 +1,15 @@
+[20.12.23 17:54:28] Class 'CH\modules\BC_Authorization' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/vendor/composer/ClassLoader.php(444): include()
+#1 /home/david/Project/FlowerShop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 /home/david/Project/FlowerShop/application/controllers/Product.php(47): spl_autoload_call()
+#4 /home/david/Project/FlowerShop/application/controllers/Product.php(17): app\controllers\ControllerName->pageLoad()
+#5 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(74): app\controllers\ControllerName->run()
+#6 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#7 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#8 /home/david/Project/FlowerShop/public/index.php(12): CH\modificators\core\Application->run()
+#9 {main}
 [20.12.23 17:07:21] Call to a member function ArrayBuilder() on null
  Stack trace : 
 #0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(548): dbObject->getOne()
@@ -92,7 +104,7 @@
  Stack trace : 
 #0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->byId()
 #1 /home/david/Project/FlowerShop/Coach/basic/BC_Authorization.php(60): dbObject::__callStatic()
-#2 /home/david/Project/FlowerShop/application/controllers/Login.php(24): CH\basic\BC_Authorization::SingIn()
+#2 /home/david/Project/FlowerShop/application/controllers/Login.php(24): CH\modules\BC_Authorization::SingIn()
 #3 /home/david/Project/FlowerShop/application/controllers/Login.php(17): HomDatae->logIn()
 #4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(74): HomDatae->run()
 #5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
@@ -153,7 +165,7 @@
  Stack trace : 
 #0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->byId()
 #1 /home/david/Project/FlowerShop/Coach/basic/BC_Authorization.php(60): dbObject::__callStatic()
-#2 /home/david/Project/FlowerShop/application/controllers/Login.php(20): CH\basic\BC_Authorization::SingIn()
+#2 /home/david/Project/FlowerShop/application/controllers/Login.php(20): CH\modules\BC_Authorization::SingIn()
 #3 /home/david/Project/FlowerShop/application/controllers/Login.php(15): HomDatae->logIn()
 #4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): HomDatae->run()
 #5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
@@ -164,7 +176,7 @@
  Stack trace : 
 #0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->byId()
 #1 /home/david/Project/FlowerShop/Coach/basic/BC_Authorization.php(60): dbObject::__callStatic()
-#2 /home/david/Project/FlowerShop/application/controllers/Login.php(19): CH\basic\BC_Authorization::SingIn()
+#2 /home/david/Project/FlowerShop/application/controllers/Login.php(19): CH\modules\BC_Authorization::SingIn()
 #3 /home/david/Project/FlowerShop/application/controllers/Login.php(15): HomDatae->logIn()
 #4 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): HomDatae->run()
 #5 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
@@ -178,17 +190,17 @@
 #2 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
 #3 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
 #4 {main}
-[20.12.22 22:06:43] Too few arguments to function CH\basic\BC_Cart::addProductIDToCart(), 0 passed in /home/david/Project/FlowerShop/application/controllers/Product.php on line 29 and exactly 1 expected
+[20.12.22 22:06:43] Too few arguments to function CH\modules\BC_Cart::addProductIDToCart(), 0 passed in /home/david/Project/FlowerShop/application/controllers/Product.php on line 29 and exactly 1 expected
  Stack trace : 
-#0 /home/david/Project/FlowerShop/application/controllers/Product.php(29): CH\basic\BC_Cart::addProductIDToCart()
+#0 /home/david/Project/FlowerShop/application/controllers/Product.php(29): CH\modules\BC_Cart::addProductIDToCart()
 #1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->run()
 #2 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
 #3 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
 #4 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
 #5 {main}
-[20.12.22 22:02:35] Too few arguments to function CH\basic\BC_Cart::addProductIDToCart(), 0 passed in /home/david/Project/FlowerShop/application/controllers/Product.php on line 29 and exactly 1 expected
+[20.12.22 22:02:35] Too few arguments to function CH\modules\BC_Cart::addProductIDToCart(), 0 passed in /home/david/Project/FlowerShop/application/controllers/Product.php on line 29 and exactly 1 expected
  Stack trace : 
-#0 /home/david/Project/FlowerShop/application/controllers/Product.php(29): CH\basic\BC_Cart::addProductIDToCart()
+#0 /home/david/Project/FlowerShop/application/controllers/Product.php(29): CH\modules\BC_Cart::addProductIDToCart()
 #1 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\ControllerName->run()
 #2 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
 #3 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()

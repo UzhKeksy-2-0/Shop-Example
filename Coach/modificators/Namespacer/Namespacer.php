@@ -1,7 +1,7 @@
 <?php
 namespace CH\modificators\Namespacer;
 
-use CH\basic\core\BC_Namespacer;
+use CH\modules\BC_Namespacer;
 
 /**
  * Namespacer

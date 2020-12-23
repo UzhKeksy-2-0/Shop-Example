@@ -1,8 +1,8 @@
 <?php
 
-namespace CH\Plugins\Terminal\Comands;
+namespace CH\plugins\Terminal\Comands;
 
-use CH\Plugins\File\P_FileWorker;
+use CH\plugins\File\P_FileWorker;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
