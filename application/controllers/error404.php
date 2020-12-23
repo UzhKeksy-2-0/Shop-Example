@@ -9,7 +9,10 @@ class ControllerName extends CH_Controller
     {
         parent::__construct();
     }
-    public function pageLoad(){
+    public function run(){
+        $this->pageLoad();
+    }
+    public function pageload(){
         $this->load($this->views_file->templates->header,[]);
         $this->load($this->views_file->templates->error404,[]);
         $this->load($this->views_file->templates->footer,[]);

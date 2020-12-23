@@ -14,7 +14,7 @@ abstract class CH_Controller extends BC_Controller
        // (new CH_Log)->log(PLUGINS);
        // $this->models_file = (new BC_FilePather(PLUGINS))->files;
     }
-    public function pageLoad()
+    public function run()
     {        
     }
 }

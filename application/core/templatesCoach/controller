@@ -9,6 +9,6 @@ class ControllerName extends CH_Controller
     {
         parent::__construct();
     }
-    public function pageLoad(){
+    public function run(){
     }
 }

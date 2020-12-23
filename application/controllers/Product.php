@@ -12,6 +12,9 @@ class ControllerName extends CH_Controller
     {
         parent::__construct();
     }
+    public function run($data = null){
+       $this->pageLoad();
+    }
     public function pageLoad($data = null){
         if($data['get'] == null){
             throw new Exception('',404);

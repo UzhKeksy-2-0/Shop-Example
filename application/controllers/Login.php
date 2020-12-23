@@ -10,6 +10,9 @@ class HomDatae extends CH_Controller
     {
         parent::__construct();
     }
+    public function run(){
+        $this->pageLoad();
+    }
     public function pageLoad(){
         $this->load($this->views_file->templates->header,[]);
         $this->load($this->views_file->templates->login,[]);

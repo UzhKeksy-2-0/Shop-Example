@@ -11,7 +11,11 @@ class HomDatae extends CH_Controller
     {
         parent::__construct();
     }
-    public function pageLoad($data = null){
+    public function run($data = null){
+        $this->pageLoad();
+    }
+    public function pageLoad($data = null)
+    {
         product::connectByController($this);
         $products = product::get();
         $this->load($this->views_file->templates->header,['title' => 'Home', 'auth'=> Authorization::isAuthorized()]);

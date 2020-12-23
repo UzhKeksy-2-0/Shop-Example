@@ -67,7 +67,7 @@ class BC_Router
             throw new Exception('', 404);
         }
         $class = (object) $this->getClassObjectFromFile($classFile);
-        $class->pageLoad($GetPostData);
+        $class->run($GetPostData);
     }
     /**
      * Method getClassFullNameFromFile
