@@ -58,7 +58,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3 class="display-3"><?=$prodPrice?></h3>
+            <h3 class="display-3"><?=$prodPrice?>$</h3>
           </div>
           <div class="col-md-4">
                 

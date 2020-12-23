@@ -1,3 +1,10 @@
+[20.12.23 16:24:42] Class 'Authorization' not found
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(70): app\controllers\HomDatae->pageLoad()
+#1 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(48): CH\basic\core\BC_Router->resolve()
+#2 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(16): CH\modificators\core\Router->resolve()
+#3 /home/david/Project/FlowerShop/public/index.php(11): CH\modificators\core\Application->run()
+#4 {main}
 [20.12.22 22:06:43] Too few arguments to function CH\basic\BC_Cart::addProductIDToCart(), 0 passed in /home/david/Project/FlowerShop/application/controllers/Product.php on line 29 and exactly 1 expected
  Stack trace : 
 #0 /home/david/Project/FlowerShop/application/controllers/Product.php(29): CH\basic\BC_Cart::addProductIDToCart()
