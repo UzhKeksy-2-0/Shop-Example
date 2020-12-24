@@ -3,8 +3,6 @@
 use CH\modificators\Log\CH_Log;
 
 require_once '../application/configs/path.config.php';
-require_once '../Coach/basic/rb.php';
-R::setup('mysql:host=127.0.0.1;dbname=shop','root','root');
 error_reporting(E_ALL);
 ini_set("display_errors", "off");
 /**

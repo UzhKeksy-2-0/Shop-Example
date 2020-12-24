@@ -1,3 +1,4 @@
+[20.12.24 20:57:39] Notice (8): Undefined offset: 1 in [/home/david/Project/FlowerShop/public/tester.php on line 12]
 [20.12.24 20:55:54] Notice (8): Undefined offset: 1 in [/home/david/Project/FlowerShop/public/tester.php on line 10]
 [20.12.24 20:18:44] Warning (2): session_start(): Cannot start session when headers already sent in [/home/david/Project/FlowerShop/Coach/modules/BC_Authorization.php on line 12]
 [20.12.24 20:18:44] Notice (8): Trying to get property 'stars' of non-object in [/home/david/Project/FlowerShop/application/controllers/Product.php on line 42]
