@@ -9,7 +9,8 @@
     "autoload": {
         "psr-4": {
             "app\\": "application/",
-            "CH\\": "Coach/"
+            "CH\\": "Coach/",
+            "RedBeanPHP\\":"vendor/gabordemooij/redbean/RedBeanPHP/"
         }
     },
     "require": {
@@ -21,6 +22,7 @@
         "fzaninotto/faker": "^1.9",
         "symfony/process": "^5.2",
         "nette/php-generator": "^3.5",
-        "twig/twig": "^3.1"
+        "twig/twig": "^3.1",
+        "gabordemooij/redbean": "^5.6"
     }
 }
