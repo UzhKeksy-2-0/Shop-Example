@@ -1,3 +1,6 @@
+[20.12.24 20:05:06] Call to private CH\modificators\core\Application::__construct() from invalid context
+ Stack trace : 
+#0 {main}
 [20.12.23 17:54:28] Class 'CH\modules\BC_Authorization' not found
  Stack trace : 
 #0 /home/david/Project/FlowerShop/vendor/composer/ClassLoader.php(444): include()

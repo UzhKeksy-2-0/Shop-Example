@@ -6,7 +6,7 @@ use CH\modificators\Auth\Authorization;
 use CH\modificators\Log\CH_Log;
 use CH\modificators\core\Application;
     try {
-        $app = new Application();
+        $app = Application::createApplication();
         $app->router->setStaticRoute('','home');
         $app->router->setStaticRoute('error','error404');
         $app->run();
@@ -20,9 +20,7 @@ use CH\modificators\core\Application;
     }catch (Exception $e) {
         $error = new CH_Log();
         $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
-
     }catch(ErrorException $e){
         $error = new CH_Log();
         $error->error($e->getMessage() . "\n Stack trace : \n" . $e->getTraceAsString());
-
     }

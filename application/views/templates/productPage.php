@@ -1,4 +1,3 @@
-
 <!-- 
      $category => prroduct category name
      $prodName  => product name
