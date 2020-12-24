@@ -1,3 +1,9 @@
+[20.12.24 20:16:38] Call to undefined method stdClass::run()
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#1 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#2 /home/david/Project/FlowerShop/public/index.php(12): CH\modificators\core\Application->run()
+#3 {main}
 [20.12.24 20:05:06] Call to private CH\modificators\core\Application::__construct() from invalid context
  Stack trace : 
 #0 {main}

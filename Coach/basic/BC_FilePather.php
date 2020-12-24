@@ -75,4 +75,85 @@ class BC_FilePather
         }
         return $obj;
     }
+
+    /**
+     * Method getClassFullNameFromFile
+     * gets full class name from file
+     * @param $filePathName $filePathName [file path]
+     *
+     * @return void
+     */
+    private static function getClassFullNameFromFile($filePathName)
+    {
+        return self::getClassNamespaceFromFile($filePathName) . '\\' . self::getClassNameFromFile($filePathName);
+    }
+
+
+    /**
+     * Method getClassObjectFromFile
+     *  build and return an object of a class from its file path
+     * 
+     * @param $filePathName $filePathName [explicite description]
+     *
+     * @return void
+     */
+    public static function getClassObjectFromFile($filePathName)
+    {
+        $classString = self::getClassFullNameFromFile($filePathName);
+        $object = new $classString;
+        return $object;
+    }
+
+    /**
+     * Method getClassNamespaceFromFile
+     *
+     * get the class namespace form file path using token
+     * 
+     * @param $filePathName $filePathName [explicite description]
+     *
+     * @return void
+     */
+    public static function getClassNamespaceFromFile($filePathName)
+    {
+        $src = file_get_contents($filePathName);
+        $tokens = token_get_all($src);
+        $count = count($tokens);
+        for ($i = 0, $namespace_ok = false, $namespace = ''; $i < $count; ++$i) {
+            $token = $tokens[$i];
+            if ((is_array($token)) && ($token[0] === T_NAMESPACE)) {
+                while (++$i < $count) {
+                    if ($tokens[$i] === ';') {
+                        $namespace_ok = true;
+                        $namespace = trim($namespace);
+                        return $namespace_ok ? $namespace : null;
+                    }
+                    $namespace .= is_array($tokens[$i]) ? $tokens[$i][1] : $tokens[$i];
+                }
+            }
+        }
+    }
+
+    /**
+     * Method getClassNameFromFile
+     *
+     * get the class name form file path using token
+     * 
+     * @param $filePathName $filePathName [explicite description]
+     *
+     * @return void
+     */
+    public static function getClassNameFromFile($filePathName)
+    {
+        $php_code = file_get_contents($filePathName);
+        $classes = [];
+        $tokens = token_get_all($php_code);
+        $count = count($tokens);
+        for ($i = 0; $i < $count; $i++) {
+            if (($tokens[$i - 2][0] == T_CLASS) && ($tokens[$i - 1][0] == T_WHITESPACE) && ($tokens[$i][0] == T_STRING)) {
+                $class_name = $tokens[$i][1];
+                $classes[] = $class_name;
+            }
+        }
+        return $classes[0];
+    }
 }

@@ -23,6 +23,10 @@ class ComposerStaticInit11237a48d19f3854de62003402d03a2c
         array (
             'app\\' => 4,
         ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -56,6 +60,10 @@ class ComposerStaticInit11237a48d19f3854de62003402d03a2c
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/application',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
