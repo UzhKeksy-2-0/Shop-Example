@@ -13,7 +13,7 @@ class BC_Request
      */
     public function getPath()
     {
-        $path = $_SERVER["REQUEST_URI"] ?? '/';
+        $path = $_SERVER["REQUEST_URI"] ?? DIRECTORY_SEPARATOR;
         $position = strpos($path, '?');
         if ($position === false) {
             return $path;
@@ -32,7 +32,7 @@ class BC_Request
      */
     public function getArg(int $index)
     {
-        $res = explode('/', parse_url(strtolower($this->getPath()), PHP_URL_PATH));
+        $res = explode(DIRECTORY_SEPARATOR, parse_url(strtolower($this->getPath()), PHP_URL_PATH));
         return $res[$index];
     }    
     /**
@@ -42,7 +42,7 @@ class BC_Request
      */
     public function getArgs()
     {
-        $res = explode('/', parse_url(strtolower($this->getPath()), PHP_URL_PATH));
+        $res = explode(DIRECTORY_SEPARATOR, parse_url(strtolower($this->getPath()), PHP_URL_PATH));
         array_shift($res);
         return $res;
     }    

@@ -1,11 +1,13 @@
 <?php
 
 require_once './bootsrap.php';
+
+use app\configs\php\Path;
 use app\Pluginator;
 use CH\plugins\P_Filer;
 
 echo '<pre>';
-
+Path::setPathConfiguration();
 // $file->file->mkdir('data2',777);
 
 // use RedBeanPHP\Logger;

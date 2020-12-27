@@ -85,7 +85,7 @@ class Configs extends Command
                 $output->writeln('<info>Controller is succesfully added</info>');
                 // create new file by P_Filworker
                 $filer = new P_FileWorker();
-                $filer->dumpFile($this->root. '/' . $filePath.'.php',$file);
+                $filer->dumpFile($this->root.DIRECTORY_SEPARATOR . $filePath.'.php',$file);
                 break;
             }
         }

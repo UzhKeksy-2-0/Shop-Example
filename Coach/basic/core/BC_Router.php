@@ -50,10 +50,10 @@ class BC_Router
         if($goTo == null){
             if (($this->staticRoutes[$this->request->getPathWithoutFirstSlash()])) {
                 $path = $this->staticRoutes[$this->request->getPathWithoutFirstSlash()];
-                $path = explode('/', $path);
+                $path = explode(DIRECTORY_SEPARATOR, $path);
             }else if($this->staticRoutes[$this->request->getPath()]){
                 $path = $this->staticRoutes[$this->request->getPath()];
-                $path = explode('/', $path);
+                $path = explode(DIRECTORY_SEPARATOR, $path);
             } 
             else {
                 $path = $this->request->getArgs();

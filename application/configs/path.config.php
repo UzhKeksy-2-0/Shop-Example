@@ -1,9 +1,8 @@
 <?php
-    define("ROOT", dirname($_SERVER['DOCUMENT_ROOT']).'/');
+    define("ROOT", dirname($_SERVER['DOCUMENT_ROOT']).DIRECTORY_SEPARATOR);
     
     // folders
     const APPLICATION = ROOT . 'application/';
-    const MEDIA = ROOT . 'media/';
     const PUBLIC_ = ROOT . 'public/';
     const VENDOR = ROOT .'vendor/';
     const STYLES = ROOT . 'styles/';

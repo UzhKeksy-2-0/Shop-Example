@@ -47,8 +47,8 @@ class ComandWorker extends Terminal
     {
         // $output->writeln($input->getOption('create'));
         if($input->getOption('remove') != null){
-            $output->writeln($this->root .'/'. $input->getOption('remove'). '.php succesfuly was deleted');
-            (new FileWorker)->remove($this->root .'/'. $input->getOption('remove'). '.php');
+            $output->writeln($this->root .DIRECTORY_SEPARATOR. $input->getOption('remove'). '.php succesfuly was deleted');
+            (new FileWorker)->remove($this->root .DIRECTORY_SEPARATOR. $input->getOption('remove'). '.php');
         }
         if($input->getOption('create')){
             $createType = $input->getOption('create');

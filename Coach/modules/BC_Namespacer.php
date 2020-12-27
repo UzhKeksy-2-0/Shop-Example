@@ -40,7 +40,7 @@ class BC_Namespacer
             $configs[stripslashes($key)] = $value;
         }
         foreach($configs as $key => $value){
-            $configs[$key] = explode('/',$value)[0];
+            $configs[$key] = explode(DIRECTORY_SEPARATOR,$value)[0];
         }
         return $configs;
     }    
@@ -52,7 +52,7 @@ class BC_Namespacer
      */
     public static function generateNameSpaceByPath(string $path):string{
         $parentNamespaces = self::getParentNameSpaces($path);
-        $path = explode('/',$path);
+        $path = explode(DIRECTORY_SEPARATOR,$path);
         $result =  '';
         $number = null;
         foreach($path as $num => $subPath){

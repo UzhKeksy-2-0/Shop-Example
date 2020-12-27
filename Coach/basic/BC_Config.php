@@ -69,11 +69,11 @@ class BC_Config
     {
         if((isset(self::$configs))&&(isset(self::$fileName)))
         {
+            echo self::$fileName;
             file_put_contents(self::$fileName,json_encode(self::$configs));
+            // file_put_contents('data.d','puk');
         }
-        else{
-            return false;
-        }
+        return false;
     }    
     /**
      * __get
@@ -81,13 +81,11 @@ class BC_Config
      * @param  mixed $name
      * @return void
      */
-    public static function __get(string $name)
+    public static function __callStatic($name, $arguments)
     {
-        if(isset(self::$configs))
-        {
-            return self::$configs[$name];
-        }else{
-            return null;
+        if((isset($arguments))&& $arguments != null){
+            return self::$configs[$name] = $arguments;
         }
+        return self::$configs[$name];
     }    
 }
