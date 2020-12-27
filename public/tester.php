@@ -2,11 +2,10 @@
 
 require_once './bootsrap.php';
 use app\Pluginator;
+use CH\plugins\P_Filer;
+
 echo '<pre>';
 
-$file =  new Pluginator();
-$file->file->mkdir('data');
-$file->mkdir('data');
 // $file->file->mkdir('data2',777);
 
 // use RedBeanPHP\Logger;

@@ -26,16 +26,13 @@ class Plugin
             }
         }
     }
-    public function callNotDefaultFunction($className, $function,$arguments)
-    {
-        $this->methodsList[$function][$className]->$function($arguments);
-    }
+
     public function __call($name, $arguments)
     {
         if($this->methodsList == null){
             $this->updateMethods();
         }
-        // var_dump($this->methodsList);
+        
         if(isset($this->methodsList[$name]))
         {
             $this->methodsList[$name]['default']->$name($arguments);
