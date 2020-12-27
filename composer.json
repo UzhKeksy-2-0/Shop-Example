@@ -10,15 +10,13 @@
         "psr-4": {
             "app\\": "application/",
             "CH\\": "Coach/",
-            "RedBeanPHP\\":"vendor/gabordemooij/redbean/RedBeanPHP/"
+            "RedBeanPHP\\": "vendor/gabordemooij/redbean/RedBeanPHP/"
         }
     },
     "require": {
-        "joshcam/mysqli-database-class": "^2.9",
         "symfony/console": "^5.2",
         "symfony/filesystem": "^5.2",
         "symfony/finder": "^5.2",
-        "symfony/string": "^5.2",
         "fzaninotto/faker": "^1.9",
         "symfony/process": "^5.2",
         "nette/php-generator": "^3.5",
