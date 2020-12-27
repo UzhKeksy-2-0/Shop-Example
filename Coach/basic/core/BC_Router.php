@@ -2,6 +2,7 @@
 
 namespace CH\basic\core;
 
+use app\configs\php\Path;
 use CH\basic\BC_FilePather;
 use Exception;
 use CH\modificators\Logs\CH_Log;
@@ -20,7 +21,8 @@ class BC_Router
      */
     public function __construct(BC_Request $request)
     {
-        $this->controllers = new BC_FilePather(CONTROLLERS);
+        Path::setPathConfiguration();
+        $this->controllers = new BC_FilePather(Path::CONTROLLERS());
         $this->request = $request;
     }
     /**

@@ -2,13 +2,24 @@
 
 namespace CH\basic;
 
+use app\configs\php\Path;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use stdClass;
 
 class BC_FilePather
-{
-    public $path;
+{    
+    /**
+     * path
+     * 
+     * @var mixed
+     */
+    public $path;    
+    /**
+     * files
+     *
+     * @var mixed
+     */
     public $files;
     /**
      * Method __construct
@@ -17,7 +28,7 @@ class BC_FilePather
      */
     public function __construct()
     {
-        require_once '../application/configs/path.config.php';
+        Path::setPathConfiguration();
         /* if were given more arguments call other constructoe that is named 
                 as constructor with num of arguments htat was given*/
         $arguments = func_get_args();
@@ -25,7 +36,7 @@ class BC_FilePather
         if (method_exists($this, $function = '__construct' . $numberOfArguments)) {
             call_user_func_array(array($this, $function), $arguments);
         } else {
-            $this->__construct1(APPLICATION);
+            $this->__construct1(Path::APPLICATION());
         }
     }
     /**
@@ -35,7 +46,7 @@ class BC_FilePather
      */
     public function __construct1($path)
     {
-        require_once '../application/configs/path.config.php';
+        Path::setPathConfiguration();
         $this->path = $path;
         $all = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
         $tree = [];

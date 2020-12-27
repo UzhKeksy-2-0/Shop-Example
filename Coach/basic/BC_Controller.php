@@ -2,28 +2,50 @@
 // Controller class template made by UzhKeksy
 namespace CH\basic;
 
+use app\configs\php\Path;
 use Exception;
 
 /**
  * CH_Controller
  */
 abstract class BC_Controller implements BC_Controller_Interface
-{
-    protected $views_file;
-    protected $models_file;
-    public $database_file;
+{    
+    /**
+     * views_file
+     * path to folder view in application
+     * @var mixed
+     */
+    protected $views_file;    
+    /**
+     * models_file
+     * path to folder models in application
+     * @var mixed
+     */
+    protected $models_file;    
+    /**
+     * database_file
+     * path to config file data base
+     * @var mixed
+     */
+    public $database_file;    
+    /**
+     * log
+     * path to file log
+     * @var mixed
+     */
     public $log;
+
     /**
      *  __Construct method
      */
     public function __construct()
     {
-        require_once '../application/configs/path.config.php';
+        Path::setPathConfiguration();
         $this->log = new BC_Log;
         $files = new BC_FilePather(CORE);
-        $this->views_file = (new BC_FilePather(VIEWS))->files;
-        $this->models_file = (new BC_FilePather(MODELS))->files;
-        $this->database_file = (new BC_FilePather(CONFIGS))->files->{'database.config'};
+        $this->views_file = (new BC_FilePather(Path::VIEWS()))->files;
+        $this->models_file = (new BC_FilePather(Path::MODELS()))->files;
+        $this->database_file = (new BC_FilePather(Path::CONFIGS()))->files->{'database.config'};
     }
 
 

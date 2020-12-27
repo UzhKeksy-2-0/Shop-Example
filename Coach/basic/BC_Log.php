@@ -2,7 +2,9 @@
 
 namespace CH\basic;
 
-require_once '../application/configs/path.config.php';
+use app\configs\php\Path;
+
+// require_once '../application/configs/path.config.php';
 class BC_Log
 {
     private $logPath;
@@ -15,6 +17,7 @@ class BC_Log
      */
     public function __construct()
     {
+        Path::setPathConfiguration();
         /* if were given more arguments call other constructoe that is named 
                 as constructor with num of arguments htat was given*/
         $arguments = func_get_args();
@@ -22,9 +25,9 @@ class BC_Log
         if (method_exists($this, $function = '__construct' . $numberOfArguments)) {
             call_user_func_array(array($this, $function), $arguments);
         }
-        $this->logPath = LOG;
-        $this->warningPath = WARNING;
-        $this->errorPath = ERROR;
+        $this->logPath = Path::LOG();
+        $this->warningPath = Path::WARNING();
+        $this->errorPath = Path::ERROR();
     }
     /**
      * Method __construct3

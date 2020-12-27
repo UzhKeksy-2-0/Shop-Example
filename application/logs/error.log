@@ -1,0 +1,22 @@
+[20.12.27 22:33:02] Typed static property CH\basic\BC_Config::$configs must not be accessed before initialization
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Controller.php(25): CH\basic\BC_Config::__callStatic()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/Controller/CH_Controller.php(11): CH\basic\BC_Controller->__construct()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(12): CH\modificators\Controller\CH_Controller->__construct()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(103): app\controllers\HomDatae->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(73): CH\basic\BC_FilePather::getClassObjectFromFile()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#8 {main}
+[20.12.27 22:30:07] Typed static property CH\basic\BC_Config::$configs must not be accessed before initialization
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Controller.php(25): CH\basic\BC_Config::__callStatic()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/Controller/CH_Controller.php(11): CH\basic\BC_Controller->__construct()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(12): CH\modificators\Controller\CH_Controller->__construct()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(103): app\controllers\HomDatae->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(73): CH\basic\BC_FilePather::getClassObjectFromFile()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#8 {main}

@@ -86,6 +86,10 @@ class BC_Config
         if((isset($arguments))&& $arguments != null){
             return self::$configs[$name] = $arguments;
         }
+        if(self::$configs == null)
+        {
+            self::getConfigsFromFile();
+        }
         return self::$configs[$name];
     }    
 }
