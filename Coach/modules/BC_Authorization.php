@@ -4,7 +4,12 @@ namespace CH\modules;
 use app\models\user;
 
 class BC_Authorization
-{
+{    
+    /**
+     * isAuthorized
+     * checks if user is authorized (local user)
+     * @return bool
+     */
     public static function isAuthorized():bool
     {
         if(session_status() == PHP_SESSION_NONE)
@@ -16,7 +21,12 @@ class BC_Authorization
             $user = $_SESSION['user']['id'];
             return (bool) $user;
         }
-    }
+    }    
+    /**
+     * getUser
+     * gets all user data from data base
+     * @return user
+     */
     public static function getUser():user
     {
         if(!self::isAuthorized())
