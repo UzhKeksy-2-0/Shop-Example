@@ -10,7 +10,7 @@ use Symfony\Component\Console\Input\InputArgument;
 
 class Model extends Command
 {    
-    protected static $defaultName = 'controller';    
+    protected static $defaultName = 'model';    
     private $root;
     private $template;
     /**

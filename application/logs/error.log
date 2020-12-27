@@ -1,3 +1,13 @@
+[20.12.26 22:17:09] Call to a member function ArrayBuilder() on null
+ Stack trace : 
+#0 /home/david/Project/FlowerShop/vendor/joshcam/mysqli-database-class/dbObject.php(566): dbObject->get()
+#1 /home/david/Project/FlowerShop/application/controllers/Home.php(20): dbObject::__callStatic()
+#2 /home/david/Project/FlowerShop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#3 /home/david/Project/FlowerShop/Coach/basic/core/BC_Router.php(75): app\controllers\HomDatae->run()
+#4 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#5 /home/david/Project/FlowerShop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#6 /home/david/Project/FlowerShop/public/index.php(12): CH\modificators\core\Application->run()
+#7 {main}
 [20.12.24 20:16:38] Call to undefined method stdClass::run()
  Stack trace : 
 #0 /home/david/Project/FlowerShop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
