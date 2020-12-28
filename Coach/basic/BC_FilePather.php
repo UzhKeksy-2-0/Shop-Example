@@ -46,7 +46,6 @@ class BC_FilePather
      */
     public function __construct1($path)
     {
-        Path::setPathConfiguration();
         $this->path = $path;
         $all = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
         $tree = [];

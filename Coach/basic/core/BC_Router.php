@@ -9,7 +9,6 @@ use CH\modificators\Logs\CH_Log;
 
 class BC_Router
 {
-
     public BC_Request $request;
     public BC_FilePather $controllers;
     protected array $staticRoutes = [];    

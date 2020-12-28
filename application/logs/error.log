@@ -1,22 +1,11 @@
-[20.12.27 22:33:02] Typed static property CH\basic\BC_Config::$configs must not be accessed before initialization
+[20.12.28 09:59:46] RecursiveDirectoryIterator::__construct(/home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/controllers/): failed to open dir: No such file or directory
  Stack trace : 
-#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Controller.php(25): CH\basic\BC_Config::__callStatic()
-#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/Controller/CH_Controller.php(11): CH\basic\BC_Controller->__construct()
-#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(12): CH\modificators\Controller\CH_Controller->__construct()
-#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(103): app\controllers\HomDatae->__construct()
-#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(73): CH\basic\BC_FilePather::getClassObjectFromFile()
-#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
-#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
-#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
-#8 {main}
-[20.12.27 22:30:07] Typed static property CH\basic\BC_Config::$configs must not be accessed before initialization
- Stack trace : 
-#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Controller.php(25): CH\basic\BC_Config::__callStatic()
-#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/Controller/CH_Controller.php(11): CH\basic\BC_Controller->__construct()
-#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(12): CH\modificators\Controller\CH_Controller->__construct()
-#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(103): app\controllers\HomDatae->__construct()
-#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(73): CH\basic\BC_FilePather::getClassObjectFromFile()
-#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
-#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
-#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(50): RecursiveDirectoryIterator->__construct()
+#1 [internal function]: CH\basic\BC_FilePather->__construct1()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(37): call_user_func_array()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(24): CH\basic\BC_FilePather->__construct()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(15): CH\basic\core\BC_Router->__construct()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(13): CH\modificators\core\Router->__construct()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(17): CH\modificators\core\Application->__construct()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(9): CH\modificators\core\Application::createApplication()
 #8 {main}

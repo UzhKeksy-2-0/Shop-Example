@@ -14,7 +14,7 @@ class Path extends CH_Configs
         self::setConfiguration('VENDOR',self::ROOT() . 'vendor' . DIRECTORY_SEPARATOR);
         self::setConfiguration('VIEWS',self::APPLICATION() . 'views' . DIRECTORY_SEPARATOR);
         self::setConfiguration('CONFIGS',self::APPLICATION() . 'configs' . DIRECTORY_SEPARATOR);
-        self::setConfiguration('CONTROLLERS',self::ROOT() . 'controllers' . DIRECTORY_SEPARATOR);
+        self::setConfiguration('CONTROLLERS',self::APPLICATION() . 'controllers' . DIRECTORY_SEPARATOR);
         self::setConfiguration('CORE',self::APPLICATION() . 'core' . DIRECTORY_SEPARATOR);
         self::setConfiguration('MODELS',self::APPLICATION() . 'models' . DIRECTORY_SEPARATOR);
         self::setConfiguration('LOGS',self::APPLICATION() . 'logs' . DIRECTORY_SEPARATOR);
