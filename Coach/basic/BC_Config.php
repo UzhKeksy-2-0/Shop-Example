@@ -70,7 +70,7 @@ class BC_Config
         if((isset(self::$configs))&&(isset(self::$fileName)))
         {
             echo self::$fileName;
-            file_put_contents(self::$fileName,json_encode(self::$configs));
+            file_put_contents(self::$fileName,json_encode(self::$configs,JSON_PRETTY_PRINT));
             // file_put_contents('data.d','puk');
         }
         return false;
@@ -92,4 +92,14 @@ class BC_Config
         }
         return self::$configs[$name];
     }    
+    /**
+     * getPathToConfigFile
+     * returns path to configuration file
+     * if configuration path does not exist it will return null
+     * @return void
+     */
+    public static function getPathToConfigFile()
+    {
+        return self::$fileName;
+    }
 }

@@ -5,7 +5,6 @@ use CH\modificators\Config\CH_Configs;
 
 class Path extends CH_Configs
 {
-    public static $fileName = '';
     public static function setPathConfiguration()
     {
         self::setConfiguration('ROOT', dirname($_SERVER['DOCUMENT_ROOT']).DIRECTORY_SEPARATOR);

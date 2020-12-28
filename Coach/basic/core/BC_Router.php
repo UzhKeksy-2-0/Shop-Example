@@ -8,9 +8,24 @@ use Exception;
 use CH\modificators\Logs\CH_Log;
 
 class BC_Router
-{
-    public BC_Request $request;
-    public BC_FilePather $controllers;
+{    
+    /**
+     * request
+     * request work (gets all data from request)
+     * @var BC_Request
+     */
+    public BC_Request $request;    
+    /**
+     * controllers
+     * path to controllers folder (made with using BC_Filepather)
+     * @var BC_FilePather
+     */
+    public BC_FilePather $controllers;    
+    /**
+     * staticRoutes
+     * array of static routes (static routes - routes that run without controller file)
+     * @var array
+     */
     protected array $staticRoutes = [];    
     /**
      * __construct
@@ -39,7 +54,8 @@ class BC_Router
     }
     /**
      * Method resolve
-     *
+     * gets data from request (query, POST, GET) and 
+     * according to request uses such controller and runs it
      * @return void
      */
     public function resolve($goTo = null)
