@@ -1,6 +1,6 @@
 <?php
 namespace CH\basic;
-class BC_Config 
+class BC_ConfigConstruct
 {    
     /**
      * fileName
@@ -88,7 +88,7 @@ class BC_Config
         {
             self::getConfigsFromFile();
         }
-        return self::$configs[$name];
+        call_user_func(array());
     }    
     /**
      * getPathToConfigFile
@@ -99,5 +99,10 @@ class BC_Config
     public static function getPathToConfigFile()
     {
         return self::$fileName;
+    }
+    public static function getME()
+    {
+        echo 'fda';
+        return __CLASS__;
     }
 }

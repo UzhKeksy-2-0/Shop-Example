@@ -1,1 +1,16 @@
-{"ROOT":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/","APPLICATION":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/","PUBLIC":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/public\/","VENDOR":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/vendor\/","VIEWS":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/views\/","CONFIGS":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/configs\/","CONTROLLERS":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/controllers\/","CORE":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/core\/","MODELS":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/models\/","LOGS":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/","ERROR":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/error.log","LOG":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/log.log","WARNING":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/warning.log","DB_CONFG":"\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/database.config.php"}
+{
+    "ROOT": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/",
+    "APPLICATION": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/",
+    "PUBLIC": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/public\/",
+    "VENDOR": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/vendor\/",
+    "VIEWS": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/views\/",
+    "CONFIGS": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/configs\/",
+    "CONTROLLERS": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/controllers\/",
+    "CORE": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/core\/",
+    "MODELS": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/models\/",
+    "LOGS": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/",
+    "ERROR": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/error.log",
+    "LOG": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/log.log",
+    "WARNING": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/application\/logs\/warning.log",
+    "DB_CONFG": "\/home\/david\/Sync\/it-step\/Php_and_Sql\/Exam\/Flower-Shop\/database.config.php"
+}

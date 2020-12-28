@@ -4,8 +4,23 @@ namespace CH\basic;
 use RedBeanPHP\R;
 
 class BC_Model
-{
-    public static $tableName;    
+{    
+    /**
+     * tableName
+     * name of table in database
+     * @var mixed
+     */
+    public static $tableName;        
+    /**
+     * connectByConfig
+     * connects to database by setted config
+     * @param  mixed $config
+     * @return void
+     */
+    public static function connectByConfig(BC_Config $config)
+    {
+        self::connect($config::DB_DRIVER(), $config::HOST(), $config::DB_NAME(), $config::LOGIN(), $config::PASS());
+    }
     /**
      * connect
      *  sets connection to data base
@@ -21,6 +36,5 @@ class BC_Model
         else{
             R::setup($dbProvider.':host='.$host.';dbname='.$dbName,$userLogin, $userPass);
         }
-        
     }
 }
