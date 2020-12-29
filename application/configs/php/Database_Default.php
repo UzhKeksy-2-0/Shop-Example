@@ -9,9 +9,9 @@ class Database_Default extends CH_Configs
     {
         self::HOST_NAME('localhost');
         self::LOGIN('root');
-        self::PASS('root');
+        self::PASS('');
         self::DB_NAME('flower_shop');
         self::DB_DRIVER('mysql');
-        self::PORT(3306);
+        self::PORT(8088);
     }
 }

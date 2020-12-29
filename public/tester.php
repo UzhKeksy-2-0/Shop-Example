@@ -7,7 +7,6 @@ use app\configs\php\Databases;
 
 
 echo '<pre>';
-echo Database_Default::PASS();
 // $file->file->mkdir('data2',777);
 
 // use RedBeanPHP\Logger;

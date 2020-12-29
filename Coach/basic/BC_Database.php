@@ -31,7 +31,7 @@ class BC_Database extends R
      */
     public static function connectByConfig(BC_Config $config)
     {
-        self::connect($config::DB_DRIVER(), $config::HOST(), $config::DB_NAME(), $config::LOGIN(), $config::PASS());
+        self::connect($config::DB_DRIVER(), $config::HOST_NAME(), $config::DB_NAME(), $config::LOGIN(), $config::PASS());
     }
     /**
      * connect
@@ -52,7 +52,8 @@ class BC_Database extends R
             self::setup('sqlite:'.$host,$userLogin, $userPass);
         }
         else{
-            self::setup($dbProvider.':host='.$host.';dbname='.$dbName,$userLogin, $userPass);
+            echo $dbProvider.':host='.$host.';dbname='.$dbName ;
+            self::setup($dbProvider.':host='.$host.';dbname='.$dbName , $userLogin , $userPass);
             // self::setup($dbProvider.':host='.$host.';port='.$port.';dbname='.$dbName,$userLogin, $userPass);
         }
     }    
@@ -67,6 +68,7 @@ class BC_Database extends R
     {
         // self::dispense(self::$tableName,$num,$alwaysReturnArray);
         self::dispense('product');
+        return self::find('product');
     }
     
     /**

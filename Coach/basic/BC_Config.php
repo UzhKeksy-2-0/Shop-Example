@@ -81,12 +81,12 @@ class BC_Config
      */
     public static function __callStatic($name, $arguments)
     {
-        if((isset($arguments))&& $arguments != null){
-            return self::$configs[$name] = $arguments;
-        }
-        if(self::$configs == null)
+        if(!isset(self::$configs))
         {
             self::getConfigsFromFile();
+        }
+        if((isset($arguments))&& $arguments != null){
+            return self::$configs[$name] = $arguments[0];
         }
         return self::$configs[$name];
     }    
