@@ -42,7 +42,7 @@ abstract class BC_Controller implements BC_Controller_Interface
     {
         Path::setPathConfiguration();
         $this->log = new BC_Log;
-        $files = new BC_FilePather(CORE);
+        $files = new BC_FilePather(Path::CORE());
         $this->views_file = (new BC_FilePather(Path::VIEWS()))->files;
         $this->models_file = (new BC_FilePather(Path::MODELS()))->files;
         $this->database_file = (new BC_FilePather(Path::CONFIGS()))->files->{'database.config'};

@@ -2,7 +2,7 @@
 
 use CH\modificators\Log\CH_Log;
 
-require_once '../application/configs/path.config.php';
+require_once '../vendor/autoload.php';
 error_reporting(E_ALL);
 ini_set("display_errors", "off");
 /**
@@ -72,5 +72,3 @@ function mapErrorCode($code)
     return array($error, $log);
 }
 set_error_handler("handleError");
-require_once AUTOLOAD;
-require_once DB_CONFG;
