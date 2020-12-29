@@ -52,7 +52,6 @@ class BC_Database extends R
             self::setup('sqlite:'.$host,$userLogin, $userPass);
         }
         else{
-            echo $dbProvider.':host='.$host.';dbname='.$dbName ;
             self::setup($dbProvider.':host='.$host.';dbname='.$dbName , $userLogin , $userPass);
             // self::setup($dbProvider.':host='.$host.';port='.$port.';dbname='.$dbName,$userLogin, $userPass);
         }

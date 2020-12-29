@@ -1,3 +1,66 @@
+[20.12.29 14:59:26] Plugin 'connectByController' does not exist, add this plugin using: R::ext('connectByController')
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Product.php(23): RedBeanPHP\Facade::__callStatic()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Product.php(17): app\controllers\ControllerName->pageLoad()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\ControllerName->run()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#6 {main}
+[20.12.29 14:56:03] Could not connect to database (flower_shop).
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(166): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(539): RedBeanPHP\Driver\RPDO->runQuery()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Adapter/DBAdapter.php(118): RedBeanPHP\Driver\RPDO->GetAll()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php(1203): RedBeanPHP\Adapter\DBAdapter->get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php(448): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php(333): RedBeanPHP\Repository->find()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php(199): RedBeanPHP\OODB->find()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(993): RedBeanPHP\Finder->find()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(71): RedBeanPHP\Facade::find()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#11 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#12 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#13 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#14 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#15 {main}
+[20.12.29 14:55:24] Could not connect to database (flower_shop).
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(166): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(539): RedBeanPHP\Driver\RPDO->runQuery()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Adapter/DBAdapter.php(118): RedBeanPHP\Driver\RPDO->GetAll()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php(1203): RedBeanPHP\Adapter\DBAdapter->get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php(448): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php(333): RedBeanPHP\Repository->find()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php(199): RedBeanPHP\OODB->find()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(993): RedBeanPHP\Finder->find()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(71): RedBeanPHP\Facade::find()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#11 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#12 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#13 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#14 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#15 {main}
+[20.12.29 14:55:20] Could not connect to database (flower_shop).
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(166): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(539): RedBeanPHP\Driver\RPDO->runQuery()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Adapter/DBAdapter.php(118): RedBeanPHP\Driver\RPDO->GetAll()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php(1203): RedBeanPHP\Adapter\DBAdapter->get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php(448): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php(333): RedBeanPHP\Repository->find()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php(199): RedBeanPHP\OODB->find()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(993): RedBeanPHP\Finder->find()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(71): RedBeanPHP\Facade::find()
+#9 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#11 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#12 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#13 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#14 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#15 {main}
 [20.12.29 13:57:46] Could not connect to database (flower_shop).
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php(166): RedBeanPHP\Driver\RPDO->connect()
