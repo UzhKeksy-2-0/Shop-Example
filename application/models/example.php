@@ -6,5 +6,5 @@ use CH\modificators\DataBase\CH_DataBase;
 
 class example extends CH_DataBase
 {
-    protected $dbTable = "example";
+    protected static $tableName = "example";
 }

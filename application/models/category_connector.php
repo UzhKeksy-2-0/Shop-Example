@@ -6,7 +6,7 @@ use CH\modificators\DataBase\CH_DataBase;
 
 class category_connector extends CH_DataBase
 {
-    protected $dbTable = "category_connector";
+    protected static $tableName = "category_connector";
 }
 
 

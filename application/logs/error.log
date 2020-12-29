@@ -1,3 +1,120 @@
+[20.12.29 11:31:19] Invalid type: 
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php(151): RedBeanPHP\Util\DispenseHelper::checkType()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(905): RedBeanPHP\Util\DispenseHelper::dispense()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(68): RedBeanPHP\Facade::dispense()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#9 {main}
+[20.12.29 11:30:59] syntax error, unexpected '$tableName' (T_VARIABLE), expecting ')'
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/DataBase/CH_DataBase.php(6): spl_autoload_call()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/models/product.php(7): spl_autoload_call()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#9 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(20): spl_autoload_call()
+#11 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#12 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#13 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#14 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#15 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#16 {main}
+[20.12.29 11:30:35] Multiple static modifiers are not allowed
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/DataBase/CH_DataBase.php(6): spl_autoload_call()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/models/product.php(7): spl_autoload_call()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#9 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(20): spl_autoload_call()
+#11 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#12 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#13 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#14 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#15 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#16 {main}
+[20.12.29 11:29:53] Multiple static modifiers are not allowed
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/DataBase/CH_DataBase.php(6): spl_autoload_call()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/models/product.php(7): spl_autoload_call()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(444): include('/home/david/Syn...')
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#9 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#10 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(20): spl_autoload_call()
+#11 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#12 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#13 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#14 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#15 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#16 {main}
+[20.12.29 11:27:32] Invalid type: 
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php(151): RedBeanPHP\Util\DispenseHelper::checkType()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(905): RedBeanPHP\Util\DispenseHelper::dispense()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(68): RedBeanPHP\Facade::dispense()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#9 {main}
+[20.12.29 11:25:56] Invalid type: 
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php(151): RedBeanPHP\Util\DispenseHelper::checkType()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(905): RedBeanPHP\Util\DispenseHelper::dispense()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(68): RedBeanPHP\Facade::dispense()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#9 {main}
+[20.12.29 11:24:03] Invalid type: 
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php(151): RedBeanPHP\Util\DispenseHelper::checkType()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(905): RedBeanPHP\Util\DispenseHelper::dispense()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(67): RedBeanPHP\Facade::dispense()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#9 {main}
+[20.12.29 11:23:33] Invalid type: 
+ Stack trace : 
+#0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php(151): RedBeanPHP\Util\DispenseHelper::checkType()
+#1 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php(905): RedBeanPHP\Util\DispenseHelper::dispense()
+#2 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_Database.php(67): RedBeanPHP\Facade::dispense()
+#3 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(21): CH\basic\BC_Database::get()
+#4 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/application/controllers/Home.php(15): app\controllers\HomDatae->pageLoad()
+#5 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/core/BC_Router.php(91): app\controllers\HomDatae->run()
+#6 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Router.php(51): CH\basic\core\BC_Router->resolve()
+#7 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/modificators/core/Application.php(22): CH\modificators\core\Router->resolve()
+#8 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/public/index.php(12): CH\modificators\core\Application->run()
+#9 {main}
 [20.12.29 11:07:29] RecursiveDirectoryIterator::__construct(CORE): failed to open dir: No such file or directory
  Stack trace : 
 #0 /home/david/Sync/it-step/Php_and_Sql/Exam/Flower-Shop/Coach/basic/BC_FilePather.php(50): RecursiveDirectoryIterator->__construct()

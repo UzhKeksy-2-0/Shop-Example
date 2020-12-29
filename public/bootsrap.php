@@ -1,8 +1,9 @@
 <?php
 
 use CH\modificators\Log\CH_Log;
-
+// add autoload
 require_once '../vendor/autoload.php';
+
 error_reporting(E_ALL);
 ini_set("display_errors", "off");
 /**

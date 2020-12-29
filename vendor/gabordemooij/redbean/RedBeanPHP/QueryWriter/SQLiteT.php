@@ -74,7 +74,7 @@ class SQLiteT extends AQueryWriter implements QueryWriter
 	 */
 	protected function getTable( $type )
 	{
-		$tableName = $this->esc( $type, TRUE );
+		static $tableName = $this->esc( $type, TRUE );
 		$columns   = $this->getColumns( $type );
 		$indexes   = $this->getIndexes( $type );
 		$keys      = $this->getKeyMapForType( $type );
@@ -83,10 +83,10 @@ class SQLiteT extends AQueryWriter implements QueryWriter
 			'columns' => $columns,
 			'indexes' => $indexes,
 			'keys' => $keys,
-			'name' => $tableName
+			'name' => static $tableName
 		);
 
-		$this->tableArchive[$tableName] = $table;
+		$this->tableArchive[static $tableName] = $table;
 
 		return $table;
 	}

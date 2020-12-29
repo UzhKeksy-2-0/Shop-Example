@@ -6,6 +6,6 @@ use CH\modificators\DataBase\CH_DataBase;
 
 class order extends CH_DataBase
 {
-    protected $dbTable = "order";
+    protected static $tableName = "order";
 }
 

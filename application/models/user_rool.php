@@ -6,6 +6,6 @@ use CH\modificators\DataBase\CH_DataBase;
 
 class user_rool extends CH_DataBase
 {
-    protected $dbTable = "user_rool";
+    protected static $tableName = "user_rool";
 
 }

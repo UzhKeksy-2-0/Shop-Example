@@ -6,5 +6,5 @@ use CH\modificators\DataBase\CH_DataBase;
 
 class product_category extends CH_DataBase
 {
-    protected $dbTable = "product_category";
+    protected static $tableName = "product_category";
 }

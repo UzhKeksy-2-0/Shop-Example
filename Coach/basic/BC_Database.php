@@ -52,7 +52,8 @@ class BC_Database extends R
             self::setup('sqlite:'.$host,$userLogin, $userPass);
         }
         else{
-            self::setup($dbProvider.':host='.$host.';port='.$port.';dbname='.$dbName,$userLogin, $userPass);
+            self::setup($dbProvider.':host='.$host.';dbname='.$dbName,$userLogin, $userPass);
+            // self::setup($dbProvider.':host='.$host.';port='.$port.';dbname='.$dbName,$userLogin, $userPass);
         }
     }    
     /**
@@ -64,7 +65,8 @@ class BC_Database extends R
      */
     public static function get($num = 1, $alwaysReturnArray = FALSE)
     {
-        self::dispense(self::$tableName,$num,$alwaysReturnArray);
+        // self::dispense(self::$tableName,$num,$alwaysReturnArray);
+        self::dispense('product');
     }
     
     /**
