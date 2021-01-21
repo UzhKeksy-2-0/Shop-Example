@@ -17,9 +17,10 @@ class HomDatae extends CH_Controller
     public function pageLoad($data = null)
     {
         // product::connectByController($this);
+        $this->load($this->views_file->templates->header,['title' => 'Home', 'auth'=> Authorization::isAuthorized()]);
         product::connect('mysql','localhost','flower_shop','root','');
         $products = product::get();
-        $this->load($this->views_file->templates->header,['title' => 'Home', 'auth'=> Authorization::isAuthorized()]);
+        die('Tovary');
         $this->load($this->views_file->templates->home,['allProducts' => $products]);
         $this->load($this->views_file->templates->footer,[]);
     }
